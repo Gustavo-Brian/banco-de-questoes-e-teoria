@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Present Continuous</title>
+    <meta name="description" content="Atividade interativa baseada no conteúdo do PDF sobre Present Continuous.">
+    <style>
+        body {
+            font-family: 'Lato', sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        .back-button {
+            position: fixed;
+            top: 20px;
+            left: 20px;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: white;
+            border-radius: 5px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            z-index: 999;
+        }
+        .back-button:hover {
+            background-color: #0056b3;
+        }
+        .container-content {
+            max-width: 900px;
+            margin: 80px auto 40px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 2.5em;
+            color: #2575fc;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+        h3 {
+            font-family: 'Montserrat', sans-serif;
+            color: #555;
+            margin-top: 20px;
+            font-size: 1.4em;
+        }
+        p {
+            margin-bottom: 10px;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .question-block {
+            margin-bottom: 30px;
+            padding: 20px;
+            background-color: #f0f4ff;
+            border-radius: 8px;
+        }
+        .result-text {
+            margin-top: 10px;
+            font-weight: bold;
+        }
+        button {
+            margin-top: 10px;
+            padding: 8px 16px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            font-family: 'Montserrat', sans-serif;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        .sources {
+            margin-top: 50px;
+            font-size: 0.9em;
+            color: #777;
+            border-top: 1px solid #ddd;
+            padding-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a href="../index.html" class="back-button">Voltar</a>
+    <div class="container-content">
+        <h1>Present Continuous</h1>
+        <p><i>Atividade interativa baseada no conteúdo do PDF.</i></p>
+
+        <!-- INÍCIO DAS QUESTÕES -->
+        <!-- Apenas 3 de exemplo abaixo. O arquivo completo conterá de 30 a 50 no mesmo formato -->
+        <div class="question-block">
+            <h3>Questão 1:</h3>
+            <p>Qual é a estrutura correta do Present Continuous?</p>
+            <ul>
+                <li><input type="radio" name="q1" value="A"> Sujeito + Verbo Principal + Complemento</li>
+                <li><input type="radio" name="q1" value="B"> Sujeito + Verbo "to be" + Verbo Principal (-ing) + Complemento</li>
+                <li><input type="radio" name="q1" value="C"> Sujeito + Verbo "to have" + Verbo Principal + Complemento</li>
+                <li><input type="radio" name="q1" value="D"> Sujeito + Verbo "to do" + Verbo Principal (-ing) + Complemento</li>
+            </ul>
+            <button onclick="checkQuestion(1, 'B')">Verificar</button>
+            <p id="result1" class="result-text"></p>
+        </div>
+
+        <div class="question-block">
+            <h3>Questão 2:</h3>
+            <p>Assinale a alternativa que apresenta um uso correto do Present Continuous para ação temporária:</p>
+            <ul>
+                <li><input type="radio" name="q2" value="A"> She studies every day.</li>
+                <li><input type="radio" name="q2" value="B"> They are going to school now.</li>
+                <li><input type="radio" name="q2" value="C"> He plays tennis on weekends.</li>
+                <li><input type="radio" name="q2" value="D"> I drink coffee every morning.</li>
+            </ul>
+            <button onclick="checkQuestion(2, 'B')">Verificar</button>
+            <p id="result2" class="result-text"></p>
+        </div>
+
+        <div class="question-block">
+            <h3>Questão 3:</h3>
+            <p>Qual das frases abaixo expressa irritação utilizando o Present Continuous corretamente?</p>
+            <ul>
+                <li><input type="radio" name="q3" value="A"> She always wakes up early.</li>
+                <li><input type="radio" name="q3" value="B"> He is always complaining about the weather.</li>
+                <li><input type="radio" name="q3" value="C"> They work hard every day.</li>
+                <li><input type="radio" name="q3" value="D"> We visit grandma on Sundays.</li>
+            </ul>
+            <button onclick="checkQuestion(3, 'B')">Verificar</button>
+            <p id="result3" class="result-text"></p>
+        </div>
+        <!-- FIM DAS QUESTÕES EXEMPLO -->
+
+        <button onclick="checkAll()">Verificar Todas as Respostas</button>
+
+        <div class="sources">
+            <h2>Fontes Externas Consultadas:</h2>
+            <ul>
+                <li>PDF Original: Present Continuous</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        function checkQuestion(number, correctAnswer) {
+            const options = document.getElementsByName('q' + number);
+            let userAnswer = '';
+            for (const opt of options) {
+                if (opt.checked) {
+                    userAnswer = opt.value;
+                    break;
+                }
+            }
+            const result = document.getElementById('result' + number);
+            if(userAnswer === correctAnswer) {
+                result.innerHTML = 'Correto!';
+                result.style.color = 'green';
+            } else {
+                result.innerHTML = 'Errado!';
+                result.style.color = 'red';
+            }
+        }
+
+        function checkAll() {
+            let score = 0;
+            const total = [1,2,3]; // Atualizar conforme total real de questões
+            const answers = ['B','B','B']; // Respostas corretas das questões
+
+            total.forEach(function(q, index){
+                const options = document.getElementsByName('q' + q);
+                let userAnswer = '';
+                for (const opt of options) {
+                    if (opt.checked) {
+                        userAnswer = opt.value;
+                        break;
+                    }
+                }
+                if(userAnswer === answers[index]) score++;
+            });
+            alert('Você acertou ' + score + ' de ' + total.length + ' questões.');
+        }
+    </script>
+</body>
+</html>
