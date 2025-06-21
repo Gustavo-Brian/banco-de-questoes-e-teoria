@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Cantinho do Inglês</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&family=Lato:wght@300;400&display=swap" rel="stylesheet">
+    <style>
+        /* Reset básico e tipografia */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Lato', sans-serif;
+            line-height: 1.6;
+            background: linear-gradient(to right, #6a11cb 0%, #2575fc 100%); /* Fundo degradê vibrante */
+            color: #333;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center; /* Centraliza verticalmente na tela */
+        }
+
+        /* Container principal */
+        .container {
+            width: 90%;
+            max-width: 1000px; /* Largura máxima para o conteúdo */
+            background-color: #ffffff;
+            border-radius: 20px; /* Cantos mais arredondados */
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2); /* Sombra mais suave e pronunciada */
+            padding: 40px 50px;
+            margin: 40px 20px; /* Margem externa para não colar nas bordas */
+            display: flex; /* Habilita o Flexbox */
+            flex-direction: column; /* Conteúdo em coluna por padrão */
+            align-items: center; /* Centraliza itens na coluna */
+        }
+
+        /* Cabeçalho */
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #eee; /* Linha sutil no rodapé do header */
+            width: 100%; /* Ocupa a largura total do container */
+        }
+        header h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 3.5em; /* Título maior e mais impactante */
+            color: #333; /* Cor mais neutra para o título */
+            margin-bottom: 10px;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header p {
+            font-size: 1.2em;
+            color: #555;
+        }
+
+        /* Seção de conteúdo principal com flexbox para as colunas */
+        .content-sections {
+            display: flex; /* Ativa o flexbox para as seções de teoria/atividades */
+            justify-content: space-around; /* Espaça as colunas */
+            flex-wrap: wrap; /* Permite que as colunas quebrem para a próxima linha em telas pequenas */
+            gap: 30px; /* Espaço entre as colunas/cards */
+            width: 100%;
+        }
+
+        /* Estilo para cada "card" de seção (Teoria/Atividades) */
+        .section-card {
+            flex: 1; /* Permite que as colunas cresçam e ocupem o espaço disponível */
+            min-width: 300px; /* Largura mínima para cada card */
+            background-color: #f8f9fa; /* Fundo do card */
+            border-radius: 15px;
+            box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+            padding: 0; /* Removido padding direto do card para controlar individualmente */
+            display: flex; /* Transforma o card em flexbox */
+            flex-direction: column; /* Conteúdo em coluna */
+            overflow: hidden; /* Garante que o border-radius funcione corretamente */
+            transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+        }
+        .section-card:hover {
+            transform: translateY(-8px); /* Efeito "flutuar" ao passar o mouse */
+            box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
+        }
+
+        .section-card h2 {
+            font-family: 'Montserrat', sans-serif;
+            color: #2575fc; /* Cor azul original restaurada */
+            font-size: 2em;
+            margin: 0; /* Remove margem padrão do h2 */
+            padding: 20px 0; /* Padding para o título */
+            text-align: center;
+            background-color: #f8f9fa; /* Fundo do título, mesmo do card */
+        }
+
+        /* Área de conteúdo scrollável (o "painel" branco) */
+        .scrollable-content-area {
+            background-color: #ffffff; /* Fundo branco */
+            /* Borda verde removida */
+            border-radius: 0 0 15px 15px; /* Bordas arredondadas apenas na parte inferior */
+            max-height: 250px; /* Altura máxima para ativar a rolagem. Ajuste conforme necessário */
+            overflow-y: auto; /* Adiciona barra de rolagem vertical se o conteúdo exceder o max-height */
+            padding: 20px; /* Padding interno para o conteúdo */
+            flex-grow: 1; /* Permite que esta área ocupe o espaço restante verticalmente */
+            box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.05); /* Sombra interna sutil para dar profundidade */
+            /* Ou uma sombra externa sutil para destacar a área: */
+            /* box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08); */
+        }
+
+        .scrollable-content-area p {
+            font-size: 1.05em;
+            color: #666;
+            text-align: center;
+            margin-top: 0; /* Remove margem superior padrão do p */
+            margin-bottom: 25px;
+        }
+
+        /* Lista de links dentro dos cards */
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            margin-bottom: 15px; /* Mais espaço entre os itens da lista */
+            background-color: #e9f0ff; /* Fundo do item de lista */
+            border-radius: 10px;
+            transition: background-color 0.2s ease;
+        }
+        li:hover {
+            background-color: #dbe4ff;
+        }
+        li a {
+            display: block;
+            padding: 12px 18px;
+            text-decoration: none;
+            color: #007bff; /* Cor do link */
+            font-weight: 600;
+            font-size: 1.05em;
+            transition: color 0.2s ease;
+        }
+        li a:hover {
+            color: #0056b3; /* Azul mais escuro no hover */
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #777;
+            font-size: 0.9em;
+            width: 100%;
+        }
+
+        /* Media Queries para Responsividade (celulares) */
+        @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px;
+                margin: 20px 10px;
+            }
+            header h1 {
+                font-size: 2.5em;
+            }
+            .content-sections {
+                flex-direction: column; /* Pilha as colunas em telas pequenas */
+                align-items: center;
+            }
+            .section-card {
+                width: 100%; /* Cards ocupam a largura total */
+                min-width: unset; /* Remove largura mínima */
+            }
+            .scrollable-content-area {
+                max-height: 200px; /* Ajuste a altura máxima para telas menores */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Bem-vindo ao Nosso Cantinho do Inglês!</h1>
+            <p>Feito para ajudar Gu e Pedrinho.</p>
+        </header>
+
+        <div class="content-sections">
+            <section class="section-card">
+                <h2>📚 Seção de Teoria</h2>
+                <div class="scrollable-content-area">
+                    <ul>
+                        <li><a href="teoria/teste-teoria.html">Teste funcional de linkagem</a></li>
+                        <li><a href="teoria/present-simple.html">Present Simple: Usos e Estrutura</a></li>
+                        <li><a href="teoria/past-continuous.html">Past Continuous: Ações em Andamento no Passado</a></li>
+                        <li><a href="teoria/nova-aula-de-teoria.html">Próxima Aula de Teoria (Exemplo)</a></li>
+                        <li><a href="teoria/outra-aula-de-teoria.html">Outra Aula de Teoria (Exemplo)</a></li>
+                        <li><a href="teoria/mais-uma-aula.html">Mais uma Aula de Teoria (Exemplo)</a></li>
+                        <li><a href="teoria/topicos-avancados.html">Tópicos Avançados de Gramática</a></li>
+                        <li><a href="teoria/expressoes-idiomaticas.html">Expressões Idiomáticas Essenciais</a></li>
+                        <li><a href="teoria/phrasal-verbs.html">Guia Completo de Phrasal Verbs</a></li>
+                        <li><a href="teoria/verbos-irregulares.html">Lista de Verbos Irregulares</a></li>
+                        <li><a href="teoria/future-tenses.html">Tempos Futuros: Will vs Going To</a></li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="section-card">
+                <h2>✍️ Seção de Atividades</h2>
+                <div class="scrollable-content-area">
+                    <ul>
+                        <li><a href="atividades/teste-atividade.html">Teste funcional de linkagem</a></li>
+                        <li><a href="atividades/present-simple-exercicios.html">Exercícios: Present Simple</a></li>
+                        <li><a href="atividades/verbs-to-be-atividade.html">Atividade: Verbo To Be</a></li>
+                        <li><a href="atividades/nova-atividade.html">Próxima Atividade (Exemplo)</a></li>
+                        <li><a href="atividades/outra-atividade.html">Outra Atividade (Exemplo)</a></li>
+                        <li><a href="atividades/quiz-geral.html">Quiz Geral de Inglês</a></li>
+                        <li><a href="atividades/listening-comprehension.html">Atividade de Compreensão Auditiva</a></li>
+                        <li><a href="atividades/speaking-prompts.html">Prompt para Prática de Fala</a></li>
+                        <li><a href="atividades/writing-challenge.html">Desafio de Escrita</a></li>
+                        <li><a href="atividades/fill-in-the-blanks.html">Completar as Lacunas</a></li>
+                        <li><a href="atividades/match-the-pairs.html">Combine os Pares</a></li>
+                    </ul>
+                </div>
+            </section>
+        </div> 
+        <footer>
+            <p>&copy; 2025 Gustavo Brian/Banco de questões e teoria. Todos os direitos reservados.</p>
+            <p>Luv u.</p>
+        </footer>
+    </div>
+</body>
+</html>
