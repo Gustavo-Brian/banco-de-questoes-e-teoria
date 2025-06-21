@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Com Amor em Azul</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            /* Gradiente de azuis suaves para o fundo */
+            background: linear-gradient(to right, #a7c9ff, #d3e3fc);
+            font-family: 'Comic Sans MS', cursive, sans-serif; /* Fonte divertida */
+            color: #1e88e5; /* Azul vibrante para o texto principal */
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+            overflow: hidden; /* Evita barras de rolagem indesejadas */
+        }
+
+        .message-container {
+            font-size: 6em; /* Tamanho grande para a mensagem */
+            font-weight: bold;
+            text-align: center;
+            cursor: default; /* Remove o cursor de texto ao passar por cima */
+            animation: pulse 2s infinite alternate; /* Animação de pulsar contínua */
+        }
+
+        @keyframes pulse {
+            0% {
+                transform: scale(1);
+                color: #1e88e5; /* Cor inicial do azul */
+            }
+            100% {
+                transform: scale(1.05); /* Aumenta um pouco o tamanho */
+                color: #64b5f6; /* Azul mais claro no "pulsar" */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="message-container">
+        Te amo muitão, Pedrinho!
+    </div>
+</body>
+</html>
