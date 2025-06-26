@@ -3,1789 +3,496 @@
     <metadados>
         <titulo>Atividade de Gramática: Present Simple</titulo>
         <subtitulo>Pratique o uso do Present Simple em diversos contextos.</subtitulo>
-        <descricao_breve>Este módulo contém 50 questões (25 de múltipla escolha e 25 de verdadeiro ou falso) focadas na aplicação e compreensão do Present Simple em inglês.</descricao_breve>
+        <descricao_breve>Este módulo contém 50 questões (25 de múltipla escolha e 25 de verdadeiro
+            ou falso) focadas na aplicação e compreensão do Present Simple em inglês.</descricao_breve>
         <autor>Gemini</autor>
         <data_criacao>2025-06-25</data_criacao>
         <nivel_dificuldade>Intermediário</nivel_dificuldade>
         <idioma>pt-br</idioma>
         <tipos_questoes_permitidos>
-                <tipo_questao>multipla_escolha</tipo_questao>
-                <tipo_questao>verdadeiro_ou_falso</tipo_questao>
-            </tipos_questoes_permitidos>
-        </metadados>
+            <tipo_questao>multipla_escolha</tipo_questao>
+            <tipo_questao>verdadeiro_ou_falso</tipo_questao>
+        </tipos_questoes_permitidos>
+    </metadados>
 
     <secao_introducao id="intro">
         <titulo>Instruções do Módulo</titulo>
         <paragrafo>Bem-vindo ao nosso módulo interativo! Leia atentamente cada item.</paragrafo>
     </secao_introducao>
 
+
     <secao_questoes>
         <questao>
-            <pergunta>Qual das frases abaixo usa o Present Simple corretamente para um hábito?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
+            <pergunta>Where ___ your brother live?</pergunta>
+            <categoria>Inglês</categoria>
+            <dificuldade>Médio</dificuldade>
+            <tipo>multipla_escolha</tipo>
+            <opcoes>
+                <opcao id="A">
+                    <texto>do</texto>
+                    <descricao>Incorreto. brother é terceira pessoa do singular, usa does.</descricao>
+                </opcao>
+                <opcao id="B">
+                    <texto>does</texto>
+                    <descricao>Correto! A pergunta correta no Present Simple é Where does your
+                        brother
+                        live.</descricao>
+                </opcao>
+                <opcao id="C">
+                    <texto>is</texto>
+                    <descricao>Incorreto. is é usado com o verbo to be.</descricao>
+                </opcao>
+                <opcao id="D">
+                    <texto>are</texto>
+                    <descricao>Incorreto. are é para you, we, they.</descricao>
+                </opcao>
+            </opcoes>
+            <respostaCorreta idOpcao="B">does</respostaCorreta>
+        </questao>
+
+        <questao>
+            <pergunta>How often do you go to the gym?</pergunta>
+            <categoria>Inglês</categoria>
+            <dificuldade>Fácil</dificuldade>
+            <tipo>verdadeiro_ou_falso</tipo>
+            <opcoes>
+                <opcao id="V">
+                    <texto>Verdadeiro</texto>
+                    <descricao>Correto! Essa é uma pergunta no Present Simple usada para falar de
+                        frequência.</descricao>
+                </opcao>
+                <opcao id="F">
+                    <texto>Falso</texto>
+                    <descricao>Incorreto. A estrutura está correta para o Present Simple.</descricao>
+                </opcao>
+            </opcoes>
+            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
+        </questao>
+
+        <questao>
+            <pergunta>Which of the following is a correct Present Simple sentence?</pergunta>
+            <categoria>Inglês</categoria>
+            <dificuldade>Médio</dificuldade>
+            <tipo>multipla_escolha</tipo>
+            <opcoes>
+                <opcao id="A">
+                    <texto>She walk to school every day</texto>
+                    <descricao>Incorreto. Falta o s no verbo walk para a terceira pessoa.</descricao>
+                </opcao>
+                <opcao id="B">
+                    <texto>They watches TV every night</texto>
+                    <descricao>Incorreto. watches é usado com he, she, it, não com they.</descricao>
+                </opcao>
+                <opcao id="C">
+                    <texto>He studies English on Mondays</texto>
+                    <descricao>Correto! A forma studies está correta para he no Present Simple.</descricao>
+                </opcao>
+                <opcao id="D">
+                    <texto>I goes to the market</texto>
+                    <descricao>Incorreto. goes é usado com he, she, it. I go é o correto.</descricao>
+                </opcao>
+            </opcoes>
+            <respostaCorreta idOpcao="C">He studies English on Mondays</respostaCorreta>
+        </questao>
+
+        <questao>
+            <pergunta>Choose the sentence in negative form:</pergunta>
+            <categoria>Inglês</categoria>
             <dificuldade>Fácil</dificuldade>
             <tipo>multipla_escolha</tipo>
             <opcoes>
                 <opcao id="A">
-                    <texto>She is drinking coffee now.</texto>
-                    <descricao>Incorreto. Esta frase usa o Present Continuous, indicando uma ação ocorrendo no momento.</descricao>
+                    <texto>He plays guitar</texto>
+                    <descricao>Incorreto. Essa frase está na forma afirmativa.</descricao>
                 </opcao>
                 <opcao id="B">
-                    <texto>They go to the gym every day.</texto>
-                    <descricao>Correto! O Present Simple é usado para descrever hábitos e rotinas diárias.</descricao>
+                    <texto>They dont play football</texto>
+                    <descricao>Correto! Esta é a forma negativa correta para they.</descricao>
                 </opcao>
                 <opcao id="C">
-                    <texto>He will read a book tonight.</texto>
-                    <descricao>Incorreto. Esta frase usa o futuro simples ('will'), indicando uma ação futura.</descricao>
+                    <texto>She plays tennis</texto>
+                    <descricao>Incorreto. Está na forma afirmativa.</descricao>
                 </opcao>
                 <opcao id="D">
-                    <texto>We are played tennis yesterday.</texto>
-                    <descricao>Incorreto. Esta frase contém erro de concordância verbal e tempo, sendo uma mistura de Present Continuous e Past Simple.</descricao>
+                    <texto>You play piano</texto>
+                    <descricao>Incorreto. Também está na forma afirmativa.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="B">They go to the gym every day.</respostaCorreta>
+            <respostaCorreta idOpcao="B">They dont play football</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Qual é a forma correta do verbo 'to study' na terceira pessoa do singular (He/She/It) no Present Simple?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
+            <pergunta>Does it rain a lot in your city?</pergunta>
+            <categoria>Inglês</categoria>
             <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
+            <tipo>verdadeiro_ou_falso</tipo>
             <opcoes>
-                <opcao id="A">
-                    <texto>study</texto>
-                    <descricao>Incorreto. 'Study' é a forma base; a terceira pessoa do singular geralmente adiciona 's' ou 'es'.</descricao>
+                <opcao id="V">
+                    <texto>Verdadeiro</texto>
+                    <descricao>Correto! A frase está corretamente estruturada no Present Simple.</descricao>
                 </opcao>
-                <opcao id="B">
-                    <texto>studies</texto>
-                    <descricao>Correto! Verbos terminados em consoante + 'y' mudam 'y' para 'i' e adicionam 'es' na terceira pessoa do singular.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>studying</texto>
-                    <descricao>Incorreto. 'Studying' é a forma do gerúndio, usada no Present Continuous.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>studied</texto>
-                    <descricao>Incorreto. 'Studied' é a forma do Past Simple.</descricao>
+                <opcao id="F">
+                    <texto>Falso</texto>
+                    <descricao>Incorreto. A frase está correta no Present Simple.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="B">studies</respostaCorreta>
+            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Selecione a frase negativa correta no Present Simple.</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
+            <pergunta>We ___ a new car.</pergunta>
+            <categoria>Inglês</categoria>
+            <dificuldade>Médio</dificuldade>
             <tipo>multipla_escolha</tipo>
             <opcoes>
                 <opcao id="A">
-                    <texto>She not like vegetables.</texto>
-                    <descricao>Incorreto. O auxiliar 'does not' (doesn't) é necessário para a terceira pessoa do singular.</descricao>
+                    <texto>has</texto>
+                    <descricao>Incorreto. has é usado com he, she, it.</descricao>
                 </opcao>
                 <opcao id="B">
-                    <texto>We doesn't speak French.</texto>
-                    <descricao>Incorreto. 'Doesn't' é usado apenas para a terceira pessoa do singular (He/She/It). 'We' usa 'don't'.</descricao>
+                    <texto>have</texto>
+                    <descricao>Correto! We have é a forma correta no Present Simple.</descricao>
                 </opcao>
                 <opcao id="C">
-                    <texto>They don't live in New York.</texto>
-                    <descricao>Correto! 'Don't' é o auxiliar correto para o sujeito 'They' na forma negativa do Present Simple.</descricao>
+                    <texto>had</texto>
+                    <descricao>Incorreto. had é passado.</descricao>
                 </opcao>
                 <opcao id="D">
-                    <texto>He is not work on Saturdays.</texto>
-                    <descricao>Incorreto. Esta frase mistura o verbo 'to be' com o verbo principal de forma errada para o Present Simple.</descricao>
+                    <texto>having</texto>
+                    <descricao>Incorreto. having é forma contínua, não Present Simple.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="C">They don't live in New York.</respostaCorreta>
+            <respostaCorreta idOpcao="B">have</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Complete a frase: "Birds ____ (to fly) in the sky."</pergunta>
-            <categoria>Gramática Inglesa</categoria>
+            <pergunta>What do you do?</pergunta>
+            <categoria>Inglês</categoria>
             <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
+            <tipo>verdadeiro_ou_falso</tipo>
             <opcoes>
-                <opcao id="A">
-                    <texto>flies</texto>
-                    <descricao>Incorreto. 'Flies' seria para a terceira pessoa do singular. 'Birds' é plural.</descricao>
+                <opcao id="V">
+                    <texto>Verdadeiro</texto>
+                    <descricao>Correto! Essa é uma pergunta comum e correta no Present Simple.</descricao>
                 </opcao>
-                <opcao id="B">
-                    <texto>fly</texto>
-                    <descricao>Correto! Para sujeitos no plural, o verbo no Present Simple permanece na forma base.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>is flying</texto>
-                    <descricao>Incorreto. 'Is flying' é a forma do Present Continuous.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>flew</texto>
-                    <descricao>Incorreto. 'Flew' é a forma do Past Simple.</descricao>
+                <opcao id="F">
+                    <texto>Falso</texto>
+                    <descricao>Incorreto. A estrutura está correta e muito usada no inglês.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="B">fly</respostaCorreta>
+            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Qual é a forma interrogativa correta de "You speak Spanish"?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>Speak you Spanish?</texto>
-                    <descricao>Incorreto. O auxiliar 'Do' é necessário no início da pergunta no Present Simple.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>Are you speak Spanish?</texto>
-                    <descricao>Incorreto. 'Are' é usado com o Present Continuous, não com o Present Simple neste contexto.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>Do you speak Spanish?</texto>
-                    <descricao>Correto! 'Do' é o auxiliar adequado para formar perguntas com 'You' no Present Simple.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>Does you speak Spanish?</texto>
-                    <descricao>Incorreto. 'Does' é usado apenas para a terceira pessoa do singular (He/She/It).</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="C">Do you speak Spanish?</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Selecione a frase que descreve um fato geral ou uma verdade universal.</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>The sun rises in the west.</texto>
-                    <descricao>Incorreto. Esta afirmação é um fato, mas está errada geograficamente.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>Water boils at 100 degrees Celsius.</texto>
-                    <descricao>Correto! O Present Simple é usado para expressar verdades universais e fatos científicos.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>They are building a new house.</texto>
-                    <descricao>Incorreto. Esta frase usa o Present Continuous, indicando uma ação em progresso.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>He lived in London last year.</texto>
-                    <descricao>Incorreto. Esta frase usa o Past Simple, referindo-se a uma ação passada.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">Water boils at 100 degrees Celsius.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual é o erro na frase: "He don't like classical music."?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>O verbo 'like' deveria estar no gerúndio.</texto>
-                    <descricao>Incorreto. O verbo principal no Present Simple negativo permanece na forma base após o auxiliar.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>O auxiliar deveria ser 'doesn't'.</texto>
-                    <descricao>Correto! Para a terceira pessoa do singular (He/She/It), o auxiliar negativo é 'doesn't'.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>A palavra 'not' está faltando.</texto>
-                    <descricao>Incorreto. 'Don't' já inclui a negação.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>A ordem das palavras está errada.</texto>
-                    <descricao>Incorreto. A ordem sujeito + auxiliar + not + verbo está correta, mas o auxiliar está errado.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">O auxiliar deveria ser 'doesn't'.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Complete a frase: "My sister ____ (to watch) TV every evening."</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>watch</texto>
-                    <descricao>Incorreto. 'Watch' é para sujeitos plurais ou I/You.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>watches</texto>
-                    <descricao>Correto! Verbos terminados em 'ch' adicionam 'es' na terceira pessoa do singular do Present Simple.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>is watching</texto>
-                    <descricao>Incorreto. 'Is watching' seria Present Continuous.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>watched</texto>
-                    <descricao>Incorreto. 'Watched' é Past Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">watches</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual frase está na forma interrogativa correta com o verbo 'to do' como verbo principal?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Difícil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>What do you do for a living?</texto>
-                    <descricao>Correto! 'Do' é usado como auxiliar e como verbo principal ('fazer') na mesma pergunta.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>What are you do for a living?</texto>
-                    <descricao>Incorreto. 'Are' não é o auxiliar para o Present Simple aqui, e 'do' não estaria na forma correta.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>What does she do in her free time?</texto>
-                    <descricao>Correto! 'Does' é usado como auxiliar para a terceira pessoa, e 'do' como verbo principal.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>Both A and C.</texto>
-                    <descricao>Correto! Ambas as frases 'A' e 'C' estão gramaticalmente corretas e demonstram o uso de 'do' como auxiliar e verbo principal.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="D">Both A and C.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Quando o Present Simple é usado para falar sobre horários de eventos programados (ex: trens, aulas)?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>Apenas para eventos que já aconteceram.</texto>
-                    <descricao>Incorreto. Para eventos passados, usa-se o Past Simple.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>Para eventos que estão acontecendo agora.</texto>
-                    <descricao>Incorreto. Essa é a função do Present Continuous.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>Para eventos futuros que são parte de uma programação ou cronograma fixo.</texto>
-                    <descricao>Correto! O Present Simple é usado para horários fixos de transportes, aulas, shows, etc.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>Para ações que são incertas no futuro.</texto>
-                    <descricao>Incorreto. Para incertezas futuras, outras estruturas são mais apropriadas, como 'will' ou 'might'.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="C">Para eventos futuros que são parte de uma programação ou cronograma fixo.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual das seguintes frases expressa uma rotina diária?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>I am eating breakfast right now.</texto>
-                    <descricao>Incorreto. Esta frase indica uma ação que está ocorrendo no momento (Present Continuous).</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>She usually wakes up at 7 AM.</texto>
-                    <descricao>Correto! O Present Simple, com advérbios de frequência como 'usually', descreve rotinas.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>They were sleeping when I called.</texto>
-                    <descricao>Incorreto. Esta frase usa o Past Continuous, referindo-se a uma ação contínua no passado.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>He will travel next month.</texto>
-                    <descricao>Incorreto. Esta frase usa o futuro simples, indicando um plano futuro.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">She usually wakes up at 7 AM.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Complete a frase interrogativa: "____ your parents live near here?"</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>Does</texto>
-                    <descricao>Incorreto. 'Does' é para a terceira pessoa do singular. 'Your parents' é plural.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>Do</texto>
-                    <descricao>Correto! 'Do' é o auxiliar correto para sujeitos plurais como 'your parents'.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>Are</texto>
-                    <descricao>Incorreto. 'Are' é usado com o Present Continuous ou com o verbo 'to be' principal.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>Is</texto>
-                    <descricao>Incorreto. 'Is' é usado com o Present Continuous ou com o verbo 'to be' principal para o singular.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">Do</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual frase está na forma afirmativa correta do Present Simple?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>I am like pizza.</texto>
-                    <descricao>Incorreto. Não se usa o verbo 'to be' com o Present Simple, a menos que seja o verbo principal.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>She don't listen to music.</texto>
-                    <descricao>Incorreto. Esta é uma frase negativa e o auxiliar 'don't' está errado para 'She'.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>They work very hard.</texto>
-                    <descricao>Correto! Para sujeitos no plural, o verbo principal permanece na forma base.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>He goes to bed late usually.</texto>
-                    <descricao>Incorreto. A posição do advérbio de frequência 'usually' está incorreta.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="C">They work very hard.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual é a forma correta do verbo 'to teach' na terceira pessoa do singular (He/She/It) no Present Simple?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>teach</texto>
-                    <descricao>Incorreto. 'Teach' é a forma base; a terceira pessoa do singular geralmente adiciona 's' ou 'es'.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>teaches</texto>
-                    <descricao>Correto! Verbos terminados em 'ch' adicionam 'es' na terceira pessoa do singular.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>teaching</texto>
-                    <descricao>Incorreto. 'Teaching' é a forma do gerúndio.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>taught</texto>
-                    <descricao>Incorreto. 'Taught' é a forma do Past Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">teaches</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Quando usamos o Present Simple para descrever estados ou sentimentos permanentes?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>Apenas com verbos de ação.</texto>
-                    <descricao>Incorreto. Ele é usado com verbos estáticos também.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>Com verbos de estado (state verbs) como 'love', 'believe', 'know'.</texto>
-                    <descricao>Correto! Verbos de estado raramente são usados em tempos contínuos e frequentemente usam Present Simple para estados permanentes.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>Para expressar algo que está mudando.</texto>
-                    <descricao>Incorreto. Para mudanças, o Present Continuous é mais comum.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>Apenas em frases negativas.</texto>
-                    <descricao>Incorreto. Pode ser usado em todas as formas (afirmativa, negativa, interrogativa).</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">Com verbos de estado (state verbs) como 'love', 'believe', 'know'.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual é a negação correta de "He reads a lot of books."?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>He not reads a lot of books.</texto>
-                    <descricao>Incorreto. O auxiliar 'doesn't' é necessário para a negação no Present Simple.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>He don't read a lot of books.</texto>
-                    <descricao>Incorreto. 'Don't' é para I/You/We/They; 'He' usa 'doesn't'.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>He doesn't read a lot of books.</texto>
-                    <descricao>Correto! 'Doesn't' é o auxiliar para a terceira pessoa do singular, e o verbo principal volta à forma base.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>He isn't reading a lot of books.</texto>
-                    <descricao>Incorreto. Esta é a negação do Present Continuous.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="C">He doesn't read a lot of books.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Complete: "My cat ____ (to sleep) most of the day."</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>sleep</texto>
-                    <descricao>Incorreto. 'My cat' é singular (It), então o verbo precisa de 's'.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>sleeps</texto>
-                    <descricao>Correto! Para sujeitos na terceira pessoa do singular, adiciona-se 's' ao verbo.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>is sleeping</texto>
-                    <descricao>Incorreto. 'Is sleeping' é Present Continuous.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>slept</texto>
-                    <descricao>Incorreto. 'Slept' é Past Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">sleeps</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual a pergunta correta para "She watches movies every night."?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>Watches she movies every night?</texto>
-                    <descricao>Incorreto. O auxiliar 'Does' é necessário no início da pergunta.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>Does she watch movies every night?</texto>
-                    <descricao>Correto! 'Does' é o auxiliar para a terceira pessoa do singular, e o verbo principal volta à forma base.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>Is she watching movies every night?</texto>
-                    <descricao>Incorreto. Esta é uma pergunta no Present Continuous.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>Do she watch movies every night?</texto>
-                    <descricao>Incorreto. 'Do' é para I/You/We/They; 'She' usa 'Does'.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">Does she watch movies every night?</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual advérbio de frequência é geralmente usado com o Present Simple?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>Yesterday</texto>
-                    <descricao>Incorreto. 'Yesterday' é um advérbio de tempo para o passado.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>Always</texto>
-                    <descricao>Correto! 'Always' é um advérbio de frequência que indica rotina e é comumente usado com o Present Simple.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>Now</texto>
-                    <descricao>Incorreto. 'Now' indica uma ação que está acontecendo no momento, usada com o Present Continuous.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>Next week</texto>
-                    <descricao>Incorreto. 'Next week' indica tempo futuro.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">Always</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Selecione a frase com o verbo 'to have' no Present Simple para a terceira pessoa do singular.</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>She have a new car.</texto>
-                    <descricao>Incorreto. A forma de 'to have' para a terceira pessoa do singular é irregular.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>He has a big house.</texto>
-                    <descricao>Correto! 'Has' é a forma correta do verbo 'to have' para He/She/It no Present Simple.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>They has a meeting.</texto>
-                    <descricao>Incorreto. 'Has' é para a terceira pessoa do singular; 'They' usa 'have'.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>I am having fun.</texto>
-                    <descricao>Incorreto. Esta frase usa o Present Continuous.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">He has a big house.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual a frase correta que indica uma ação habitual negativa?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>We not often go out.</texto>
-                    <descricao>Incorreto. Falta o auxiliar 'do' para a negação.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>She doesn't usually eat meat.</texto>
-                    <descricao>Correto! 'Doesn't' é o auxiliar correto e 'usually' indica um hábito.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>He is not liking his job.</texto>
-                    <descricao>Incorreto. 'Like' é um verbo de estado e geralmente não é usado no Present Continuous.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>They didn't travel a lot.</texto>
-                    <descricao>Incorreto. Esta frase usa o Past Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">She doesn't usually eat meat.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Complete a frase: "The train ____ (to leave) at 8 AM every morning."</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>leave</texto>
-                    <descricao>Incorreto. 'The train' é singular, então o verbo precisa de 's'.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>leaves</texto>
-                    <descricao>Correto! O Present Simple é usado para horários fixos e cronogramas.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>is leaving</texto>
-                    <descricao>Incorreto. 'Is leaving' é Present Continuous.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>left</texto>
-                    <descricao>Incorreto. 'Left' é Past Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">leaves</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual é a forma correta do verbo 'to go' na terceira pessoa do singular (He/She/It) no Present Simple?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
+            <pergunta>He ___ to the gym on Fridays.</pergunta>
+            <categoria>Inglês</categoria>
             <dificuldade>Fácil</dificuldade>
             <tipo>multipla_escolha</tipo>
             <opcoes>
                 <opcao id="A">
                     <texto>go</texto>
-                    <descricao>Incorreto. 'Go' é a forma base; a terceira pessoa do singular geralmente adiciona 's' ou 'es'.</descricao>
+                    <descricao>Incorreto. go deve receber o s para he.</descricao>
                 </opcao>
                 <opcao id="B">
-                    <texto>goes</texto>
-                    <descricao>Correto! Verbos terminados em 'o' adicionam 'es' na terceira pessoa do singular.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>going</texto>
-                    <descricao>Incorreto. 'Going' é a forma do gerúndio.</descricao>
-                </opcao>
-                <opcao id="D">
                     <texto>went</texto>
-                    <descricao>Incorreto. 'Went' é a forma do Past Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">goes</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Quando o Present Simple é usado para narrar eventos em resumos de livros ou filmes?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Difícil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>Apenas para ações que acontecem em tempo real.</texto>
-                    <descricao>Incorreto. Essa é a função principal do Present Continuous.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>Para criar um senso de imediatismo e dinamismo, como se os eventos estivessem ocorrendo agora.</texto>
-                    <descricao>Correto! Este é um uso estilístico do Present Simple para tornar a narrativa mais vívida e imediata.</descricao>
+                    <descricao>Incorreto. went é passado.</descricao>
                 </opcao>
                 <opcao id="C">
-                    <texto>Quando os eventos são muito antigos.</texto>
-                    <descricao>Incorreto. Para eventos antigos, o Past Simple ou outros tempos passados são usados.</descricao>
+                    <texto>goes</texto>
+                    <descricao>Correto! goes é a forma correta para he no Present Simple.</descricao>
                 </opcao>
                 <opcao id="D">
-                    <texto>Quando se trata de uma opinião pessoal sobre a história.</texto>
-                    <descricao>Incorreto. Expressar opinião não é o principal motivo para usar o Present Simple em narrativas.</descricao>
+                    <texto>gone</texto>
+                    <descricao>Incorreto. gone é particípio.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="B">Para criar um senso de imediatismo e dinamismo, como se os eventos estivessem ocorrendo agora.</respostaCorreta>
+            <respostaCorreta idOpcao="C">goes</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Qual frase está corretamente no Present Simple para expressar uma opinião ou crença?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
+            <pergunta>What time do you usually wake up?</pergunta>
+            <categoria>Inglês</categoria>
             <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
+            <tipo>verdadeiro_ou_falso</tipo>
             <opcoes>
-                <opcao id="A">
-                    <texto>I am thinking it is a good idea.</texto>
-                    <descricao>Incorreto. 'Think' no sentido de opinião geralmente não é usado no Present Continuous.</descricao>
+                <opcao id="V">
+                    <texto>Verdadeiro</texto>
+                    <descricao>Correto! A pergunta está no Present Simple e usa a estrutura correta.</descricao>
                 </opcao>
-                <opcao id="B">
-                    <texto>She believes in ghosts.</texto>
-                    <descricao>Correto! Verbos de estado como 'believe' são usados no Present Simple para expressar crenças.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>They are knowing the answer.</texto>
-                    <descricao>Incorreto. 'Know' é um verbo de estado e não é usado no Present Continuous.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>We are liking this movie.</texto>
-                    <descricao>Incorreto. 'Like' é um verbo de estado e não é comumente usado no Present Continuous neste contexto.</descricao>
+                <opcao id="F">
+                    <texto>Falso</texto>
+                    <descricao>Incorreto. A estrutura está correta e comum para falar de rotina.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="B">She believes in ghosts.</respostaCorreta>
+            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Complete a pergunta: "____ he play the piano?"</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
+            <pergunta>Do your parents speak English?</pergunta>
+            <categoria>Inglês</categoria>
+            <dificuldade>Médio</dificuldade>
+            <tipo>verdadeiro_ou_falso</tipo>
             <opcoes>
-                <opcao id="A">
-                    <texto>Do</texto>
-                    <descricao>Incorreto. 'Do' é para I/You/We/They.</descricao>
+                <opcao id="V">
+                    <texto>Verdadeiro</texto>
+                    <descricao>Correto! A estrutura está certa com o auxiliar do + sujeito no
+                        plural.</descricao>
                 </opcao>
-                <opcao id="B">
-                    <texto>Does</texto>
-                    <descricao>Correto! 'Does' é o auxiliar para a terceira pessoa do singular (He/She/It).</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>Is</texto>
-                    <descricao>Incorreto. 'Is' é para o Present Continuous ou com o verbo 'to be' principal.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>Are</texto>
-                    <descricao>Incorreto. 'Are' é para o Present Continuous ou com o verbo 'to be' principal para o plural.</descricao>
+                <opcao id="F">
+                    <texto>Falso</texto>
+                    <descricao>Incorreto. A frase está correta no Present Simple.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="B">Does</respostaCorreta>
+            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Qual a forma negativa de "The cat eats fish."?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>The cat not eats fish.</texto>
-                    <descricao>Incorreto. Faltam os auxiliares 'do' ou 'does'.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>The cat don't eat fish.</texto>
-                    <descricao>Incorreto. 'The cat' é singular (It), então usa-se 'doesn't'.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>The cat doesn't eat fish.</texto>
-                    <descricao>Correto! 'Doesn't' é o auxiliar para a terceira pessoa do singular, e o verbo principal volta à forma base.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>The cat isn't eating fish.</texto>
-                    <descricao>Incorreto. Esta é a forma negativa do Present Continuous.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="C">The cat doesn't eat fish.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Quando o Present Simple é usado para dar instruções ou direções?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>Quando a ação já foi concluída.</texto>
-                    <descricao>Incorreto. Para ações concluídas, usa-se o Past Simple.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>Quando se descreve uma ação em andamento.</texto>
-                    <descricao>Incorreto. Essa é a função do Present Continuous.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>Em imperativos, como em receitas ou guias.</texto>
-                    <descricao>Correto! O Present Simple é frequentemente usado em imperativos para dar instruções claras e diretas.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>Para expressar possibilidades futuras.</texto>
-                    <descricao>Incorreto. Outras estruturas são usadas para expressar possibilidades futuras.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="C">Em imperativos, como em receitas ou guias.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual é a forma afirmativa correta do Present Simple para o verbo 'to miss' (sentir falta) com o sujeito 'She'?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>She miss her family.</texto>
-                    <descricao>Incorreto. Verbos terminados em 'ss' adicionam 'es' na terceira pessoa do singular.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>She misses her family.</texto>
-                    <descricao>Correto! Verbos terminados em 's', 'ss', 'sh', 'ch', 'x', 'o' adicionam 'es' na terceira pessoa do singular.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>She is missing her family.</texto>
-                    <descricao>Incorreto. Esta é a forma do Present Continuous.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>She missed her family.</texto>
-                    <descricao>Incorreto. Esta é a forma do Past Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">She misses her family.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Complete a frase: "I always ____ (to drink) water."</pergunta>
-            <categoria>Gramática Inglesa</categoria>
+            <pergunta>Do you ___ coffee in the morning?</pergunta>
+            <categoria>Inglês</categoria>
             <dificuldade>Fácil</dificuldade>
             <tipo>multipla_escolha</tipo>
             <opcoes>
                 <opcao id="A">
                     <texto>drinks</texto>
-                    <descricao>Incorreto. 'Drinks' é para a terceira pessoa do singular; 'I' usa a forma base.</descricao>
+                    <descricao>Incorreto. drinks é para he, she ou it. Aqui é you.</descricao>
                 </opcao>
                 <opcao id="B">
                     <texto>drink</texto>
-                    <descricao>Correto! Para 'I', 'You', 'We', 'They', o verbo permanece na forma base no Present Simple.</descricao>
+                    <descricao>Correto! Para you, usamos drink no Present Simple.</descricao>
                 </opcao>
                 <opcao id="C">
-                    <texto>am drinking</texto>
-                    <descricao>Incorreto. 'Am drinking' é Present Continuous.</descricao>
+                    <texto>drinking</texto>
+                    <descricao>Incorreto. drinking é gerúndio, não Present Simple.</descricao>
                 </opcao>
                 <opcao id="D">
                     <texto>drank</texto>
-                    <descricao>Incorreto. 'Drank' é Past Simple.</descricao>
+                    <descricao>Incorreto. drank é o passado do verbo drink.</descricao>
                 </opcao>
             </opcoes>
             <respostaCorreta idOpcao="B">drink</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Qual a pergunta correta para "The movie starts at 9 PM."?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
+            <pergunta>He ___ like to eat vegetables.</pergunta>
+            <categoria>Inglês</categoria>
+            <dificuldade>Médio</dificuldade>
             <tipo>multipla_escolha</tipo>
             <opcoes>
                 <opcao id="A">
-                    <texto>Do the movie start at 9 PM?</texto>
-                    <descricao>Incorreto. 'The movie' é singular (It), então o auxiliar deve ser 'Does'.</descricao>
+                    <texto>dont</texto>
+                    <descricao>Incorreto. Para he, usamos does not (doesnt).</descricao>
                 </opcao>
                 <opcao id="B">
-                    <texto>Does the movie start at 9 PM?</texto>
-                    <descricao>Correto! 'Does' é o auxiliar para a terceira pessoa do singular, e o verbo principal volta à forma base.</descricao>
+                    <texto>do</texto>
+                    <descricao>Incorreto. Falta o auxiliar adequado para a terceira pessoa.</descricao>
                 </opcao>
                 <opcao id="C">
-                    <texto>Is the movie starting at 9 PM?</texto>
-                    <descricao>Incorreto. Esta é uma pergunta no Present Continuous.</descricao>
+                    <texto>doesnt</texto>
+                    <descricao>Correto! He doesnt like é a forma correta no Present Simple.</descricao>
                 </opcao>
                 <opcao id="D">
-                    <texto>Starts the movie at 9 PM?</texto>
-                    <descricao>Incorreto. Falta o auxiliar 'Does' para formar a pergunta.</descricao>
+                    <texto>not</texto>
+                    <descricao>Incorreto. Falta o auxiliar does.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="B">Does the movie start at 9 PM?</respostaCorreta>
+            <respostaCorreta idOpcao="C">doesnt</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>O Present Simple é usado para expressar verdades científicas?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>Não, apenas para opiniões pessoais.</texto>
-                    <descricao>Incorreto. Opiniões pessoais são um dos usos, mas não o único.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>Sim, porque são fatos universais e imutáveis.</texto>
-                    <descricao>Correto! Verdades científicas são um uso comum do Present Simple.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>Apenas se a verdade científica for nova.</texto>
-                    <descricao>Incorreto. A novidade do fato não altera o uso do tempo verbal neste caso.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>Somente em contextos formais.</texto>
-                    <descricao>Incorreto. É usado em contextos formais e informais.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">Sim, porque são fatos universais e imutáveis.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual das opções está corretamente conjugada no Present Simple para "He ____ (to know) the answer."?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
+            <pergunta>Choose the correct negative form: She ___ play video games.</pergunta>
+            <categoria>Inglês</categoria>
             <dificuldade>Fácil</dificuldade>
             <tipo>multipla_escolha</tipo>
             <opcoes>
                 <opcao id="A">
-                    <texto>know</texto>
-                    <descricao>Incorreto. 'Know' é a forma base; para 'He', precisa de 's'.</descricao>
+                    <texto>dont</texto>
+                    <descricao>Incorreto. She é terceira pessoa e usa doesnt.</descricao>
                 </opcao>
                 <opcao id="B">
-                    <texto>knows</texto>
-                    <descricao>Correto! 'Knows' é a forma correta do verbo 'to know' para a terceira pessoa do singular.</descricao>
+                    <texto>doesnt</texto>
+                    <descricao>Correto! She doesnt play é a forma negativa correta.</descricao>
                 </opcao>
                 <opcao id="C">
-                    <texto>knowing</texto>
-                    <descricao>Incorreto. 'Knowing' é o gerúndio.</descricao>
+                    <texto>isnt</texto>
+                    <descricao>Incorreto. isnt é usado com o verbo to be.</descricao>
                 </opcao>
                 <opcao id="D">
-                    <texto>knew</texto>
-                    <descricao>Incorreto. 'Knew' é o Past Simple.</descricao>
+                    <texto>no</texto>
+                    <descricao>Incorreto. A palavra no sozinha não forma uma frase negativa no
+                        Present
+                        Simple.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="B">knows</respostaCorreta>
+            <respostaCorreta idOpcao="B">doesnt</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Assinale a alternativa que contém um erro no uso do Present Simple.</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>The sun sets in the west.</texto>
-                    <descricao>Correto. Esta frase usa o Present Simple para um fato universal.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>She doesn't understands math.</texto>
-                    <descricao>Incorreto. Após 'doesn't', o verbo principal ('understand') deve retornar à forma base, sem 's'.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>Do you play any sports?</texto>
-                    <descricao>Correto. Esta é uma pergunta correta no Present Simple.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>Birds fly south in winter.</texto>
-                    <descricao>Correto. Esta frase usa o Present Simple para um hábito ou fato geral.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">She doesn't understands math.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual a função principal do Present Simple?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
+            <pergunta>They ___ lunch at 12 oclock every day.</pergunta>
+            <categoria>Inglês</categoria>
             <dificuldade>Fácil</dificuldade>
             <tipo>multipla_escolha</tipo>
             <opcoes>
                 <opcao id="A">
-                    <texto>Descrever ações que estão ocorrendo no momento da fala.</texto>
-                    <descricao>Incorreto. Essa é a função do Present Continuous.</descricao>
+                    <texto>has</texto>
+                    <descricao>Incorreto. has é usado com he, she ou it.</descricao>
                 </opcao>
                 <opcao id="B">
-                    <texto>Falar sobre planos futuros e intenções.</texto>
-                    <descricao>Incorreto. Outras estruturas são usadas para planos futuros.</descricao>
+                    <texto>have</texto>
+                    <descricao>Correto! They have é a forma correta para o Present Simple.</descricao>
                 </opcao>
                 <opcao id="C">
-                    <texto>Expressar hábitos, rotinas, fatos gerais e verdades universais.</texto>
-                    <descricao>Correto! Estas são as principais funções do Present Simple.</descricao>
+                    <texto>had</texto>
+                    <descricao>Incorreto. had é passado.</descricao>
                 </opcao>
                 <opcao id="D">
-                    <texto>Narrar eventos passados já concluídos.</texto>
-                    <descricao>Incorreto. Essa é a função do Past Simple.</descricao>
+                    <texto>having</texto>
+                    <descricao>Incorreto. having é forma contínua, não Present Simple.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="C">Expressar hábitos, rotinas, fatos gerais e verdades universais.</respostaCorreta>
+            <respostaCorreta idOpcao="B">have</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Complete a frase: "My brother ____ (to live) in Canada."</pergunta>
-            <categoria>Gramática Inglesa</categoria>
+            <pergunta>Does she study French?</pergunta>
+            <categoria>Inglês</categoria>
+            <dificuldade>Médio</dificuldade>
+            <tipo>verdadeiro_ou_falso</tipo>
+            <opcoes>
+                <opcao id="V">
+                    <texto>Verdadeiro</texto>
+                    <descricao>Correto! A pergunta está corretamente formulada no Present Simple.</descricao>
+                </opcao>
+                <opcao id="F">
+                    <texto>Falso</texto>
+                    <descricao>Incorreto. A estrutura Does + sujeito + verbo é correta no Present
+                        Simple.</descricao>
+                </opcao>
+            </opcoes>
+            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
+        </questao>
+
+        <questao>
+            <pergunta>I always ___ my homework after dinner.</pergunta>
+            <categoria>Inglês</categoria>
             <dificuldade>Fácil</dificuldade>
             <tipo>multipla_escolha</tipo>
             <opcoes>
                 <opcao id="A">
-                    <texto>live</texto>
-                    <descricao>Incorreto. 'My brother' é singular (He), então o verbo precisa de 's'.</descricao>
+                    <texto>do</texto>
+                    <descricao>Correto! I do my homework é a forma correta no Present Simple.</descricao>
                 </opcao>
                 <opcao id="B">
-                    <texto>lives</texto>
-                    <descricao>Correto! Para a terceira pessoa do singular, adiciona-se 's' ao verbo.</descricao>
+                    <texto>does</texto>
+                    <descricao>Incorreto. does é usado com he, she ou it.</descricao>
                 </opcao>
                 <opcao id="C">
-                    <texto>is living</texto>
-                    <descricao>Incorreto. 'Is living' é Present Continuous, e 'live' é um verbo de estado aqui.</descricao>
+                    <texto>did</texto>
+                    <descricao>Incorreto. did é passado.</descricao>
                 </opcao>
                 <opcao id="D">
-                    <texto>lived</texto>
-                    <descricao>Incorreto. 'Lived' é Past Simple.</descricao>
+                    <texto>doing</texto>
+                    <descricao>Incorreto. doing é gerúndio.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="B">lives</respostaCorreta>
+            <respostaCorreta idOpcao="A">do</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Qual a forma interrogativa negativa correta de "You like pizza."?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Difícil</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>Don't you like pizza?</texto>
-                    <descricao>Correto! 'Don't' é a contração de 'do not' e é usada no início de perguntas negativas informais.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>Do you not like pizza?</texto>
-                    <descricao>Correto! Esta é a forma interrogativa negativa formal, com 'not' após o sujeito.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>Doesn't you like pizza?</texto>
-                    <descricao>Incorreto. 'Doesn't' é para a terceira pessoa do singular.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>Both A and B.</texto>
-                    <descricao>Correto! Ambas as opções 'A' e 'B' são formas válidas de perguntas negativas no Present Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="D">Both A and B.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual frase descreve uma ação que é sempre verdadeira?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
+            <pergunta>We ___ like spicy food.</pergunta>
+            <categoria>Inglês</categoria>
             <dificuldade>Fácil</dificuldade>
-            <tipo>multipla_escolha</tipo>
+            <tipo>verdadeiro_ou_falso</tipo>
             <opcoes>
-                <opcao id="A">
-                    <texto>It is raining outside now.</texto>
-                    <descricao>Incorreto. Esta descreve uma ação ocorrendo no momento.</descricao>
+                <opcao id="V">
+                    <texto>Verdadeiro</texto>
+                    <descricao>Correto! We like é Present Simple afirmativo correto.</descricao>
                 </opcao>
-                <opcao id="B">
-                    <texto>The Earth revolves around the sun.</texto>
-                    <descricao>Correto! O Present Simple é usado para fatos científicos e verdades universais.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>She went to the park yesterday.</texto>
-                    <descricao>Incorreto. Esta descreve uma ação passada.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>We will have dinner soon.</texto>
-                    <descricao>Incorreto. Esta descreve uma ação futura.</descricao>
+                <opcao id="F">
+                    <texto>Falso</texto>
+                    <descricao>Incorreto. A frase está gramaticalmente correta no Present Simple.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="B">The Earth revolves around the sun.</respostaCorreta>
+            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Qual a forma correta do verbo 'to fix' na terceira pessoa do singular no Present Simple?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
+            <pergunta>What time ___ the bus arrive?</pergunta>
+            <categoria>Inglês</categoria>
+            <dificuldade>Médio</dificuldade>
             <tipo>multipla_escolha</tipo>
             <opcoes>
                 <opcao id="A">
-                    <texto>fix</texto>
-                    <descricao>Incorreto. 'Fix' é a forma base; a terceira pessoa do singular geralmente adiciona 's' ou 'es'.</descricao>
+                    <texto>do</texto>
+                    <descricao>Incorreto. Usamos does com o sujeito the bus (he/she/it).</descricao>
                 </opcao>
                 <opcao id="B">
-                    <texto>fixes</texto>
-                    <descricao>Correto! Verbos terminados em 'x' adicionam 'es' na terceira pessoa do singular.</descricao>
+                    <texto>is</texto>
+                    <descricao>Incorreto. is é o verbo to be, não o auxiliar do Present Simple.</descricao>
                 </opcao>
                 <opcao id="C">
-                    <texto>fixing</texto>
-                    <descricao>Incorreto. 'Fixing' é a forma do gerúndio.</descricao>
+                    <texto>does</texto>
+                    <descricao>Correto! does é o auxiliar correto no Present Simple com the bus.</descricao>
                 </opcao>
                 <opcao id="D">
-                    <texto>fixed</texto>
-                    <descricao>Incorreto. 'Fixed' é a forma do Past Simple.</descricao>
+                    <texto>did</texto>
+                    <descricao>Incorreto. did é usado no passado.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="B">fixes</respostaCorreta>
+            <respostaCorreta idOpcao="C">does</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>Escolha a frase que contém um advérbio de frequência e está correta no Present Simple.</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>multipla_escolha</tipo>
-            <opcoes>
-                <opcao id="A">
-                    <texto>He sometimes is late.</texto>
-                    <descricao>Incorreto. Para o verbo 'to be', o advérbio de frequência vem depois.</descricao>
-                </opcao>
-                <opcao id="B">
-                    <texto>She often visits her grandparents.</texto>
-                    <descricao>Correto! O advérbio 'often' está corretamente posicionado antes do verbo principal.</descricao>
-                </opcao>
-                <opcao id="C">
-                    <texto>They are never watching TV.</texto>
-                    <descricao>Incorreto. Esta frase usa o Present Continuous, e a posição do advérbio pode ser diferente.</descricao>
-                </opcao>
-                <opcao id="D">
-                    <texto>We usually don't go to parties.</texto>
-                    <descricao>Correto! O advérbio 'usually' pode vir antes do auxiliar 'don't'.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="B">She often visits her grandparents.</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Qual a forma correta do verbo 'to enjoy' (aproveitar/gostar) na forma afirmativa com o sujeito 'They' no Present Simple?</pergunta>
-            <categoria>Gramática Inglesa</categoria>
+            <pergunta>Complete: She ___ to music every evening.</pergunta>
+            <categoria>Inglês</categoria>
             <dificuldade>Fácil</dificuldade>
             <tipo>multipla_escolha</tipo>
             <opcoes>
                 <opcao id="A">
-                    <texto>enjoys</texto>
-                    <descricao>Incorreto. 'Enjoys' é para a terceira pessoa do singular; 'They' usa a forma base.</descricao>
+                    <texto>listen</texto>
+                    <descricao>Incorreto. She pede a forma com s: listens.</descricao>
                 </opcao>
                 <opcao id="B">
-                    <texto>enjoy</texto>
-                    <descricao>Correto! Para 'They', o verbo permanece na forma base.</descricao>
+                    <texto>listens</texto>
+                    <descricao>Correto! She listens está correto no Present Simple.</descricao>
                 </opcao>
                 <opcao id="C">
-                    <texto>enjoying</texto>
-                    <descricao>Incorreto. 'Enjoying' é o gerúndio.</descricao>
+                    <texto>listening</texto>
+                    <descricao>Incorreto. listening é forma contínua.</descricao>
                 </opcao>
                 <opcao id="D">
-                    <texto>enjoyed</texto>
-                    <descricao>Incorreto. 'Enjoyed' é o Past Simple.</descricao>
+                    <texto>listened</texto>
+                    <descricao>Incorreto. listened é passado.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="B">enjoy</respostaCorreta>
-        </questao>
-        <questao>
-            <pergunta>No Present Simple, adicionamos 's' ao verbo para sujeitos 'I', 'You', 'We', 'They'. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. O 's' é adicionado apenas para a terceira pessoa do singular (He/She/It).</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! Para I, You, We, They, o verbo permanece na forma base.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
+            <respostaCorreta idOpcao="B">listens</respostaCorreta>
         </questao>
 
         <questao>
-            <pergunta>A frase "He doesn't plays soccer." está gramaticalmente correta no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
+            <pergunta>They ___ watch TV on weekdays.</pergunta>
+            <categoria>Inglês</categoria>
+            <dificuldade>Médio</dificuldade>
+            <tipo>multipla_escolha</tipo>
             <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. Após 'doesn't', o verbo principal deve estar na forma base (sem 's').</descricao>
+                <opcao id="A">
+                    <texto>doesnt</texto>
+                    <descricao>Incorreto. doesnt é usado com he, she ou it.</descricao>
                 </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! O correto seria "He doesn't play soccer."</descricao>
+                <opcao id="B">
+                    <texto>dont</texto>
+                    <descricao>Correto! They dont watch TV está correto no Present Simple negativo.</descricao>
+                </opcao>
+                <opcao id="C">
+                    <texto>isnt</texto>
+                    <descricao>Incorreto. isnt é forma negativa do verbo to be.</descricao>
+                </opcao>
+                <opcao id="D">
+                    <texto>didnt</texto>
+                    <descricao>Incorreto. didnt é usado no passado.</descricao>
                 </opcao>
             </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
+            <respostaCorreta idOpcao="B">dont</respostaCorreta>
         </questao>
 
-        <questao>
-            <pergunta>Usamos 'Do' para formar perguntas com 'He', 'She', 'It' no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. 'Do' é usado com I, You, We, They. 'Does' é usado com He, She, It.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! 'Does' é o auxiliar para a terceira pessoa do singular.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>O Present Simple é usado para descrever ações que estão acontecendo no exato momento da fala. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. Essa é a principal função do Present Continuous.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! O Present Simple é para hábitos, rotinas e fatos gerais.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Verbos terminados em 'o', 'ch', 'sh', 'ss', 'x', 'z' adicionam 'es' na terceira pessoa do singular no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! Esta é a regra de ortografia para esses verbos na terceira pessoa do singular.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Esta é uma regra gramatical verdadeira.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "Water freezes at 0 degrees Celsius." é um exemplo de uso correto do Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! O Present Simple é usado para fatos científicos e verdades universais.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Esta é uma aplicação correta do Present Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Na forma interrogativa do Present Simple, o verbo principal volta sempre à sua forma base, mesmo para a terceira pessoa do singular. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! O 's' ou 'es' é removido do verbo principal quando 'Do' ou 'Does' é usado como auxiliar.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Essa é uma regra fundamental do Present Simple interrogativo.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "He is knowing the answer." está correta no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Difícil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. 'Know' é um verbo de estado e raramente é usado no Present Continuous. O correto seria "He knows the answer."</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! Verbos de estado geralmente não são usados em formas contínuas para expressar conhecimento.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>O advérbio de frequência 'never' pode ser usado com o Present Simple para indicar algo que não acontece. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! 'Never' é um advérbio de frequência que indica que algo nunca ocorre e é compatível com o Present Simple.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. 'Never' é comumente usado com o Present Simple para expressar a ausência de um hábito.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Verbos terminados em consoante + 'y', como 'cry', mudam 'y' para 'i' e adicionam 'es' na terceira pessoa do singular no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! Esta é a regra de ortografia para esses verbos na terceira pessoa do singular (ex: 'cries', 'flies').</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Esta é uma regra gramatical verdadeira para a terceira pessoa do singular.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "The Earth is round." está no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! O verbo 'to be' ('is') é usado no Present Simple para expressar fatos.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Esta é uma frase afirmativa correta no Present Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Para perguntar sobre uma rotina diária no Present Simple, sempre usamos 'Are' no início da frase. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. Usamos 'Do' ou 'Does' como auxiliares para a maioria dos verbos no Present Simple.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! 'Do' e 'Does' são os auxiliares padrão para perguntas de rotina no Present Simple, a menos que o verbo principal seja 'to be'.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "I don't knows that person." está gramaticalmente correta no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. Após 'don't', o verbo principal ('know') deve estar na forma base, sem 's'.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! O 's' no verbo 'knows' está incorreto; deveria ser "I don't know that person."</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>O Present Simple pode ser usado para dar instruções e comandos. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! O imperativo, que usa a forma base do verbo (Present Simple), é comum para instruções.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. É um uso comum do Present Simple em contextos como receitas ou manuais.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>O verbo 'to have' no Present Simple para 'He', 'She', 'It' é 'haves'. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. A forma correta e irregular é 'has'.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! 'Has' é a forma correta e irregular para a terceira pessoa do singular.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "The sun is rising in the east every morning." está correta no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. Esta frase está no Present Continuous. Para um fato universal, o Present Simple é preferível ("The sun rises...").</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! Para fatos universais ou rotinas fixas como o nascer do sol, usa-se o Present Simple ("The sun rises..."), não o Present Continuous.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Advérbios de frequência (como 'always', 'often', 'usually') vêm geralmente antes do verbo principal no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! Esta é a posição comum para advérbios de frequência com a maioria dos verbos no Present Simple.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Esta é uma regra geral de posição dos advérbios de frequência.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Na forma interrogativa do Present Simple, o verbo 'to be' ('am', 'is', 'are') sempre age como auxiliar. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Difícil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! Quando 'to be' é o verbo principal, ele se comporta como auxiliar na formação de perguntas e negações no Present Simple, sem 'do'/'does'.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. O verbo 'to be' é um caso especial no Present Simple e não usa 'do'/'does' como auxiliares.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "He goes to school every day." é um exemplo de rotina diária no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! O uso de 'every day' e a conjugação 'goes' indicam uma rotina habitual.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Esta é uma frase afirmativa correta para descrever uma rotina.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Para verbos que terminam em vogal + 'y', como 'play', a regra da terceira pessoa do singular é adicionar 'es'. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. Para verbos terminados em vogal + 'y', apenas se adiciona 's' (ex: 'plays', 'enjoys').</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! Apenas se adiciona 's' para esses verbos na terceira pessoa do singular.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "They doesn't like pizza." está correta no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. 'Doesn't' é para He/She/It; 'They' usa 'don't'.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! O auxiliar 'doesn't' está incorreto para o sujeito 'They'.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>O Present Simple é usado para horários de trem, avião e início de aulas. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! É um uso comum do Present Simple para expressar eventos futuros programados.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Esta é uma aplicação legítima do Present Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>O verbo 'to be' tem formas irregulares no Present Simple: 'am', 'is', 'are'. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! 'To be' é o principal verbo irregular no Present Simple e tem três formas diferentes dependendo do sujeito.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. As formas 'am', 'is', 'are' são as conjugações irregulares do 'to be' no Present Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "She is usually watching TV in the evening." é um exemplo de rotina no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. Esta frase usa o Present Continuous. Para rotina, seria "She usually watches TV in the evening."</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! Embora indique rotina, o tempo verbal usado é o Present Continuous, não o Present Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Na forma interrogativa do Present Simple, o auxiliar 'Do' ou 'Does' vem depois do sujeito. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. O auxiliar 'Do' ou 'Does' vem antes do sujeito na forma interrogativa.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! O auxiliar precede o sujeito na formação de perguntas.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "Birds sings in the morning." está gramaticalmente correta no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. 'Birds' é plural, então o verbo não precisa de 's'. O correto seria "Birds sing in the morning."</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! O 's' no verbo 'sings' está incorreto para um sujeito plural.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Podemos usar o Present Simple para dar descrições de processos ou sequências de eventos. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! Em manuais ou tutoriais, o Present Simple é frequentemente usado para descrever etapas sequenciais.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Este é um uso comum do Present Simple, especialmente em contextos instrucionais.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "Does she likes to read?" é uma pergunta correta no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. Após 'Does', o verbo principal ('like') deve estar na forma base, sem 's'.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! O 's' no verbo 'likes' está incorreto; deveria ser "Does she like to read?"</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>O Present Simple é usado para falar sobre a frequência com que algo acontece. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! Este é um de seus usos primários, frequentemente com advérbios de frequência.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. O Present Simple é ideal para expressar frequência de ações.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Verbos terminados em 'e', como 'live', apenas adicionam 's' na terceira pessoa do singular. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! Verbos que já terminam em 'e' apenas precisam de 's' para formar a terceira pessoa do singular (ex: 'lives', 'loves').</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Esta é uma regra gramatical verdadeira para a terceira pessoa do singular.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "We are usually going to the beach in summer." está correta no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. Esta frase usa o Present Continuous. Para rotina, seria "We usually go to the beach in summer."</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! Embora descreva um hábito, o tempo verbal usado é o Present Continuous, não o Present Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Em frases afirmativas do Present Simple, o verbo principal não muda para 'I', 'You', 'We', 'They'. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! Para esses sujeitos, o verbo permanece na sua forma base.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Esta é uma regra fundamental do Present Simple afirmativo.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "Where does he works?" é uma pergunta correta no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. Após o auxiliar 'does', o verbo principal ('work') deve estar na forma base, sem 's'.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! O 's' no verbo 'works' está incorreto; deveria ser "Where does he work?"</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>O Present Simple é usado para falar sobre eventos futuros que são certos e programados. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! Horários de transportes, aulas, eventos com cronogramas fixos usam o Present Simple.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Este é um uso específico e comum do Present Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Na forma negativa do Present Simple, usamos o auxiliar 'is not' para 'He', 'She', 'It'. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. 'Is not' é para o verbo 'to be' ou Present Continuous. Para a maioria dos verbos no Present Simple, usamos 'doesn't'.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! O auxiliar para negação na terceira pessoa do singular na maioria dos verbos é 'doesn't'.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "The store opens at 9 AM." é um exemplo de Present Simple usado para um horário fixo. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! O Present Simple é ideal para horários de funcionamento e programações.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Esta é uma aplicação comum e correta do Present Simple.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>O Present Simple é usado apenas para ações presentes e não para o futuro. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. Ele também pode ser usado para o futuro em contextos de horários fixos e cronogramas.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! O Present Simple pode ser usado para expressar ações futuras que fazem parte de um cronograma fixo.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>Em frases negativas do Present Simple, o verbo principal sempre volta à forma base, mesmo para a terceira pessoa do singular. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Fácil</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Correto! Após 'don't' ou 'doesn't', o verbo principal perde o 's' ou 'es'.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Incorreto. Esta é uma regra fundamental do Present Simple negativo.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
-        </questao>
-
-        <questao>
-            <pergunta>A frase "She don't goes to the gym." está correta no Present Simple. (Verdadeiro/Falso)</pergunta>
-            <categoria>Gramática Inglesa</categoria>
-            <dificuldade>Média</dificuldade>
-            <tipo>verdadeiro_ou_falso</tipo>
-            <opcoes>
-                <opcao id="V">
-                    <texto>Verdadeiro</texto>
-                    <descricao>Incorreto. O auxiliar 'don't' está errado para 'She', e o verbo 'goes' deveria ser 'go'.</descricao>
-                </opcao>
-                <opcao id="F">
-                    <texto>Falso</texto>
-                    <descricao>Correto! O auxiliar correto é 'doesn't', e o verbo principal deveria ser 'go'.</descricao>
-                </opcao>
-            </opcoes>
-            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
-        </questao>
     </secao_questoes>
 
 </atividade>
