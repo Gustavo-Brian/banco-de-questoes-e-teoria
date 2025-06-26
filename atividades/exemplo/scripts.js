@@ -290,7 +290,7 @@ document.addEventListener('DOMContentLoaded', async () => {
     header.innerHTML = '';
 
     const btnVoltar = document.createElement('a');
-    btnVoltar.href = '#';
+    btnVoltar.href = '../../index.html';
     btnVoltar.className = 'btn-voltar';
     btnVoltar.textContent = 'Voltar';
     header.appendChild(btnVoltar);
