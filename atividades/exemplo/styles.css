@@ -22,11 +22,11 @@ body {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin-bottom: 20px;
     box-sizing: border-box;
-    position: relative; /* Mantém a posição relativa para o layout interno, se necessário */
+    position: relative;
 }
 
-/* Estilos do botão "Voltar" (agora no seu próprio container) */
-.btn-voltar {
+/* Estilos do botão "Voltar" no cabeçalho */
+.header .btn-voltar {
     background-color: #007bff;
     color: white;
     border: none;
@@ -37,23 +37,16 @@ body {
     text-decoration: none;
     display: inline-block;
     transition: background-color 0.3s ease;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
     font-family: 'Montserrat', sans-serif;
 }
 
 /* Estilos de hover para o botão "Voltar" */
-.btn-voltar:hover {
+.header .btn-voltar:hover {
     background-color: #0056b3;
-}
-
-/* Container específico para o botão de voltar, para controle de layout */
-.back-button-container {
-    width: 90%;
-    max-width: 900px;
-    margin-bottom: 10px;
-    display: flex;
-    justify-content: flex-start; /* Alinha o botão "Voltar" à esquerda */
-    box-sizing: border-box;
-    padding: 0 15px; /* Adiciona padding para alinhar com o container de controles */
 }
 
 /* Estilos do título da atividade no cabeçalho */
@@ -75,14 +68,15 @@ body {
     margin-bottom: 0;
 }
 
-/* Contêiner para os controles de número de questões (inclui agora o botão Voltar) */
+/* Contêiner para os controles de número de questões */
 .controls-container {
     width: 90%;
     max-width: 900px;
     display: flex;
-    justify-content: center; /* Alinha os itens ao centro */
+    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+    justify-content: center;
     align-items: center;
-    /* Removido o gap explícito aqui, pois o space-between cuida do espaçamento dos itens principais */
+    gap: 15px; /* Espaçamento entre os elementos */
     padding: 15px;
     background-color: #e9f5ff;
     border: 1px solid #cceeff;
@@ -92,15 +86,6 @@ body {
     box-sizing: border-box;
 }
 
-/* Novo contêiner para agrupar Label, Input e Botão de Carregar Questões */
-.question-controls-group {
-    display: flex;
-    align-items: center;
-    gap: 15px; /* Adiciona espaçamento entre o label, input e botão dentro deste grupo */
-    flex-wrap: wrap; /* Permite que os elementos internos quebrem linha */
-    justify-content: center; /* Centraliza os elementos internos se quebrarem */
-}
-
 .controls-container label {
     font-size: 1em;
     color: #333;
@@ -108,11 +93,12 @@ body {
 }
 
 .controls-container input[type="number"] {
+    padding: 8px 12px;
     border: 1px solid #ccc;
     border-radius: 5px;
     font-size: 1em;
+    width: 80px; /* Largura fixa para o input de número */
     text-align: center;
-    padding: 8px 10px; /* Adicionado padding para melhor aparência */
 }
 
 .controls-container button {
@@ -129,6 +115,7 @@ body {
 .controls-container button:hover {
     background-color: #0056b3;
 }
+
 
 /* Estilos do contêiner principal do conteúdo */
 .container-conteudo {
@@ -357,6 +344,34 @@ body {
     margin-bottom: 15px;
 }
 
+.conteudo-info-imagem {
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-info-imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.legenda-imagem {
+    font-size: 1em;
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.descricao-imagem {
+    font-size: 0.95em;
+    color: #777;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
 /* Estilos para a explicação geral dentro dos cards */
 .explicacao-geral-card {
     margin-top: 30px;
@@ -522,6 +537,17 @@ body {
         padding: 10px 15px;
     }
 
+    /* Ajuste para o botão "Voltar" no cabeçalho em telas menores */
+    .header .btn-voltar {
+        position: absolute; /* Mantém o posicionamento absoluto */
+        left: 15px; /* Ajusta a posição para a esquerda com um padding */
+        top: 50%; /* Mantém verticalmente centralizado */
+        transform: translateY(-50%); /* Garante o alinhamento vertical */
+        margin: 0; /* Remove margens anteriores */
+        width: auto; /* Permite que o botão se ajuste ao seu conteúdo */
+        text-align: left; /* Garante o alinhamento do texto à esquerda dentro do botão */
+    }
+
     .header .titulo-atividade {
         font-size: 1.4em; /* Diminuindo a fonte do título */
     }
@@ -530,37 +556,13 @@ body {
         font-size: 1.1em; /* Diminuindo a fonte do subtítulo */
     }
 
-    .back-button-container {
-        padding: 0 10px; /* Ajusta o padding para telas menores */
-    }
-
     .controls-container {
-        flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha se necessário */
-        justify-content: center; /* Centraliza os itens quando quebrados ou em uma única linha */
-        gap: 20px; /* Aumentado o espaçamento entre os itens para quando houver quebra de linha */
-        padding: 10px; /* Reduzido o padding para telas menores */
-    }
-
-    .controls-container label {
-        font-size: 0.9em; /* Ajusta o tamanho da fonte do label */
+        flex-direction: column; /* Empilha itens em telas menores */
+        gap: 10px;
     }
 
     .controls-container input[type="number"] {
-        width: 80px; /* Ajusta a largura para melhor visualização em mobile */
-        padding: 6px 8px; /* Reduz o padding */
-        font-size: 0.9em; /* Reduz o tamanho da fonte */
-    }
-
-    .controls-container button {
-        padding: 8px 15px; /* Reduz o padding dos botões */
-        font-size: 0.9em; /* Reduz o tamanho da fonte dos botões */
-    }
-    
-    /* Ajustes para o grupo de controles de questões */
-    .question-controls-group {
-        gap: 10px; /* Ajusta o espaçamento dentro do grupo para telas menores */
-        flex-wrap: wrap; /* Permite que seus elementos internos também quebrem se necessário */
-        justify-content: center; /* Centraliza os itens internos se quebrarem */
+        width: 100px; /* Ajusta largura para melhor visualização em mobile */
     }
 
     .container-conteudo,
@@ -651,9 +653,5 @@ body {
     }
     .bar-percentage {
         font-size: 0.75em;
-    }
-
-    .controls-container input[type="number"] {
-        width: 60px; /* Ainda menor para telas muito pequenas */
     }
 }

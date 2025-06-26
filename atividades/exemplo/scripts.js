@@ -130,8 +130,7 @@ function renderizarCardItem(itemData, container) {
             label.className = 'opcao-item';
             const input = document.createElement('input');
             input.type = 'radio';
-            // Usa um hash da pergunta para o name, garantindo que as opções de cada questão sejam independentes
-            input.name = `questao_${itemData.pergunta.replace(/\s+/g, '_').toLowerCase()}_${itemData.id || ''}`; // Adicionado itemData.id para unicidade extra
+            input.name = `questao_${itemData.pergunta.replace(/\s+/g, '_').toLowerCase()}`;
             input.value = op.id;
             input.setAttribute('data-correta', op.id === itemData.respostaCorretaId);
             input.setAttribute('data-feedback', op.descricao);
@@ -146,8 +145,7 @@ function renderizarCardItem(itemData, container) {
         const verificarBtn = document.createElement('button');
         verificarBtn.textContent = 'Verificar Resposta';
         verificarBtn.className = 'btn-verificar';
-        // Usa o mesmo hash para o botão
-        verificarBtn.setAttribute('data-pergunta-hash', `${itemData.pergunta.replace(/\s+/g, '_').toLowerCase()}_${itemData.id || ''}`);
+        verificarBtn.setAttribute('data-pergunta-hash', itemData.pergunta.replace(/\s+/g, '_').toLowerCase());
 
         verificarBtn.addEventListener('click', (event) => {
             const perguntaHash = event.target.getAttribute('data-pergunta-hash');
@@ -197,9 +195,8 @@ function verificarTodosOsItens(todasAsQuestoes) {
     }
 
     questoesInterativas.forEach(itemData => {
-        // Usar o mesmo hash da pergunta que foi usado para o atributo 'name' do input radio
-        const perguntaHash = `${itemData.pergunta.replace(/\s+/g, '_').toLowerCase()}_${itemData.id || ''}`;
-        const itemElement = document.querySelector(`.card-item input[name="questao_${perguntaHash}"]`)?.closest('.card-item');
+        const perguntaHash = itemData.pergunta.replace(/\s+/g, '_').toLowerCase();
+        const itemElement = document.querySelector(`.card-item[data-tipo-item="${itemData.tipo}"] input[name="questao_${perguntaHash}"]`)?.closest('.card-item');
 
         if (!itemElement) return;
 
@@ -247,7 +244,7 @@ function verificarTodosOsItens(todasAsQuestoes) {
 
         let graphHtml = '';
         if (Object.keys(acertosPorCategoria).length > 0) {
-            graphHtml = '<div class="bar-chart-container">'; // Envolve o gráfico de barras em um div
+            graphHtml = '<div class="bar-chart-container">';
             for (const categoria in acertosPorCategoria) {
                 const acertosCat = acertosPorCategoria[categoria];
                 const totalCat = totalPorCategoria[categoria];
@@ -267,19 +264,13 @@ function verificarTodosOsItens(todasAsQuestoes) {
             graphHtml += '</div>';
         }
 
-        // --- ALTERAÇÃO PARA SATISFAZER O LINTER JSX ---
-        // Todo o conteúdo HTML é envolvido por uma única div pai
         resultadoFinalDiv.innerHTML = `
-            <div>
-                <h2>Seu Resultado Final:</h2>
-                <p>Você acertou ${acertos} de ${totalInterativos} questões interativas.</p>
-                <p>Pontuação Geral: <strong>${textoPorcentagem}</strong></p>
-                ${graphHtml}
-                <p class="resultado-mensagem"></p>
-            </div>
+            <h2>Seu Resultado Final:</h2>
+            <p>Você acertou ${acertos} de ${totalInterativos} questões interativas.</p>
+            <p>Pontuação Geral: <strong>${textoPorcentagem}</strong></p>
+            ${graphHtml}
+            <p class="resultado-mensagem"></p>
         `;
-        // --- FIM DA ALTERAÇÃO ---
-
         const mensagemElement = resultadoFinalDiv.querySelector('.resultado-mensagem');
         if (mensagemElement) {
             if (porcentagemAcertos === 100) { mensagemElement.textContent = "Parabéns! Você gabaritou!"; mensagemElement.style.color = 'green'; }
@@ -303,10 +294,18 @@ async function initActivity(numQuestoes = 25) { // Default para 25 se não espec
     window.todasAsQuestoes = questoes; // Armazena para verificação
 
     const header = document.querySelector('.header');
-    
-    // Garante que o título e subtítulo sejam criados/atualizados no header
+    // Garante que o cabeçalho seja atualizado sem duplicar elementos existentes
     let tituloAtividade = header.querySelector('.titulo-atividade');
     let subtituloAtividade = header.querySelector('.subtitulo-atividade');
+    let btnVoltar = header.querySelector('.btn-voltar');
+
+    if (!btnVoltar) {
+        btnVoltar = document.createElement('a');
+        btnVoltar.href = '../../index.html'; // Ajuste o link conforme necessário
+        btnVoltar.className = 'btn-voltar';
+        btnVoltar.textContent = 'Voltar';
+        header.prepend(btnVoltar); // Adiciona no início do header
+    }
 
     if (!tituloAtividade) {
         tituloAtividade = document.createElement('h1');
@@ -327,16 +326,6 @@ async function initActivity(numQuestoes = 25) { // Default para 25 se não espec
     if (subtituloAtividade) {
         subtituloAtividade.textContent = metadados.subtituloRecurso || "";
         subtituloAtividade.style.display = metadados.subtituloRecurso ? 'block' : 'none';
-    }
-
-    // Move os títulos para após o controls-container no header, se eles não estiverem lá
-    const controlsContainer = header.querySelector('.controls-container');
-    if (controlsContainer && tituloAtividade && subtituloAtividade) {
-        // Se já estão após, não faz nada, senão move para lá
-        if (tituloAtividade.previousElementSibling !== controlsContainer) {
-            controlsContainer.after(tituloAtividade);
-            tituloAtividade.after(subtituloAtividade);
-        }
     }
 
 
@@ -367,16 +356,18 @@ async function initActivity(numQuestoes = 25) { // Default para 25 se não espec
 
     // Garante que o footer e o botão de verificar todas as respostas sejam criados/atualizados
     let footer = document.querySelector('.footer');
-    // Limpa o footer para garantir que o botão seja o único elemento
-    footer.innerHTML = ''; 
-    let verificarTodasBtn = document.createElement('button');
-    verificarTodasBtn.textContent = 'Verificar Todas as Respostas';
-    verificarTodasBtn.className = 'btn-verificar-todas';
-    footer.appendChild(verificarTodasBtn);
+    let verificarTodasBtn = footer.querySelector('.btn-verificar-todas');
+    if (!verificarTodasBtn) {
+        footer.innerHTML = ''; // Limpa o footer para adicionar o botão
+        verificarTodasBtn = document.createElement('button');
+        verificarTodasBtn.textContent = 'Verificar Todas as Respostas';
+        verificarTodasBtn.className = 'btn-verificar-todas';
+        footer.appendChild(verificarTodasBtn);
 
-    verificarTodasBtn.addEventListener('click', () => {
-        verificarTodosOsItens(window.todasAsQuestoes);
-    });
+        verificarTodasBtn.addEventListener('click', () => {
+            verificarTodosOsItens(window.todasAsQuestoes);
+        });
+    }
 }
 
 
