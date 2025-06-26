@@ -68,6 +68,55 @@ body {
     margin-bottom: 0;
 }
 
+/* Contêiner para os controles de número de questões */
+.controls-container {
+    width: 90%;
+    max-width: 900px;
+    display: flex;
+    flex-wrap: wrap; /* Permite quebrar linha em telas menores */
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Espaçamento entre os elementos */
+    padding: 15px;
+    background-color: #e9f5ff;
+    border: 1px solid #cceeff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    box-sizing: border-box;
+}
+
+.controls-container label {
+    font-size: 1em;
+    color: #333;
+    font-weight: bold;
+}
+
+.controls-container input[type="number"] {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    width: 80px; /* Largura fixa para o input de número */
+    text-align: center;
+}
+
+.controls-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+.controls-container button:hover {
+    background-color: #0056b3;
+}
+
+
 /* Estilos do contêiner principal do conteúdo */
 .container-conteudo {
     display: flex;
@@ -505,6 +554,15 @@ body {
 
     .header .subtitulo-atividade {
         font-size: 1.1em; /* Diminuindo a fonte do subtítulo */
+    }
+
+    .controls-container {
+        flex-direction: column; /* Empilha itens em telas menores */
+        gap: 10px;
+    }
+
+    .controls-container input[type="number"] {
+        width: 100px; /* Ajusta largura para melhor visualização em mobile */
     }
 
     .container-conteudo,

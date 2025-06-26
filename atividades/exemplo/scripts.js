@@ -7,7 +7,7 @@ function randomizarLista(lista) {
     }
 }
 
-async function carregarEConverterConteudoXML() {
+async function carregarEConverterConteudoXML(numQuestoesDesejadas = 25) { // Adicionado parâmetro com default
     const caminhoDoXML = 'questoes.xml';
 
     try {
@@ -96,7 +96,8 @@ async function carregarEConverterConteudoXML() {
         }
 
         randomizarLista(todasAsQuestoesCarregadas);
-        dadosDoRecurso.questoes = todasAsQuestoesCarregadas.slice(0, 25);
+        // Usa numQuestoesDesejadas aqui
+        dadosDoRecurso.questoes = todasAsQuestoesCarregadas.slice(0, numQuestoesDesejadas);
 
         return dadosDoRecurso;
 
@@ -185,8 +186,8 @@ function verificarTodosOsItens(todasAsQuestoes) {
     );
     let acertos = 0;
     let totalInterativos = questoesInterativas.length;
-    let acertosPorCategoria = {};
-    let totalPorCategoria = {};
+    let acertosPorCategoria = {}; // Para armazenar acertos por categoria
+    let totalPorCategoria = {}; // Para armazenar total de questões por categoria
 
     if (totalInterativos === 0) {
         console.warn("Nenhuma questão interativa encontrada para verificação.");
@@ -206,6 +207,7 @@ function verificarTodosOsItens(todasAsQuestoes) {
             itemElement.appendChild(feedbackDiv);
         }
 
+        // Inicializa contadores para a categoria se ainda não existirem
         if (!totalPorCategoria[itemData.categoria]) {
             totalPorCategoria[itemData.categoria] = 0;
             acertosPorCategoria[itemData.categoria] = 0;
@@ -282,33 +284,50 @@ function verificarTodosOsItens(todasAsQuestoes) {
     }
 }
 
-document.addEventListener('DOMContentLoaded', async () => {
-    const { metadados, secaoIntroducao, questoes } = await carregarEConverterConteudoXML();
-    window.todasAsQuestoes = questoes;
+async function initActivity(numQuestoes = 25) { // Default para 25 se não especificado
+    // Limpar conteúdo anterior
+    const containerConteudo = document.querySelector('.container-conteudo');
+    containerConteudo.innerHTML = '';
+    document.getElementById('resultado-final').style.display = 'none';
+
+    const { metadados, secaoIntroducao, questoes } = await carregarEConverterConteudoXML(numQuestoes);
+    window.todasAsQuestoes = questoes; // Armazena para verificação
 
     const header = document.querySelector('.header');
-    header.innerHTML = '';
+    // Garante que o cabeçalho seja atualizado sem duplicar elementos existentes
+    let tituloAtividade = header.querySelector('.titulo-atividade');
+    let subtituloAtividade = header.querySelector('.subtitulo-atividade');
+    let btnVoltar = header.querySelector('.btn-voltar');
 
-    const btnVoltar = document.createElement('a');
-    btnVoltar.href = '../../index.html';
-    btnVoltar.className = 'btn-voltar';
-    btnVoltar.textContent = 'Voltar';
-    header.appendChild(btnVoltar);
+    if (!btnVoltar) {
+        btnVoltar = document.createElement('a');
+        btnVoltar.href = '../../index.html'; // Ajuste o link conforme necessário
+        btnVoltar.className = 'btn-voltar';
+        btnVoltar.textContent = 'Voltar';
+        header.prepend(btnVoltar); // Adiciona no início do header
+    }
 
-    const tituloAtividade = document.createElement('h1');
-    tituloAtividade.className = 'titulo-atividade';
-    tituloAtividade.textContent = metadados.tituloRecurso;
-    header.appendChild(tituloAtividade);
+    if (!tituloAtividade) {
+        tituloAtividade = document.createElement('h1');
+        tituloAtividade.className = 'titulo-atividade';
+        header.appendChild(tituloAtividade);
+    }
 
-    if (metadados.subtituloRecurso) {
-        const subtituloAtividade = document.createElement('h2');
+    if (!subtituloAtividade) {
+        subtituloAtividade = document.createElement('h2');
         subtituloAtividade.className = 'subtitulo-atividade';
-        subtituloAtividade.textContent = metadados.subtituloRecurso;
         header.appendChild(subtituloAtividade);
     }
     
-    const containerQuestoes = document.querySelector('.container-questoes');
-    containerQuestoes.classList.add('container-conteudo');
+    // Atualiza metadados do cabeçalho
+    if (tituloAtividade) {
+        tituloAtividade.textContent = metadados.tituloRecurso;
+    }
+    if (subtituloAtividade) {
+        subtituloAtividade.textContent = metadados.subtituloRecurso || "";
+        subtituloAtividade.style.display = metadados.subtituloRecurso ? 'block' : 'none';
+    }
+
 
     if (secaoIntroducao) {
         const introDiv = document.createElement('div');
@@ -321,32 +340,52 @@ document.addEventListener('DOMContentLoaded', async () => {
             p.textContent = pText;
             introDiv.appendChild(p);
         });
-        containerQuestoes.appendChild(introDiv);
+        containerConteudo.appendChild(introDiv);
     }
 
     if (questoes.length > 0) {
         questoes.forEach(questaoItem => {
-            renderizarCardItem(questaoItem, containerQuestoes);
+            renderizarCardItem(questaoItem, containerConteudo);
         });
     } else {
         const mensagemErro = document.createElement('p');
         mensagemErro.style.cssText = 'text-align: center; margin-top: 50px; font-size: 1.5em; color: #dc3545;';
         mensagemErro.textContent = 'Nenhum conteúdo foi carregado ou houve um erro. Verifique o arquivo XML.';
-        containerQuestoes.appendChild(mensagemErro);
+        containerConteudo.appendChild(mensagemErro);
     }
 
-    let resultadoFinalDiv = document.getElementById('resultado-final');
-    resultadoFinalDiv.style.display = 'none';
-
+    // Garante que o footer e o botão de verificar todas as respostas sejam criados/atualizados
     let footer = document.querySelector('.footer');
-    footer.innerHTML = '';
+    let verificarTodasBtn = footer.querySelector('.btn-verificar-todas');
+    if (!verificarTodasBtn) {
+        footer.innerHTML = ''; // Limpa o footer para adicionar o botão
+        verificarTodasBtn = document.createElement('button');
+        verificarTodasBtn.textContent = 'Verificar Todas as Respostas';
+        verificarTodasBtn.className = 'btn-verificar-todas';
+        footer.appendChild(verificarTodasBtn);
 
-    let verificarTodasBtn = document.createElement('button');
-    verificarTodasBtn.textContent = 'Verificar Todas as Respostas';
-    verificarTodasBtn.className = 'btn-verificar-todas';
-    footer.appendChild(verificarTodasBtn);
+        verificarTodasBtn.addEventListener('click', () => {
+            verificarTodosOsItens(window.todasAsQuestoes);
+        });
+    }
+}
 
-    verificarTodasBtn.addEventListener('click', () => {
-        verificarTodosOsItens(window.todasAsQuestoes);
-    });
+
+document.addEventListener('DOMContentLoaded', () => {
+    // Carregamento inicial
+    initActivity(25); // Carrega com 25 questões por padrão
+
+    const numQuestoesInput = document.getElementById('numQuestoes');
+    const carregarQuestoesBtn = document.getElementById('carregarQuestoesBtn');
+
+    if (carregarQuestoesBtn) {
+        carregarQuestoesBtn.addEventListener('click', () => {
+            const num = parseInt(numQuestoesInput.value, 10);
+            if (!isNaN(num) && num > 0) {
+                initActivity(num);
+            } else {
+                alert('Por favor, insira um número válido de questões (maior que 0).');
+            }
+        });
+    }
 });
