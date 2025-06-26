@@ -31,6 +31,7 @@ body {
     color: white;
     border: none;
     padding: 10px 15px;
+    border-radius: 5px;
     cursor: pointer;
     font-size: 1em;
     text-decoration: none;
@@ -85,7 +86,7 @@ body {
 
 /* Estilos de cada card de item individual */
 .card-item {
-    width: 100%;
+    width: 95%;
     padding: 25px;
     background-color: #ffffff;
     border: 1px solid #ddd;
@@ -358,7 +359,7 @@ body {
     justify-content: center;
     align-items: center;
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 20px;
+    margin-top: auto;
     box-sizing: border-box;
     min-height: 80px;
 }
@@ -487,21 +488,23 @@ body {
         padding: 10px 15px;
     }
 
+    /* Ajuste para o botão "Voltar" no cabeçalho em telas menores */
     .header .btn-voltar {
-        position: static;
-        transform: none;
-        margin-right: 0;
-        margin-bottom: 10px;
-        width: 100%;
-        text-align: center;
+        position: absolute; /* Mantém o posicionamento absoluto */
+        left: 15px; /* Ajusta a posição para a esquerda com um padding */
+        top: 50%; /* Mantém verticalmente centralizado */
+        transform: translateY(-50%); /* Garante o alinhamento vertical */
+        margin: 0; /* Remove margens anteriores */
+        width: auto; /* Permite que o botão se ajuste ao seu conteúdo */
+        text-align: left; /* Garante o alinhamento do texto à esquerda dentro do botão */
     }
 
     .header .titulo-atividade {
-        font-size: 1.5em;
+        font-size: 1.4em; /* Diminuindo a fonte do título */
     }
 
     .header .subtitulo-atividade {
-        font-size: 1em;
+        font-size: 1.1em; /* Diminuindo a fonte do subtítulo */
     }
 
     .container-conteudo,
@@ -566,10 +569,10 @@ body {
 
 @media (max-width: 480px) {
     .header .titulo-atividade {
-        font-size: 1.3em;
+        font-size: 1.2em; /* Mais uma leve diminuição para telas menores */
     }
     .header .subtitulo-atividade {
-        font-size: 0.9em;
+        font-size: 1em; /* Mais uma leve diminuição para telas menores */
     }
     .card-item h3 {
         font-size: 1.1em;
