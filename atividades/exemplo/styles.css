@@ -1,0 +1,597 @@
+/* Estilos globais do body */
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+
+/* Estilos do cabeçalho */
+.header {
+    width: 100%;
+    background-color: #ffffff;
+    color: #333;
+    padding: 15px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Estilos do botão "Voltar" no cabeçalho */
+.header .btn-voltar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilos de hover para o botão "Voltar" */
+.header .btn-voltar:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos do título da atividade no cabeçalho */
+.header .titulo-atividade {
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #3777cc;
+    margin: 0;
+    padding: 5px 0;
+}
+
+/* Estilos do subtítulo da atividade no cabeçalho */
+.header .subtitulo-atividade {
+    text-align: center;
+    font-size: 1.2em;
+    color: #555;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+/* Estilos do contêiner principal do conteúdo */
+.container-conteudo {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    width: 90%;
+    max-width: 900px;
+    background-color: #ffffff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    align-items: center;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+/* Estilos de cada card de item individual */
+.card-item {
+    width: 100%;
+    padding: 25px;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+/* Estilos do título do card */
+.card-item h3 {
+    margin-top: 0;
+    margin-bottom: 25px;
+    color: #333;
+    font-size: 1.4em;
+    text-align: center;
+    line-height: 1.4;
+}
+
+/* Estilos de parágrafo dentro dos cards (para perguntas e informações) */
+.card-item p {
+    text-align: left;
+    width: 100%;
+    margin-bottom: 15px;
+    color: #444;
+    line-height: 1.6;
+}
+
+/* Estilos do contêiner das opções de seleção (para múltipla escolha) */
+.opcoes-selecao {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-bottom: 25px;
+}
+
+/* Estilos de cada item de opção (label) */
+.opcao-item {
+    display: flex;
+    align-items: center;
+    background-color: #f8f8f8;
+    border: 1px solid #eee;
+    border-radius: 6px;
+    padding: 14px 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+    font-size: 1.05em;
+    color: #555;
+}
+
+/* Estilos de hover para o item de opção */
+.opcao-item:hover {
+    background-color: #eef7ff;
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.2);
+}
+
+/* Estilos do radio button dentro da opção */
+.opcao-item input[type="radio"] {
+    margin-right: 12px;
+    transform: scale(1.2);
+    accent-color: #007bff;
+    cursor: pointer;
+}
+
+/* Estilos do texto da opção quando ela está selecionada */
+.opcao-item input[type="radio"]:checked + span {
+    font-weight: bold;
+    color: #007bff;
+}
+
+/* Estilos do botão de verificar resposta (individual por card) */
+.btn-verificar {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1.05em;
+    font-weight: bold;
+    margin-top: 20px;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    display: block;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Estilos de hover para o botão de verificar */
+.btn-verificar:hover {
+    background-color: #0056b3;
+    transform: translateY(-1px);
+}
+
+/* Estilos de active para o botão de verificar */
+.btn-verificar:active {
+    transform: translateY(0);
+}
+
+/* Estilos da mensagem de feedback (correto/incorreto) */
+.feedback-message {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.1em;
+    border: 1px solid;
+    background-color: #eaf6ff;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Estilos de cor para a mensagem de feedback verde (correto) */
+.feedback-message[style*="color: green"] {
+    border-color: #28a745;
+    background-color: #e6ffe6;
+}
+
+/* Estilos de cor para a mensagem de feedback vermelho (incorreto) */
+.feedback-message[style*="color: red"] {
+    border-color: #dc3545;
+    background-color: #ffe6e6;
+}
+
+/* --- Estilos para Secção de Introdução --- */
+.secao-introducao {
+    width: 100%;
+    padding: 25px;
+    background-color: #eaf6ff;
+    border: 1px solid #b3d9ff;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.secao-introducao h2 {
+    color: #0056b3;
+    font-size: 1.6em;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.secao-introducao p {
+    font-size: 1.1em;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+/* --- Estilos para Preenchimento de Lacunas --- */
+.texto-lacunas {
+    width: 100%;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 2;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.lacuna-input {
+    border: none;
+    border-bottom: 2px solid #007bff;
+    padding: 5px 8px;
+    font-size: 1em;
+    color: #333;
+    background-color: #f0f8ff;
+    border-radius: 3px;
+    margin: 0 5px;
+    outline: none;
+    transition: border-color 0.3s ease, background-color 0.3s ease;
+    width: auto;
+    min-width: 80px;
+}
+
+.lacuna-input:focus {
+    border-color: #0056b3;
+    background-color: #e6f2ff;
+}
+
+.lacuna-input.correct {
+    border-color: #28a745;
+    background-color: #e6ffe6;
+}
+
+.lacuna-input.incorrect {
+    border-color: #dc3545;
+    background-color: #ffe6e6;
+}
+
+/* --- Estilos para Conteúdo de Informação (Texto e Imagem) --- */
+.conteudo-info-texto {
+    width: 100%;
+    text-align: left;
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: #333;
+}
+
+.conteudo-info-texto p {
+    margin-bottom: 15px;
+}
+
+.conteudo-info-imagem {
+    width: 100%;
+    text-align: center;
+}
+
+.conteudo-info-imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 15px;
+}
+
+.legenda-imagem {
+    font-size: 1em;
+    color: #666;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.descricao-imagem {
+    font-size: 0.95em;
+    color: #777;
+    line-height: 1.4;
+    margin-bottom: 15px;
+}
+
+/* Estilos para a explicação geral dentro dos cards */
+.explicacao-geral-card {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #f0f8ff;
+    border: 1px solid #cceeff;
+    border-radius: 8px;
+    text-align: left;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.explicacao-geral-card h4 {
+    color: #0056b3;
+    font-size: 1.2em;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.explicacao-geral-card p {
+    font-size: 1em;
+    color: #444;
+    line-height: 1.5;
+    margin-bottom: 8px;
+}
+
+/* Estilos do rodapé */
+.footer {
+    width: 100%;
+    background-color: #ffffff;
+    color: black;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+    box-sizing: border-box;
+    min-height: 80px;
+}
+
+/* Estilos do botão de verificar todas as respostas no rodapé */
+.footer .btn-verificar-todas {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.1em;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Estilos de hover para o botão de verificar todas */
+.footer .btn-verificar-todas:hover {
+    background-color: #218838;
+    transform: translateY(-2px);
+}
+
+/* Estilos de active para o botão de verificar todas */
+.footer .btn-verificar-todas:active {
+    transform: translateY(0);
+}
+
+/* --- Estilos para o Placar Final --- */
+#resultado-final {
+    margin-top: 30px;
+    padding: 20px 30px;
+    background-color: #e0f7fa;
+    border: 2px solid #00bcd4;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 188, 212, 0.2);
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    font-size: 1.2em;
+    color: #007bff;
+    font-weight: bold;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    box-sizing: border-box;
+    margin-bottom: 40px;
+}
+
+#resultado-final h2 {
+    margin: 0 0 10px 0;
+    color: #0056b3;
+}
+
+#resultado-final p {
+    margin: 5px 0;
+}
+
+/* --- Estilos para o Gráfico de Barras no Resultado Final --- */
+.bar-chart-container {
+    width: 100%;
+    max-width: 500px; /* Limita a largura do container do gráfico */
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaço entre as barras */
+    text-align: left; /* Alinha o texto das barras à esquerda */
+}
+
+.bar-chart-item {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Espaço entre o label e a barra de progresso */
+}
+
+.bar-label {
+    font-size: 1em;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+}
+
+.bar-progress-container {
+    width: 100%;
+    background-color: #e9ecef;
+    border-radius: 5px;
+    height: 25px; /* Altura da barra */
+    display: flex;
+    align-items: center;
+    overflow: hidden; /* Garante que a barra de progresso não vaze */
+    position: relative;
+}
+
+.bar-progress {
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.8s ease-out; /* Animação suave para a barra */
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Alinha a porcentagem à direita da barra */
+    padding-right: 10px; /* Espaçamento interno para a porcentagem */
+    box-sizing: border-box;
+}
+
+.bar-percentage {
+    position: absolute;
+    right: 10px; /* Posiciona a porcentagem dentro da barra */
+    color: #333; /* Cor do texto da porcentagem */
+    font-weight: bold;
+    font-size: 0.9em;
+    text-shadow: 0 0 2px rgba(255,255,255,0.7); /* Pequena sombra para contraste */
+}
+
+/* Estilo para a mensagem de resultado adicional */
+.resultado-mensagem {
+    font-size: 1.1em;
+    font-style: italic;
+    margin-top: 15px;
+}
+
+/* --- Media Queries para Responsividade --- */
+@media (max-width: 768px) {
+    .header {
+        padding: 10px 15px;
+    }
+
+    .header .btn-voltar {
+        position: static;
+        transform: none;
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .header .titulo-atividade {
+        font-size: 1.5em;
+    }
+
+    .header .subtitulo-atividade {
+        font-size: 1em;
+    }
+
+    .container-conteudo,
+    #resultado-final {
+        width: 95%;
+        padding: 15px;
+    }
+
+    .card-item {
+        padding: 20px;
+    }
+
+    .card-item h3 {
+        font-size: 1.2em;
+        margin-bottom: 20px;
+    }
+
+    .opcao-item {
+        padding: 12px 15px;
+        font-size: 0.95em;
+    }
+
+    .btn-verificar,
+    .footer .btn-verificar-todas {
+        padding: 10px 20px;
+        font-size: 1em;
+    }
+
+    .feedback-message {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+
+    .secao-introducao {
+        padding: 20px;
+    }
+
+    .secao-introducao h2 {
+        font-size: 1.4em;
+    }
+
+    .secao-introducao p {
+        font-size: 1em;
+    }
+
+    .bar-chart-container {
+        padding: 0 10px; /* Adiciona um pequeno padding nas laterais em telas menores */
+    }
+
+    .bar-label {
+        font-size: 0.9em;
+    }
+
+    .bar-progress-container {
+        height: 20px;
+    }
+
+    .bar-percentage {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 480px) {
+    .header .titulo-atividade {
+        font-size: 1.3em;
+    }
+    .header .subtitulo-atividade {
+        font-size: 0.9em;
+    }
+    .card-item h3 {
+        font-size: 1.1em;
+    }
+    .opcao-item {
+        font-size: 0.9em;
+    }
+    .lacuna-input {
+        min-width: 60px;
+        font-size: 0.9em;
+    }
+    .feedback-message {
+        font-size: 0.9em;
+    }
+    #resultado-final {
+        font-size: 1.1em;
+    }
+    .bar-label {
+        font-size: 0.8em;
+    }
+    .bar-percentage {
+        font-size: 0.75em;
+    }
+}

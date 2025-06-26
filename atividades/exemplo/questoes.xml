@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<atividade>
+    <metadados>
+        <titulo>Título Genérico da Atividade/Módulo</titulo>
+        <subtitulo>Um Subtítulo para Complementar ou Descrever</subtitulo> <!-- Pode deixar vazio, caso não necessário-->
+        <descricao_breve>Uma descrição curta sobre o que este conteúdo aborda.</descricao_breve> <!-- Pode deixar vazio, caso não necessário-->
+        <autor>Nome do Criador</autor>
+        <data_criacao>2024-06-25</data_criacao>
+        <nivel_dificuldade>Intermediário</nivel_dificuldade>
+        <idioma>pt-br</idioma>
+        <!-- Não mexer -->
+            <tipos_questoes_permitidos>
+                <tipo_questao>multipla_escolha</tipo_questao>
+                <tipo_questao>verdadeiro_ou_falso</tipo_questao>
+            </tipos_questoes_permitidos>
+        <!-- Não mexer -->
+    </metadados>
+
+    <secao_introducao id="intro">
+        <titulo>Instruções do Módulo</titulo>
+        <paragrafo>Bem-vindo ao nosso módulo interativo! Leia atentamente cada item.</paragrafo>
+    </secao_introducao>
+
+    <secao_questoes>
+        <questao>
+            <pergunta>Qual é o maior mamífero terrestre?</pergunta>
+            <categoria>Biologia</categoria>
+            <dificuldade>Fácil</dificuldade>
+            <tipo>multipla_escolha</tipo>
+            <opcoes>
+                <opcao id="A">
+                    <texto>Urso Polar</texto>
+                    <descricao>O urso polar é um grande carnívoro, mas não é o maior mamífero terrestre.</descricao>
+                </opcao>
+                <opcao id="B">
+                    <texto>Elefante Africano</texto>
+                    <descricao>Correto! O elefante africano é o maior animal terrestre vivo.</descricao>
+                </opcao>
+                <opcao id="C">
+                    <texto>Rinoceronte Branco</texto>
+                    <descricao>O rinoceronte branco é grande e pesado, mas menor que o elefante.</descricao>
+                </opcao>
+                <opcao id="D">
+                    <texto>Girafa</texto>
+                    <descricao>A girafa é o animal mais alto, mas não o maior em massa.</descricao>
+                </opcao>
+            </opcoes>
+            <respostaCorreta idOpcao="B">Elefante Africano</respostaCorreta>
+        </questao>
+
+        <questao>
+            <pergunta>A capital da Austrália é Sydney. (Verdadeiro/Falso)</pergunta>
+            <categoria>Geografia</categoria>
+            <dificuldade>Média</dificuldade>
+            <tipo>verdadeiro_ou_falso</tipo>
+            <opcoes>
+                <opcao id="V">
+                    <texto>Verdadeiro</texto>
+                    <descricao>Não, Sydney é uma das maiores e mais famosas cidades da Austrália, mas não é a capital.</descricao>
+                </opcao>
+                <opcao id="F">
+                    <texto>Falso</texto>
+                    <descricao>Exato! A capital da Austrália é Camberra.</descricao>
+                </opcao>
+            </opcoes>
+            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
+        </questao>
+        <questao>
+            <pergunta>Qual é a capital do Canadá?</pergunta>
+            <categoria>Geografia</categoria>
+            <dificuldade>Média</dificuldade>
+            <tipo>multipla_escolha</tipo>
+            <opcoes>
+                <opcao id="A">
+                    <texto>Toronto</texto>
+                    <descricao>Toronto é a maior cidade do Canadá e um importante centro financeiro, mas não é a capital.</descricao>
+                </opcao>
+                <opcao id="B">
+                    <texto>Vancouver</texto>
+                    <descricao>Vancouver é uma grande cidade costeira conhecida por sua beleza natural, mas não é a capital do Canadá.</descricao>
+                </opcao>
+                <opcao id="C">
+                    <texto>Ottawa</texto>
+                    <descricao>Correto! Ottawa é a capital federal do Canadá, localizada na província de Ontário.</descricao>
+                </opcao>
+                <opcao id="D">
+                    <texto>Montreal</texto>
+                    <descricao>Montreal é uma das maiores cidades do Canadá e um centro cultural importante, mas não a capital.</descricao>
+                </opcao>
+            </opcoes>
+            <respostaCorreta idOpcao="C">Ottawa</respostaCorreta>
+        </questao>
+
+        <questao>
+            <pergunta>Qual é a unidade do SI (Sistema Internacional) para corrente elétrica?</pergunta>
+            <categoria>Física</categoria>
+            <dificuldade>Fácil</dificuldade>
+            <tipo>multipla_escolha</tipo>
+            <opcoes>
+                <opcao id="A">
+                    <texto>Volt</texto>
+                    <descricao>O Volt é a unidade de diferença de potencial elétrico, não de corrente elétrica.</descricao>
+                </opcao>
+                <opcao id="B">
+                    <texto>Ohm</texto>
+                    <descricao>O Ohm é a unidade de resistência elétrica, não de corrente elétrica.</descricao>
+                </opcao>
+                <opcao id="C">
+                    <texto>Ampere</texto>
+                    <descricao>Correto! O Ampere é a unidade fundamental de corrente elétrica no Sistema Internacional de Unidades.</descricao>
+                </opcao>
+                <opcao id="D">
+                    <texto>Watt</texto>
+                    <descricao>O Watt é a unidade de potência, não de corrente elétrica.</descricao>
+                </opcao>
+            </opcoes>
+            <respostaCorreta idOpcao="C">Ampere</respostaCorreta>
+        </questao>
+        <questao>
+            <pergunta>O Rio Amazonas é o rio mais longo do mundo. (Verdadeiro/Falso)</pergunta>
+            <categoria>Geografia</categoria>
+            <dificuldade>Fácil</dificuldade>
+            <tipo>verdadeiro_ou_falso</tipo>
+            <opcoes>
+                <opcao id="V">
+                    <texto>Verdadeiro</texto>
+                    <descricao>Correto! Embora haja debates históricos, a medição mais aceita atualmente considera o Rio Amazonas como o mais longo do mundo, superando o Rio Nilo.</descricao>
+                </opcao>
+                <opcao id="F">
+                    <texto>Falso</texto>
+                    <descricao>Incorreto. Medições recentes indicam que o Rio Amazonas é, de fato, o rio mais longo do mundo.</descricao>
+                </opcao>
+            </opcoes>
+            <respostaCorreta idOpcao="V">Verdadeiro</respostaCorreta>
+        </questao>
+
+        <questao>
+            <pergunta>A gravidade da Terra puxa os objetos para cima. (Verdadeiro/Falso)</pergunta>
+            <categoria>Física</categoria>
+            <dificuldade>Fácil</dificuldade>
+            <tipo>verdadeiro_ou_falso</tipo>
+            <opcoes>
+                <opcao id="V">
+                    <texto>Verdadeiro</texto>
+                    <descricao>Incorreto. A gravidade da Terra puxa os objetos em direção ao seu centro, ou seja, para baixo.</descricao>
+                </opcao>
+                <opcao id="F">
+                    <texto>Falso</texto>
+                    <descricao>Correto! A gravidade da Terra é uma força de atração que puxa os objetos para baixo, em direção ao seu centro.</descricao>
+                </opcao>
+            </opcoes>
+            <respostaCorreta idOpcao="F">Falso</respostaCorreta>
+        </questao>
+    </secao_questoes>
+
+</atividade>
