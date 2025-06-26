@@ -1184,9 +1184,9 @@
                     <descricao>Incorreto. Is é usado com o verbo to be ou Present Continuous.</descricao>
                 </opcao>
                 <opcao id="D">
-                <texto>Are</texto>
-                <descricao>Incorreto. Are é usado com o verbo to be ou Present Continuous.</descricao>
-            </opcoes>
+                    <texto>Are</texto>
+                    <descricao>Incorreto. Are é usado com o verbo to be ou Present Continuous.</descricao>
+                </opcao>
             </opcoes>
             <respostaCorreta idOpcao="B">Does</respostaCorreta>
         </questao>
@@ -1210,9 +1210,9 @@
                     <descricao>Esta é uma ação futura.</descricao>
                 </opcao>
                 <opcao id="D">
-                <texto>She was explaining the route.</texto>
-                <descricao>Esta é uma ação passada e contínua.</descricao>
-            </opcoes>
+                    <texto>She was explaining the route.</texto>
+                    <descricao>Esta é uma ação passada e contínua.</descricao>
+                </opcao>
             </opcoes>
             <respostaCorreta idOpcao="B">You turn left at the traffic lights.</respostaCorreta>
         </questao>
