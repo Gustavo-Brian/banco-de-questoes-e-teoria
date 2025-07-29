@@ -281,6 +281,265 @@
         </opcoes>
         <respostaCorreta idOpcao="B">The Earth orbits the Sun.</respostaCorreta>
     </questao>
+     <questao>
+        <pergunta>Qual a forma correta do verbo 'to have' para 'He _______ (have) a new car.'?</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Fácil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>have</texto>
+                <descricao>Incorreto. Para a terceira pessoa do singular ('He'), o verbo 'to have' muda para 'has'.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>has</texto>
+                <descricao>Correto! Para 'He' (terceira pessoa do singular), o verbo 'to have' é conjugado como 'has' no Present Simple.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>having</texto>
+                <descricao>Incorreto. Esta é a forma do gerúndio e não se aplica para descrever posse no Present Simple.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>had</texto>
+                <descricao>Incorreto. Esta é a forma do passado do verbo 'to have'.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="B">has</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Preencha a lacuna: 'We _______ (not / understand) complex instructions.'</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Média</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>doesn't understand</texto>
+                <descricao>Incorreto. Para o sujeito 'We', o auxiliar correto na negativa é 'don't', não 'doesn't'.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>not understand</texto>
+                <descricao>Incorreto. A forma negativa no Present Simple requer o auxiliar 'do' ou 'does'.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>don't understand</texto>
+                <descricao>Correto! Para o sujeito 'We', a forma negativa no Present Simple é 'don't' seguido da forma base do verbo.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>aren't understand</texto>
+                <descricao>Incorreto. O verbo 'to be' ('are') não é usado como auxiliar para formar a negativa no Present Simple com verbos de ação.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">don't understand</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Qual a forma interrogativa correta: 'The store opens at 9 AM.'?</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Média</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>Do the store open at 9 AM?</texto>
+                <descricao>Incorreto. 'The store' equivale a 'It' (terceira pessoa do singular), então o auxiliar correto é 'Does'.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>Does the store opens at 9 AM?</texto>
+                <descricao>Incorreto. Ao usar 'Does' na pergunta, o verbo principal ('open') volta à sua forma base, sem '-s'.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>Does the store open at 9 AM?</texto>
+                <descricao>Correto! Para 'The store' (terceira pessoa do singular), usa-se 'Does' e o verbo principal retorna à sua forma base.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>Is the store open at 9 AM?</texto>
+                <descricao>Incorreto. O verbo 'to be' ('Is') não é usado como auxiliar para formar perguntas no Present Simple com verbos de ação.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">Does the store open at 9 AM?</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Preencha a lacuna com a forma correta do verbo 'to fix': 'The mechanic _______ (fix) cars.' </pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Média</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>fix</texto>
+                <descricao>Incorreto. Para a terceira pessoa do singular ('The mechanic' = 'He'), verbos terminados em '-x' recebem '-es'.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>fixes</texto>
+                <descricao>Correto! Para 'The mechanic' (terceira pessoa do singular), o verbo 'fix' se transforma em 'fixes' no Present Simple.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>fixing</texto>
+                <descricao>Incorreto. Esta é a forma do gerúndio e não se aplica ao Present Simple para descrever uma profissão ou rotina.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>fixed</texto>
+                <descricao>Incorreto. Esta é a forma do passado do verbo 'to fix'.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="B">fixes</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Qual frase descreve uma verdade universal?</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Fácil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>Cats are sleeping now.</texto>
+                <descricao>Incorreto. Esta frase usa o Present Continuous e descreve uma ação ocorrendo no momento.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>The moon shines at night.</texto>
+                <descricao>Correto! Esta frase descreve um fato geral ou uma verdade que é sempre válida, usando o Present Simple ('shines' para 'The moon').</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>Birds were singing.</texto>
+                <descricao>Incorreto. Esta frase usa o Past Continuous e se refere a uma ação em andamento no passado.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>Flowers will bloom in spring.</texto>
+                <descricao>Incorreto. Esta frase usa o Future Simple para indicar uma ação futura.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="B">The moon shines at night.</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Qual a posição correta do advérbio 'sometimes' na frase: 'They eat out on Fridays.'</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Média</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>Sometimes they eat out on Fridays.</texto>
+                <descricao>Correto! 'Sometimes' pode vir no início da frase, antes do sujeito, ou antes do verbo principal.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>They eat sometimes out on Fridays.</texto>
+                <descricao>Incorreto. O advérbio de frequência ('sometimes') deve vir antes do verbo principal.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>They eat out sometimes on Fridays.</texto>
+                <descricao>Incorreto. Embora 'sometimes' possa vir no final, a posição antes do verbo principal é mais comum para essa indicação de frequência.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>They eat out on Fridays sometimes.</texto>
+                <descricao>Incorreto. Embora 'sometimes' possa vir no final, a posição antes do verbo principal ou no início é mais típica para a frequência.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="A">Sometimes they eat out on Fridays.</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Preencha a lacuna: 'My class _______ (start) at 8:00 AM every day.'</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Fácil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>start</texto>
+                <descricao>Incorreto. 'My class' equivale a 'It' (terceira pessoa do singular), então o verbo deve receber '-s'.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>starts</texto>
+                <descricao>Correto! 'My class' é terceira pessoa do singular, e a frase descreve uma rotina ou evento programado, então 'start' vira 'starts'.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>starting</texto>
+                <descricao>Incorreto. Esta é a forma do gerúndio.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>started</texto>
+                <descricao>Incorreto. Esta é a forma do passado.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="B">starts</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Qual frase usa o Present Simple para expressar uma opinião ou sentimento duradouro?</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Média</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>I am thinking about it right now.</texto>
+                <descricao>Incorreto. Esta frase usa o Present Continuous e descreve uma ação mental em andamento, não uma opinião duradoura.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>She is hating cold weather.</texto>
+                <descricao>Incorreto. Verbos de estado (como 'hate') geralmente não são usados no Present Continuous para expressar sentimentos duradouros.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>He knows the answer.</texto>
+                <descricao>Correto! 'Know' é um verbo de estado que expressa um conhecimento duradouro, usado no Present Simple.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>They were believing in magic.</texto>
+                <descricao>Incorreto. Esta frase usa o Past Continuous e se refere a uma crença passada.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">He knows the answer.</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Preencha a lacuna: 'The children _______ (play) in the park every afternoon.'</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Fácil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>plays</texto>
+                <descricao>Incorreto. 'The children' é plural, então o verbo permanece na forma base.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>play</texto>
+                <descricao>Correto! 'The children' é um sujeito no plural, então o verbo 'play' permanece na sua forma base.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>playing</texto>
+                <descricao>Incorreto. Esta é a forma do gerúndio.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>played</texto>
+                <descricao>Incorreto. Esta é a forma do passado.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="B">play</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Qual a frase negativa correta para: 'He watches TV a lot.'?</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Média</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>He don't watch TV a lot.</texto>
+                <descricao>Incorreto. Para 'He', o auxiliar correto é 'doesn't'.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>He doesn't watches TV a lot.</texto>
+                <descricao>Incorreto. Após 'doesn't', o verbo principal ('watch') volta à forma base.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>He doesn't watch TV a lot.</texto>
+                <descricao>Correto! Para a terceira pessoa do singular, usa-se 'doesn't' e o verbo principal na forma base.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>He not watches TV a lot.</texto>
+                <descricao>Incorreto. É necessário o auxiliar 'do' ou 'does' para formar a negativa.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">He doesn't watch TV a lot.</respostaCorreta>
+    </questao>
     
     </secao_questoes>
 
