@@ -257,31 +257,6 @@
     </questao>
 
     <questao>
-        <pergunta>Preencha a lacuna: "The CEO rarely _______ (travel) for business, but when he _______ (do), he always _______ (stay) in luxury hotels."</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>travels / does / stays</texto>
-                <descricao>Correto! Todos os verbos estão na terceira pessoa do singular, seguindo as regras do Present Simple para 'The CEO'/'he'. A frase descreve hábitos e fatos gerais sobre a rotina do CEO.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>travel / do / stay</texto>
-                <descricao>Incorreto. Todos os verbos estão na forma base, mas o sujeito ('CEO'/'he') é singular.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>is traveling / is doing / is staying</texto>
-                <descricao>Incorreto. Esta é a forma do Present Continuous, e os advérbios 'rarely' e 'always' indicam o Present Simple para hábitos e fatos gerais.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>travels / does / stay</texto>
-                <descricao>Incorreto. O último verbo ('stay') deveria ser 'stays' para concordar com 'he'.</descricao>
-            </opcoes>
-        </opcoes>
-        <respostaCorreta idOpcao="A">travels / does / stays</respostaCorreta>
-    </questao>
-    <questao>
         <pergunta>Preencha a lacuna com a forma correta do verbo 'to be' no Present Simple: "Although the scientific community _______ (be) generally in agreement, public perception of climate change _______ (vary) significantly."</pergunta>
         <categoria>Inglês</categoria>
         <dificuldade>Difícil</dificuldade>
@@ -746,59 +721,6 @@
         </opcoes>
         <respostaCorreta idOpcao="A">depends / guarantees</respostaCorreta>
     </questao>
-
-    <questao>
-        <pergunta>Qual das frases abaixo está corretamente formulada, descrevendo uma instrução ou regra geral de um manual?</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Média</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>The user is connecting the device before turning it on.</texto>
-                <descricao>Incorreto. 'Is connecting' indica uma ação em andamento, não uma instrução geral de um manual.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>The user connects the device before turning it on.</texto>
-                <descricao>Correto! Esta é uma instrução ou regra geral, comum em manuais, corretamente expressa no Present Simple ('connects' para 'The user').</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>The user will connect the device before turning it on.</texto>
-                <descricao>Incorreto. 'Will connect' indica futuro, não uma instrução ou regra geral.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>The user connected the device before turning it on.</texto>
-                <descricao>Incorreto. 'Connected' indica passado, não uma instrução ou regra geral.</descricao>
-            </opcoes>
-        </opcoes>
-        <respostaCorreta idOpcao="B">The user connects the device before turning it on.</respostaCorreta>
-    </questao>
-
-    <questao>
-        <pergunta>Preencha a lacuna: "The management frequently _______ (reassess) its strategies, and this process _______ (involve) input from all stakeholders."</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>reassess / involve</texto>
-                <descricao>Incorreto. 'The management' (singular coletivo) requer 'reassesses'. 'This process' (singular) requer 'involves'.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>reassesses / involves</texto>
-                <descricao>Correto! 'The management' (singular coletivo) + 'reassesses'. 'This process' (singular) + 'involves' estão corretos. A frase descreve rotinas e fatos gerais sobre os processos de gestão.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>is reassessing / is involving</texto>
-                <descricao>Incorreto. Embora o Present Continuous possa indicar ações em andamento, 'frequently' e a descrição de um processo geral indicam o Present Simple.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>reassess / involves</texto>
-                <descricao>Incorreto. 'Reassess' é para plural, mas 'management' é singular.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="B">reassesses / involves</respostaRest>
-    </questao>
-
     </secao_questoes>
 
 </atividade>
