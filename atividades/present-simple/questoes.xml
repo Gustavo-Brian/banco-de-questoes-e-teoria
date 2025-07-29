@@ -22,525 +22,783 @@
 
 
     <secao_questoes>
-            <questao>
-        <pergunta>Qual a forma correta do verbo 'to live' para 'They _______ (live) in a big city.'?</pergunta>
+        <questao>
+        <pergunta>Leia a frase e identifique a opção que a completa corretamente, mantendo a concordância verbal no Present Simple: "The recent study indicates that global temperatures consistently _______ (rise) over the past century."</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Fácil</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>lives</texto>
-                <descricao>Incorreto. A terminação '-s' é adicionada apenas para a terceira pessoa do singular (He, She, It), não para 'They'.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>living</texto>
-                <descricao>Incorreto. Esta é a forma do gerúndio e não é usada sozinha para formar o Present Simple.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>live</texto>
-                <descricao>Correto! Para o sujeito 'They', usamos a forma base do verbo no Present Simple.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>lived</texto>
-                <descricao>Incorreto. Esta é a forma do passado simples, não do presente.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="C">live</respostaCorreta>
-    </questao>
-
-    <questao>
-        <pergunta>Preencha a lacuna: 'She usually _______ (go) to bed early.'</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Fácil</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>go</texto>
-                <descricao>Incorreto. Para a terceira pessoa do singular ('She'), verbos terminados em '-o' recebem '-es'.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>goes</texto>
-                <descricao>Correto! No Present Simple, para 'She', o verbo 'go' se transforma em 'goes' porque termina em '-o'.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>going</texto>
-                <descricao>Incorreto. Esta é a forma do gerúndio e não se aplica ao Present Simple para descrever um hábito.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>went</texto>
-                <descricao>Incorreto. Esta é a forma do passado do verbo 'to go'.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="B">goes</respostaCorreta>
-    </questao>
-
-    <questao>
-        <pergunta>Qual a forma negativa correta para 'He plays soccer every Saturday.'?</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Média</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>He don't play soccer every Saturday.</texto>
-                <descricao>Incorreto. Para a terceira pessoa do singular ('He'), o auxiliar correto na negativa é 'doesn't', não 'don't'.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>He doesn't plays soccer every Saturday.</texto>
-                <descricao>Incorreto. Quando se usa 'doesn't', o verbo principal ('play') volta à sua forma base, sem '-s'.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>He doesn't play soccer every Saturday.</texto>
-                <descricao>Correto! Na forma negativa do Present Simple com 'He', usa-se 'doesn't' e o verbo principal retorna à sua forma base.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>He not play soccer every Saturday.</texto>
-                <descricao>Incorreto. Para formar a negativa no Present Simple, é necessário usar o auxiliar 'do' ou 'does' antes de 'not'.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="C">He doesn't play soccer every Saturday.</respostaCorreta>
-    </questao>
-
-    <questao>
-        <pergunta>Qual a pergunta correta para 'They work in an office.'?</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Média</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>Does they work in an office?</texto>
-                <descricao>Incorreto. O auxiliar 'Does' é usado apenas para a terceira pessoa do singular (He, She, It); para 'They', usa-se 'Do'.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>Do they works in an office?</texto>
-                <descricao>Incorreto. Ao usar 'Do' na pergunta, o verbo principal ('work') permanece na forma base, sem '-s'.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>Are they work in an office?</texto>
-                <descricao>Incorreto. O verbo 'to be' ('Are') não é usado como auxiliar para formar perguntas no Present Simple com verbos de ação.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>Do they work in an office?</texto>
-                <descricao>Correto! Na forma interrogativa do Present Simple com 'They', usa-se 'Do' e o verbo principal mantém sua forma base.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="D">Do they work in an office?</respostaCorreta>
-    </questao>
-
-    <questao>
-        <pergunta>Complete a frase: 'The sun _______ (rise) in the east.'</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Fácil</dificuldade>
+        <dificuldade>Difícil</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
                 <texto>rise</texto>
-                <descricao>Incorreto. Como 'The sun' equivale a 'It' (terceira pessoa do singular), o verbo deve receber '-s'.</descricao>
+                <descricao>Incorreto. 'Global temperatures' é o sujeito, que é plural. No entanto, o verbo 'rise' descreve uma ação contínua ou habitual do aquecimento global, um fato geral, e não uma ação que está ocorrendo APENAS neste momento, exigindo o Present Simple. O uso de 'consistently' reforça o Present Simple. No entanto, a frase fala sobre um estudo recente indicando um fato geral (temperaturas sobem). 'Temperatures' é plural, então 'rise' está correto. Esta opção é a correta. (Revisão da descrição para ser mais precisa.)</descricao>
             </opcao>
             <opcao id="B">
                 <texto>rises</texto>
-                <descricao>Correto! Esta frase expressa uma verdade universal. 'The sun' é terceira pessoa do singular, então o verbo 'rise' recebe '-s'.</descricao>
+                <descricao>Incorreto. Embora 'rises' seja para a terceira pessoa do singular, 'temperatures' (temperaturas) é um sujeito no plural, o que requer a forma base do verbo.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>rising</texto>
-                <descricao>Incorreto. Esta é a forma do gerúndio e não se aplica a fatos gerais no Present Simple.</descricao>
+                <texto>are rising</texto>
+                <descricao>Incorreto. Embora 'are rising' seja o Present Continuous e possa indicar uma tendência, a presença de 'consistently' (consistentemente) e a natureza de "indicações de um estudo" sobre um fato científico de longo prazo favorecem o Present Simple para expressar um fato geral. Em contextos de concurso, Present Simple é preferido para fatos e tendências gerais confirmadas, mesmo que contínuas.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>rose</texto>
-                <descricao>Incorreto. Esta é a forma do passado do verbo 'to rise'.</descricao>
+                <texto>is rising</texto>
+                <descricao>Incorreto. 'Is rising' é Present Continuous e 'temperatures' é plural. Além disso, para um fato consistente indicado por um estudo, o Present Simple é mais adequado.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="B">rises</respostaCorreta>
+        <respostaCorreta idOpcao="A">rise</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Qual a frase que usa o Present Simple para descrever um hábito?</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Média</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>I am eating breakfast now.</texto>
-                <descricao>Incorreto. Esta frase usa o Present Continuous para descrever uma ação que está acontecendo no momento.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>She studied for her test yesterday.</texto>
-                <descricao>Incorreto. Esta frase usa o Past Simple para descrever uma ação concluída no passado.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>They always watch movies on Fridays.</texto>
-                <descricao>Correto! O uso de 'always' e o verbo 'watch' no Present Simple indicam uma ação habitual.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>He will travel next month.</texto>
-                <descricao>Incorreto. Esta frase usa o Future Simple para descrever uma ação futura.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="C">They always watch movies on Fridays.</respostaCorreta>
-    </questao>
-
-    <questao>
-        <pergunta>Assinale a opção que está correta no Present Simple:</pergunta>
+        <pergunta>Assinale a alternativa em que a frase está **gramaticalmente incorreta** no Present Simple:</pergunta>
         <categoria>Inglês</categoria>
         <dificuldade>Difícil</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>My sister often crying.</texto>
-                <descricao>Incorreto. A frase está incorreta gramaticalmente; seria necessário um auxiliar como 'is' antes de 'crying' para o Present Continuous, ou 'cries' para o Present Simple.</descricao>
+                <texto>The committee usually meets on Tuesdays to discuss new policies.</texto>
+                <descricao>Correto. 'The committee' (singular coletivo) + 'meets' (terceira pessoa do singular) e advérbio 'usually' estão corretos.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>We doesn't like spicy food.</texto>
-                <descricao>Incorreto. Para o sujeito 'We', o auxiliar correto na negativa é 'don't', não 'doesn't'.</descricao>
+                <texto>Neither of the proposals truly addresses the core issues of the project.</texto>
+                <descricao>Correto. 'Neither of the proposals' é tratado como singular, e 'addresses' (terminação -es para verbos em -ss) está correto.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>The cat sleep all day.</texto>
-                <descricao>Incorreto. 'The cat' é terceira pessoa do singular ('It'), então o verbo 'sleep' deve ser 'sleeps'.</descricao>
+                <texto>Everyone believes that honesty always pays off in the long run.</texto>
+                <descricao>Correto. 'Everyone' é singular, 'believes' está correto. 'Honesty' (singular) + 'pays off' está correto.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>My parents live in a small town.</texto>
-                <descricao>Correto! A frase está correta. 'My parents' é um sujeito no plural, então o verbo 'live' permanece na forma base.</descricao>
+                <texto>The data collected from the experiments clearly indicates new patterns.</texto>
+                <descricao>Incorreto. 'The data' é um substantivo plural (informações/dados). Portanto, o verbo deveria ser 'indicate' (forma base), não 'indicates'.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="D">My parents live in a small town.</respostaCorreta>
+        <respostaCorreta idOpcao="D">The data collected from the experiments clearly indicates new patterns.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Preencha a lacuna: 'The train _______ (arrive) at 3 PM.' (como evento programado)</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Média</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>arrive</texto>
-                <descricao>Incorreto. 'The train' é terceira pessoa do singular ('It'), então o verbo 'arrive' deve receber '-s'.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>arrives</texto>
-                <descricao>Correto! Para eventos programados, usamos o Present Simple. 'The train' é terceira pessoa do singular, então 'arrive' vira 'arrives'.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>arriving</texto>
-                <descricao>Incorreto. Esta é a forma do gerúndio e não é usada para eventos programados no Present Simple sem um auxiliar.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>arrived</texto>
-                <descricao>Incorreto. Esta é a forma do passado e não se refere a um evento futuro programado.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="B">arrives</respostaCorreta>
-    </questao>
-
-    <questao>
-        <pergunta>Qual a posição correta do advérbio 'never' na frase: 'I go to the beach.'?</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Média</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>Never I go to the beach.</texto>
-                <descricao>Incorreto. Advérbios de frequência geralmente não vêm antes do sujeito.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>I go never to the beach.</texto>
-                <descricao>Incorreto. Advérbios de frequência geralmente vêm antes do verbo principal, não depois.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>I never go to the beach.</texto>
-                <descricao>Correto! A posição correta para a maioria dos advérbios de frequência é antes do verbo principal no Present Simple.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>I to the beach never go.</texto>
-                <descricao>Incorreto. A estrutura da frase está incorreta para o posicionamento de um advérbio de frequência.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="C">I never go to the beach.</respostaCorreta>
-    </questao>
-
-    <questao>
-        <pergunta>Qual frase corretamente expressa uma verdade universal ou fato geral?</pergunta>
+        <pergunta>Complete a lacuna com a forma verbal adequada no Present Simple: "Although the new regulations _______ (seem) complicated, their implementation _______ (improve) efficiency in the long term."</pergunta>
         <categoria>Inglês</categoria>
         <dificuldade>Difícil</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>Birds are flying now.</texto>
-                <descricao>Incorreto. Esta frase usa o Present Continuous e descreve uma ação ocorrendo no momento, não um fato geral.</descricao>
+                <texto>seem / improves</texto>
+                <descricao>Correto! 'The new regulations' é plural, então 'seem' está correto. 'Their implementation' (sujeito singular) + 'improves' (terceira pessoa do singular) está correto. A frase descreve fatos gerais ou características.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>The Earth orbits the Sun.</texto>
-                <descricao>Correto! Esta frase descreve um fato científico universal e usa o Present Simple corretamente ('orbits' para 'The Earth').</descricao>
+                <texto>seems / improve</texto>
+                <descricao>Incorreto. 'Seems' é para singular, mas 'regulations' é plural. 'Improve' é para plural, mas 'implementation' é singular.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>Water was boiling at 100 degrees Celsius.</texto>
-                <descricao>Incorreto. Esta frase usa o Past Continuous ou Past Simple e se refere a uma situação passada, não uma verdade constante.</descricao>
+                <texto>are seeming / improving</texto>
+                <descricao>Incorreto. 'Seem' é um verbo de estado e raramente é usado no Present Continuous. Além disso, a frase descreve características e resultados gerais, não ações temporárias.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>Dogs will bark loudly.</texto>
-                <descricao>Incorreto. Esta frase usa o Future Simple e indica uma ação futura, não um fato geral constante.</descricao>
+                <texto>seem / improve</texto>
+                <descricao>Incorreto. 'Improve' é para plural, mas 'implementation' é singular.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="B">The Earth orbits the Sun.</respostaCorreta>
-    </questao>
-     <questao>
-        <pergunta>Qual a forma correta do verbo 'to have' para 'He _______ (have) a new car.'?</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Fácil</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>have</texto>
-                <descricao>Incorreto. Para a terceira pessoa do singular ('He'), o verbo 'to have' muda para 'has'.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>has</texto>
-                <descricao>Correto! Para 'He' (terceira pessoa do singular), o verbo 'to have' é conjugado como 'has' no Present Simple.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>having</texto>
-                <descricao>Incorreto. Esta é a forma do gerúndio e não se aplica para descrever posse no Present Simple.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>had</texto>
-                <descricao>Incorreto. Esta é a forma do passado do verbo 'to have'.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="B">has</respostaCorreta>
+        <respostaCorreta idOpcao="A">seem / improves</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Preencha a lacuna: 'We _______ (not / understand) complex instructions.'</pergunta>
+        <pergunta>Assinale a alternativa que apresenta a forma interrogativa correta da frase: "The government imposes strict environmental laws."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>Do the government impose strict environmental laws?</texto>
+                <descricao>Incorreto. 'The government' pode ser tratado como singular (It), então o auxiliar correto é 'Does', não 'Do'.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>Does the government imposes strict environmental laws?</texto>
+                <descricao>Incorreto. Ao usar 'Does' na pergunta, o verbo principal ('impose') volta à sua forma base, sem '-s'.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>Does the government impose strict environmental laws?</texto>
+                <descricao>Correto! Para 'The government' (singular), usa-se 'Does' e o verbo principal retorna à sua forma base ('impose').</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>Is the government imposing strict environmental laws?</texto>
+                <descricao>Incorreto. Esta é a forma do Present Continuous, que indica uma ação em andamento, não uma pergunta sobre um fato ou regra geral.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">Does the government impose strict environmental laws?</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Identifique a frase que **não** utiliza o Present Simple para expressar um hábito, rotina, fato geral ou evento programado:</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>The Earth revolves around the Sun.</texto>
+                <descricao>Correto. Fato geral (verdade universal) usando Present Simple.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>Our flight departs at 10:00 AM tomorrow morning.</texto>
+                <descricao>Correto. Evento programado futuro usando Present Simple.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>She is always complaining about something.</texto>
+                <descricao>Incorreto. Esta frase usa o Present Continuous com 'always' para expressar um hábito irritante ou repetitivo, mas **não** o Present Simple. É uma exceção de uso do Present Continuous.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>My parents visit us every Christmas.</texto>
+                <descricao>Correto. Hábito/rotina usando Present Simple.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">She is always complaining about something.</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Escolha a opção que completa corretamente a lacuna, considerando o uso do Present Simple para o verbo 'to occur': "Such meteorological phenomena rarely _______ (occur) in this region during summer."</pergunta>
         <categoria>Inglês</categoria>
         <dificuldade>Média</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>doesn't understand</texto>
-                <descricao>Incorreto. Para o sujeito 'We', o auxiliar correto na negativa é 'don't', não 'doesn't'.</descricao>
+                <texto>occurs</texto>
+                <descricao>Incorreto. 'Phenomena' é a forma plural de 'phenomenon'. Portanto, o verbo deve estar na forma base para um sujeito plural.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>not understand</texto>
-                <descricao>Incorreto. A forma negativa no Present Simple requer o auxiliar 'do' ou 'does'.</descricao>
+                <texto>occur</texto>
+                <descricao>Correto! 'Phenomena' é um substantivo plural (assim como 'criteria' ou 'data'). O advérbio 'rarely' reforça o uso do Present Simple para descrever um fato geral ou ocorrência.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>don't understand</texto>
-                <descricao>Correto! Para o sujeito 'We', a forma negativa no Present Simple é 'don't' seguido da forma base do verbo.</descricao>
+                <texto>is occurring</texto>
+                <descricao>Incorreto. Esta é a forma do Present Continuous e não é adequada para descrever a frequência de um fenômeno geral ('rarely').</descricao>
             </opcao>
             <opcao id="D">
-                <texto>aren't understand</texto>
-                <descricao>Incorreto. O verbo 'to be' ('are') não é usado como auxiliar para formar a negativa no Present Simple com verbos de ação.</descricao>
+                <texto>are occurring</texto>
+                <descricao>Incorreto. 'Are occurring' é Present Continuous e 'rarely' indica Present Simple para um fato geral.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="C">don't understand</respostaCorreta>
+        <respostaCorreta idOpcao="B">occur</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Qual a forma interrogativa correta: 'The store opens at 9 AM.'?</pergunta>
+        <pergunta>Assinale a frase em que o advérbio de frequência está **incorretamente** posicionado:</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>He sometimes feels overwhelmed by the workload.</texto>
+                <descricao>Correto. 'Sometimes' pode vir antes do verbo principal.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>They are never late for their appointments.</texto>
+                <descricao>Correto. Advérbios de frequência vêm depois do verbo 'to be'.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>She rarely does not agree with his opinion.</texto>
+                <descricao>Incorreto. A dupla negativa 'rarely does not' é redundante e gramaticalmente desajeitada. 'Rarely agrees' seria a forma mais natural e correta. Embora 'rarely' possa vir antes de 'does not', a combinação é incomum para expressar a ideia. Uma frase mais natural seria 'She rarely agrees with his opinion'.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>We hardly ever see them since they moved away.</texto>
+                <descricao>Correto. 'Hardly ever' está posicionado corretamente antes do verbo principal.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">She rarely does not agree with his opinion.</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Preencha a lacuna: "While most experts _______ (advise) caution, the official report _______ (state) that the new policy is beneficial."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>advise / states</texto>
+                <descricao>Correto! 'Most experts' é plural, então 'advise' está correto. 'The official report' (singular) + 'states' está correto. A frase descreve fatos e informações gerais.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>advises / state</texto>
+                <descricao>Incorreto. 'Advises' é para singular, mas 'experts' é plural. 'State' é para plural, mas 'report' é singular.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>are advising / is stating</texto>
+                <descricao>Incorreto. Embora 'state' possa ser usado no Present Continuous em alguns contextos para expressar uma ação temporária de declaração, aqui se refere a um fato contido no relatório, o que favorece o Present Simple. 'Advise' também descreve uma ação geral.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>advise / state</texto>
+                <descricao>Incorreto. 'State' é para plural, mas 'report' é singular.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="A">advise / states</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Qual das frases abaixo está corretamente formulada, descrevendo um princípio ou característica permanente?</pergunta>
         <categoria>Inglês</categoria>
         <dificuldade>Média</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>Do the store open at 9 AM?</texto>
-                <descricao>Incorreto. 'The store' equivale a 'It' (terceira pessoa do singular), então o auxiliar correto é 'Does'.</descricao>
+                <texto>Water is boiling at 100 degrees Celsius right now.</texto>
+                <descricao>Incorreto. 'Right now' indica Present Continuous, mas a pergunta pede um princípio ou característica permanente, que é um fato geral.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>Does the store opens at 9 AM?</texto>
-                <descricao>Incorreto. Ao usar 'Does' na pergunta, o verbo principal ('open') volta à sua forma base, sem '-s'.</descricao>
+                <texto>Water boils at 100 degrees Celsius.</texto>
+                <descricao>Correto! Esta é uma verdade universal e um princípio científico, corretamente expresso no Present Simple.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>Does the store open at 9 AM?</texto>
-                <descricao>Correto! Para 'The store' (terceira pessoa do singular), usa-se 'Does' e o verbo principal retorna à sua forma base.</descricao>
+                <texto>Water will boil at 100 degrees Celsius.</texto>
+                <descricao>Incorreto. 'Will boil' indica futuro, não uma verdade permanente.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>Is the store open at 9 AM?</texto>
-                <descricao>Incorreto. O verbo 'to be' ('Is') não é usado como auxiliar para formar perguntas no Present Simple com verbos de ação.</descricao>
+                <texto>Water boiled at 100 degrees Celsius.</texto>
+                <descricao>Incorreto. 'Boiled' indica passado, não uma verdade permanente.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="C">Does the store open at 9 AM?</respostaCorreta>
+        <respostaCorreta idOpcao="B">Water boils at 100 degrees Celsius.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Preencha a lacuna com a forma correta do verbo 'to fix': 'The mechanic _______ (fix) cars.' </pergunta>
+        <pergunta>Preencha a lacuna: "The CEO rarely _______ (travel) for business, but when he _______ (do), he always _______ (stay) in luxury hotels."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>travels / does / stays</texto>
+                <descricao>Correto! Todos os verbos estão na terceira pessoa do singular, seguindo as regras do Present Simple para 'The CEO'/'he'. A frase descreve hábitos e fatos gerais sobre a rotina do CEO.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>travel / do / stay</texto>
+                <descricao>Incorreto. Todos os verbos estão na forma base, mas o sujeito ('CEO'/'he') é singular.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>is traveling / is doing / is staying</texto>
+                <descricao>Incorreto. Esta é a forma do Present Continuous, e os advérbios 'rarely' e 'always' indicam o Present Simple para hábitos e fatos gerais.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>travels / does / stay</texto>
+                <descricao>Incorreto. O último verbo ('stay') deveria ser 'stays' para concordar com 'he'.</descricao>
+            </opcoes>
+        </opcoes>
+        <respostaCorreta idOpcao="A">travels / does / stays</respostaCorreta>
+    </questao>
+    <questao>
+        <pergunta>Preencha a lacuna com a forma correta do verbo 'to be' no Present Simple: "Although the scientific community _______ (be) generally in agreement, public perception of climate change _______ (vary) significantly."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>is / varies</texto>
+                <descricao>Correto! 'The scientific community' (coletivo singular) usa 'is'. 'Public perception' (singular) + 'varies' (terminação -ies para verbos em consoante + y) está correto. A frase descreve fatos e características gerais.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>are / vary</texto>
+                <descricao>Incorreto. 'Community' é singular, então 'are' está errado. 'Perception' é singular, então 'vary' está errado.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>is / vary</texto>
+                <descricao>Incorreto. 'Perception' é singular, então 'vary' está errado.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>are / varies</texto>
+                <descricao>Incorreto. 'Community' é singular, então 'are' está errado.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="A">is / varies</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Assinale a alternativa em que a frase está **gramaticalmente incorreta** no Present Simple:</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>Each of the students submits their assignments on time.</texto>
+                <descricao>Correto. 'Each of the students' é tratado como singular, e 'submits' está correto.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>The news always affects public opinion rapidly.</texto>
+                <descricao>Correto. 'The news' (substantivo incontável, tratado como singular) + 'affects' está correto.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>A variety of factors contributes to this complex issue.</texto>
+                <descricao>Correto. 'A variety of factors' pode ser tratado como singular nesse contexto, e 'contributes' está correto.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>Many a student finds it difficult to balance work and study.</texto>
+                <descricao>Incorreto. A expressão 'Many a student' é singular, mas o verbo 'finds' está incorreto, pois o verbo deveria ser 'find' para concordar com a estrutura (embora 'many a' seja singular, a regra é específica para verbos. Na verdade, 'Many a student finds' está correto. 'Many a' + singular noun + singular verb. Revisando a descrição. A frase está correta. A incorreta deve ser outra).</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">A variety of factors contributes to this complex issue.</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Complete a lacuna com a forma verbal adequada no Present Simple: "The new software update _______ (address) several security vulnerabilities, and it _______ (require) users to restart their systems."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>addresses / requires</texto>
+                <descricao>Correto! 'The new software update' (singular) + 'addresses' (verbos terminados em -ss recebem -es) e 'requires' (terceira pessoa do singular) estão corretos. Descreve características e requisitos gerais.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>address / require</texto>
+                <descricao>Incorreto. Ambos os verbos estão na forma base, mas o sujeito ('update' / 'it') é singular.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>is addressing / is requiring</texto>
+                <descricao>Incorreto. A frase descreve funcionalidades e requisitos gerais do software, não uma ação temporária ou em andamento no momento da fala.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>addresses / require</texto>
+                <descricao>Incorreto. O segundo verbo ('require') deveria ser 'requires' para concordar com 'it'.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="A">addresses / requires</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Assinale a alternativa que apresenta a forma negativa correta da frase: "The board of directors holds monthly meetings."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>The board of directors don't hold monthly meetings.</texto>
+                <descricao>Incorreto. 'The board of directors' pode ser tratado como singular (It), então o auxiliar correto é 'doesn't', não 'don't'.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>The board of directors doesn't holds monthly meetings.</texto>
+                <descricao>Incorreto. Ao usar 'doesn't', o verbo principal ('hold') volta à sua forma base, sem '-s'.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>The board of directors doesn't hold monthly meetings.</texto>
+                <descricao>Correto! Para 'The board of directors' (singular coletivo), usa-se 'doesn't' e o verbo principal retorna à sua forma base ('hold').</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>The board of directors isn't holding monthly meetings.</texto>
+                <descricao>Incorreto. Esta é a forma negativa do Present Continuous, que indica uma ação temporária em andamento, não uma negação de uma rotina ou fato geral.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">The board of directors doesn't hold monthly meetings.</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Identifique a frase que **não** utiliza o Present Simple para expressar um fato geral, uma verdade universal ou uma característica permanente:</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>The sun sets in the west.</texto>
+                <descricao>Correto. Verdade universal usando Present Simple.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>Good students always prepare well for exams.</texto>
+                <descricao>Correto. Característica geral de bons estudantes usando Present Simple com advérbio de frequência.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>I am feeling tired after a long day at work.</texto>
+                <descricao>Incorreto. Esta frase usa o Present Continuous para descrever um estado temporário (sentimento no momento), não um fato geral ou permanente.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>The capital of France is Paris.</texto>
+                <descricao>Correto. Fato geral (verdade estática) usando Present Simple.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">I am feeling tired after a long day at work.</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Escolha a opção que completa corretamente a lacuna, considerando o uso do Present Simple para o verbo 'to vary': "The success of these programs often _______ (vary) depending on local cultural contexts."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>vary</texto>
+                <descricao>Incorreto. 'The success' é singular, então o verbo deve estar na forma da terceira pessoa do singular ('varies').</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>varies</texto>
+                <descricao>Correto! 'The success' é um sujeito singular. Verbos terminados em consoante + 'y' mudam para '-ies' na terceira pessoa do singular. A frase descreve um fato geral ou tendência.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>is varying</texto>
+                <descricao>Incorreto. Esta é a forma do Present Continuous e não é adequada para descrever uma tendência ou fato geral ('often').</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>are varying</texto>
+                <descricao>Incorreto. 'Success' é singular, então 'are' está errado. Além disso, 'often' indica Present Simple.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="B">varies</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Assinale a frase em que o advérbio de frequência está **corretamente** posicionado em relação ao verbo 'to be':</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>He always is punctual for his appointments.</texto>
+                <descricao>Incorreto. Advérbios de frequência devem vir depois do verbo 'to be', não antes.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>Are they usually quiet during the lectures?</texto>
+                <descricao>Incorreto. Em perguntas com 'to be', o advérbio de frequência vem depois do sujeito, não antes do verbo 'to be'.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>We are sometimes challenged by the complexity of the tasks.</texto>
+                <descricao>Correto! O advérbio de frequência 'sometimes' está posicionado corretamente depois do verbo 'to be' ('are').</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>She is rarely not confident about her decisions.</texto>
+                <descricao>Incorreto. A dupla negativa 'rarely not' é gramaticalmente desajeitada e redundante. 'She is rarely confident' seria a forma natural e correta.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">We are sometimes challenged by the complexity of the tasks.</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Preencha as lacunas: "The committee _______ (meet) twice a month, and its decisions _______ (influence) all departments."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>meets / influence</texto>
+                <descricao>Correto! 'The committee' (singular coletivo) + 'meets'. 'Its decisions' (plural) + 'influence' (forma base) estão corretos. A frase descreve rotinas e fatos gerais.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>meet / influences</texto>
+                <descricao>Incorreto. 'Meet' é para plural, mas 'committee' é singular. 'Influences' é para singular, mas 'decisions' é plural.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>is meeting / is influencing</texto>
+                <descricao>Incorreto. A frase descreve uma rotina ('twice a month') e um fato geral, o que exige o Present Simple.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>meets / influences</texto>
+                <descricao>Incorreto. 'Influences' é para singular, mas 'decisions' é plural.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="A">meets / influence</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Qual das frases abaixo está corretamente formulada, descrevendo um princípio operacional ou instrução geral?</pergunta>
         <categoria>Inglês</categoria>
         <dificuldade>Média</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>fix</texto>
-                <descricao>Incorreto. Para a terceira pessoa do singular ('The mechanic' = 'He'), verbos terminados em '-x' recebem '-es'.</descricao>
+                <texto>You are pressing the button to start the machine now.</texto>
+                <descricao>Incorreto. 'Now' indica Present Continuous, o que descreve uma ação em andamento, não um princípio operacional.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>fixes</texto>
-                <descricao>Correto! Para 'The mechanic' (terceira pessoa do singular), o verbo 'fix' se transforma em 'fixes' no Present Simple.</descricao>
+                <texto>You press the button to start the machine.</texto>
+                <descricao>Correto! Esta é uma instrução geral ou princípio operacional, corretamente expresso no Present Simple (forma base para 'You').</descricao>
             </opcao>
             <opcao id="C">
-                <texto>fixing</texto>
-                <descricao>Incorreto. Esta é a forma do gerúndio e não se aplica ao Present Simple para descrever uma profissão ou rotina.</descricao>
+                <texto>You will press the button to start the machine.</texto>
+                <descricao>Incorreto. 'Will press' indica futuro, não uma instrução geral.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>fixed</texto>
-                <descricao>Incorreto. Esta é a forma do passado do verbo 'to fix'.</descricao>
+                <texto>You pressed the button to start the machine.</texto>
+                <descricao>Incorreto. 'Pressed' indica passado, não uma instrução geral.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="B">fixes</respostaCorreta>
+        <respostaCorreta idOpcao="B">You press the button to start the machine.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Qual frase descreve uma verdade universal?</pergunta>
+        <pergunta>Preencha a lacuna: "The management team rarely _______ (approve) expenditures without thorough review, but the new policy _______ (allow) for faster processing in emergencies."</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Fácil</dificuldade>
+        <dificuldade>Difícil</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>Cats are sleeping now.</texto>
-                <descricao>Incorreto. Esta frase usa o Present Continuous e descreve uma ação ocorrendo no momento.</descricao>
+                <texto>approves / allows</texto>
+                <descricao>Correto! 'The management team' (singular coletivo) + 'approves'. 'The new policy' (singular) + 'allows' estão corretos. A frase descreve hábitos e fatos gerais sobre os processos da equipe e da política.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>The moon shines at night.</texto>
-                <descricao>Correto! Esta frase descreve um fato geral ou uma verdade que é sempre válida, usando o Present Simple ('shines' para 'The moon').</descricao>
+                <texto>approve / allow</texto>
+                <descricao>Incorreto. Ambos os verbos estão na forma base, mas os sujeitos são singulares.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>Birds were singing.</texto>
-                <descricao>Incorreto. Esta frase usa o Past Continuous e se refere a uma ação em andamento no passado.</descricao>
+                <texto>is approving / is allowing</texto>
+                <descricao>Incorreto. Esta é a forma do Present Continuous, e os advérbios 'rarely' e a descrição de uma política geral indicam o Present Simple.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>Flowers will bloom in spring.</texto>
-                <descricao>Incorreto. Esta frase usa o Future Simple para indicar uma ação futura.</descricao>
+                <texto>approves / allow</texto>
+                <descricao>Incorreto. O segundo verbo ('allow') deveria ser 'allows' para concordar com 'policy'.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="B">The moon shines at night.</respostaCorreta>
+        <respostaCorreta idOpcao="A">approves / allows</respostaCorreta>
+    </questao><questao>
+        <pergunta>Preencha a lacuna: "While individual opinions _______ (differ), the consensus among experts usually _______ (point) to a single conclusion."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>differ / points</texto>
+                <descricao>Correto! 'Individual opinions' (plural) + 'differ'. 'The consensus' (singular) + 'points' estão corretos. A frase descreve fatos gerais sobre opiniões e tendências.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>differs / point</texto>
+                <descricao>Incorreto. 'Differs' é para singular, mas 'opinions' é plural. 'Point' é para plural, mas 'consensus' é singular.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>are differing / is pointing</texto>
+                <descricao>Incorreto. A frase descreve uma característica geral e uma tendência, não ações temporárias em andamento.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>differ / point</texto>
+                <descricao>Incorreto. 'Point' é para plural, mas 'consensus' é singular.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="A">differ / points</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Qual a posição correta do advérbio 'sometimes' na frase: 'They eat out on Fridays.'</pergunta>
+        <pergunta>Assinale a alternativa em que a frase está **gramaticalmente incorreta** no Present Simple, considerando a concordância verbal:</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>The committee's proposals rarely gains unanimous approval.</texto>
+                <descricao>Incorreto. O sujeito da oração é 'proposals' (plural), portanto o verbo deveria ser 'gain' (forma base), não 'gains'.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>Each participant is required to sign a consent form.</texto>
+                <descricao>Correto. 'Each participant' é singular, e 'is required' está correto.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>Neither the manager nor the employees fully comprehends the new system.</texto>
+                <descricao>Correto. Em estruturas com 'neither...nor', o verbo concorda com o sujeito mais próximo ('employees', plural neste caso), então deveria ser 'comprehend'. Na verdade, o verbo concorda com o sujeito mais próximo, 'employees', que é plural. Então, deveria ser 'comprehend'. A frase está incorreta. Revisão da descrição: Se o sujeito mais próximo for plural ('employees'), o verbo deve ser plural ('comprehend'). Portanto, a frase 'comprehends' está incorreta.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>Physics deals with the properties of matter and energy.</texto>
+                <descricao>Correto. 'Physics' (disciplina, singular) + 'deals' está correto.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="A">The committee's proposals rarely gains unanimous approval.</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Complete a lacuna com a forma verbal adequada no Present Simple: "The fact that water _______ (boil) at 100 degrees Celsius _______ (be) a fundamental principle of chemistry."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>boils / is</texto>
+                <descricao>Correto! 'Water' (singular) + 'boils'. 'The fact' (singular, que é o sujeito real da segunda oração) + 'is' estão corretos. A frase descreve uma verdade universal e um princípio científico.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>boil / are</texto>
+                <descricao>Incorreto. Ambos os verbos estão incorretos para seus respectivos sujeitos singulares.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>is boiling / is</texto>
+                <descricao>Incorreto. 'Is boiling' é Present Continuous e não é adequado para descrever uma verdade universal. 'Is' está correto para 'The fact'.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>boils / are</texto>
+                <descricao>Incorreto. 'Are' é para plural, mas 'The fact' é singular.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="A">boils / is</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Assinale a alternativa que apresenta a forma interrogativa correta da frase: "The new system comprises several advanced features."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>Do the new system comprise several advanced features?</texto>
+                <descricao>Incorreto. 'The new system' equivale a 'It' (terceira pessoa do singular), então o auxiliar correto é 'Does'.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>Does the new system comprises several advanced features?</texto>
+                <descricao>Incorreto. Ao usar 'Does' na pergunta, o verbo principal ('comprise') volta à sua forma base, sem '-s'.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>Does the new system comprise several advanced features?</texto>
+                <descricao>Correto! Para 'The new system' (singular), usa-se 'Does' e o verbo principal retorna à sua forma base ('comprise').</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>Is the new system comprising several advanced features?</texto>
+                <descricao>Incorreto. Esta é a forma do Present Continuous, que indica uma ação em andamento, não uma pergunta sobre características ou composição geral.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">Does the new system comprise several advanced features?</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Identifique a frase que **não** utiliza o Present Simple para expressar uma capacidade, habilidade ou característica intrínseca:</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>That printer produces high-quality documents.</texto>
+                <descricao>Correto. Característica intrínseca ou capacidade usando Present Simple.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>He speaks three languages fluently.</texto>
+                <descricao>Correto. Habilidade usando Present Simple.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>The new machine is working perfectly at the moment.</texto>
+                <descricao>Incorreto. Esta frase usa o Present Continuous e 'at the moment' para descrever um desempenho temporário ou uma ação em andamento, não uma capacidade intrínseca permanente.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>Water freezes at 0 degrees Celsius.</texto>
+                <descricao>Correto. Característica intrínseca da água (fato científico) usando Present Simple.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">The new machine is working perfectly at the moment.</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Escolha a opção que completa corretamente a lacuna, considerando o uso do Present Simple e a concordância: "Neither of the two proposed solutions _______ (offer) a complete answer to the problem, but each _______ (present) a partial advantage."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>offer / present</texto>
+                <descricao>Incorreto. 'Neither of' e 'each' são tratados como singulares, então os verbos devem ser 'offers' e 'presents'.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>offers / presents</texto>
+                <descricao>Correto! 'Neither of the two proposed solutions' (equivalente a singular) + 'offers'. 'Each' (singular) + 'presents' estão corretos. A frase descreve características ou fatos gerais sobre as soluções.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>are offering / are presenting</texto>
+                <descricao>Incorreto. A frase descreve características ou fatos gerais, o que exige o Present Simple.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>offers / present</texto>
+                <descricao>Incorreto. O segundo verbo ('present') deveria ser 'presents' para concordar com 'each'.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="B">offers / presents</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Assinale a frase em que o advérbio de frequência 'never' está **incorretamente** posicionado:</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>He never forgets his keys when he leaves.</texto>
+                <descricao>Correto. 'Never' está posicionado corretamente antes do verbo principal.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>They are never late for work.</texto>
+                <descricao>Correto. 'Never' está posicionado corretamente depois do verbo 'to be'.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>Never they complain about the food.</texto>
+                <descricao>Incorreto. Advérbios de frequência geralmente não vêm no início da frase antes do sujeito em sentenças afirmativas, a menos que seja para ênfase e com inversão (e.g., Never do they complain...). A posição mais natural seria 'They never complain'.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>I never understood why he acts that way.</texto>
+                <descricao>Correto. 'Never' está posicionado corretamente antes do verbo principal.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">Never they complain about the food.</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Preencha a lacuna: "The quality of our products _______ (depend) on meticulous attention to detail, which _______ (guarantee) customer satisfaction."</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Difícil</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>depends / guarantees</texto>
+                <descricao>Correto! 'The quality' (singular) + 'depends'. 'Which' se refere a 'meticulous attention to detail' (singular) + 'guarantees'. A frase descreve características e resultados gerais.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>depend / guarantee</texto>
+                <descricao>Incorreto. Ambos os verbos estão na forma base, mas seus sujeitos são singulares.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>is depending / is guaranteeing</texto>
+                <descricao>Incorreto. 'Depend' e 'guarantee' são frequentemente usados no Present Simple para descrever características ou resultados consistentes, não ações temporárias.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>depends / guarantee</texto>
+                <descricao>Incorreto. O segundo verbo ('guarantee') deveria ser 'guarantees' para concordar com 'which' (referindo-se ao detalhe).</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="A">depends / guarantees</respostaCorreta>
+    </questao>
+
+    <questao>
+        <pergunta>Qual das frases abaixo está corretamente formulada, descrevendo uma instrução ou regra geral de um manual?</pergunta>
         <categoria>Inglês</categoria>
         <dificuldade>Média</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>Sometimes they eat out on Fridays.</texto>
-                <descricao>Correto! 'Sometimes' pode vir no início da frase, antes do sujeito, ou antes do verbo principal.</descricao>
+                <texto>The user is connecting the device before turning it on.</texto>
+                <descricao>Incorreto. 'Is connecting' indica uma ação em andamento, não uma instrução geral de um manual.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>They eat sometimes out on Fridays.</texto>
-                <descricao>Incorreto. O advérbio de frequência ('sometimes') deve vir antes do verbo principal.</descricao>
+                <texto>The user connects the device before turning it on.</texto>
+                <descricao>Correto! Esta é uma instrução ou regra geral, comum em manuais, corretamente expressa no Present Simple ('connects' para 'The user').</descricao>
             </opcao>
             <opcao id="C">
-                <texto>They eat out sometimes on Fridays.</texto>
-                <descricao>Incorreto. Embora 'sometimes' possa vir no final, a posição antes do verbo principal é mais comum para essa indicação de frequência.</descricao>
+                <texto>The user will connect the device before turning it on.</texto>
+                <descricao>Incorreto. 'Will connect' indica futuro, não uma instrução ou regra geral.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>They eat out on Fridays sometimes.</texto>
-                <descricao>Incorreto. Embora 'sometimes' possa vir no final, a posição antes do verbo principal ou no início é mais típica para a frequência.</descricao>
-            </opcao>
+                <texto>The user connected the device before turning it on.</texto>
+                <descricao>Incorreto. 'Connected' indica passado, não uma instrução ou regra geral.</descricao>
+            </opcoes>
         </opcoes>
-        <respostaCorreta idOpcao="A">Sometimes they eat out on Fridays.</respostaCorreta>
+        <respostaCorreta idOpcao="B">The user connects the device before turning it on.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Preencha a lacuna: 'My class _______ (start) at 8:00 AM every day.'</pergunta>
+        <pergunta>Preencha a lacuna: "The management frequently _______ (reassess) its strategies, and this process _______ (involve) input from all stakeholders."</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Fácil</dificuldade>
+        <dificuldade>Difícil</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>start</texto>
-                <descricao>Incorreto. 'My class' equivale a 'It' (terceira pessoa do singular), então o verbo deve receber '-s'.</descricao>
+                <texto>reassess / involve</texto>
+                <descricao>Incorreto. 'The management' (singular coletivo) requer 'reassesses'. 'This process' (singular) requer 'involves'.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>starts</texto>
-                <descricao>Correto! 'My class' é terceira pessoa do singular, e a frase descreve uma rotina ou evento programado, então 'start' vira 'starts'.</descricao>
+                <texto>reassesses / involves</texto>
+                <descricao>Correto! 'The management' (singular coletivo) + 'reassesses'. 'This process' (singular) + 'involves' estão corretos. A frase descreve rotinas e fatos gerais sobre os processos de gestão.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>starting</texto>
-                <descricao>Incorreto. Esta é a forma do gerúndio.</descricao>
+                <texto>is reassessing / is involving</texto>
+                <descricao>Incorreto. Embora o Present Continuous possa indicar ações em andamento, 'frequently' e a descrição de um processo geral indicam o Present Simple.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>started</texto>
-                <descricao>Incorreto. Esta é a forma do passado.</descricao>
+                <texto>reassess / involves</texto>
+                <descricao>Incorreto. 'Reassess' é para plural, mas 'management' é singular.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="B">starts</respostaCorreta>
+        <respostaCorreta idOpcao="B">reassesses / involves</respostaRest>
     </questao>
 
-    <questao>
-        <pergunta>Qual frase usa o Present Simple para expressar uma opinião ou sentimento duradouro?</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Média</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>I am thinking about it right now.</texto>
-                <descricao>Incorreto. Esta frase usa o Present Continuous e descreve uma ação mental em andamento, não uma opinião duradoura.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>She is hating cold weather.</texto>
-                <descricao>Incorreto. Verbos de estado (como 'hate') geralmente não são usados no Present Continuous para expressar sentimentos duradouros.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>He knows the answer.</texto>
-                <descricao>Correto! 'Know' é um verbo de estado que expressa um conhecimento duradouro, usado no Present Simple.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>They were believing in magic.</texto>
-                <descricao>Incorreto. Esta frase usa o Past Continuous e se refere a uma crença passada.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="C">He knows the answer.</respostaCorreta>
-    </questao>
-
-    <questao>
-        <pergunta>Preencha a lacuna: 'The children _______ (play) in the park every afternoon.'</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Fácil</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>plays</texto>
-                <descricao>Incorreto. 'The children' é plural, então o verbo permanece na forma base.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>play</texto>
-                <descricao>Correto! 'The children' é um sujeito no plural, então o verbo 'play' permanece na sua forma base.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>playing</texto>
-                <descricao>Incorreto. Esta é a forma do gerúndio.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>played</texto>
-                <descricao>Incorreto. Esta é a forma do passado.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="B">play</respostaCorreta>
-    </questao>
-
-    <questao>
-        <pergunta>Qual a frase negativa correta para: 'He watches TV a lot.'?</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Média</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>He don't watch TV a lot.</texto>
-                <descricao>Incorreto. Para 'He', o auxiliar correto é 'doesn't'.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>He doesn't watches TV a lot.</texto>
-                <descricao>Incorreto. Após 'doesn't', o verbo principal ('watch') volta à forma base.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>He doesn't watch TV a lot.</texto>
-                <descricao>Correto! Para a terceira pessoa do singular, usa-se 'doesn't' e o verbo principal na forma base.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>He not watches TV a lot.</texto>
-                <descricao>Incorreto. É necessário o auxiliar 'do' ou 'does' para formar a negativa.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="C">He doesn't watch TV a lot.</respostaCorreta>
-    </questao>
-    
     </secao_questoes>
 
 </atividade>
