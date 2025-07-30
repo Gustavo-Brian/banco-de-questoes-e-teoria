@@ -22,704 +22,733 @@
 
 
     <secao_questoes>
-        <questao>
-        <pergunta>Leia a frase e identifique a opção que a completa corretamente, mantendo a concordância verbal no Present Simple: "The recent study indicates that global temperatures consistently _______ (rise) over the past century."</pergunta>
+            <questao>
+        <pergunta>Considerando a natureza multifacetada do Present Simple na língua inglesa, que transcende a mera indicação de ações no tempo presente imediato, e analisando a complexidade de sua aplicação em contextos que denotam rotinas, fatos universais, estados permanentes, ou mesmo eventos programados no futuro, avalie a seguinte afirmação: 'A utilização do Present Simple com advérbios de frequência, como 'always' ou 'constantly', é invariavelmente restrita a contextos de rotina positiva ou neutra, sendo gramaticalmente incorreta para expressar irritação, crítica ou surpresa em relação a um hábito recorrente, para o qual o Present Continuous seria a única forma verbal aceitável.' Com base na teoria do Present Simple e suas nuances de uso, assinale a opção que apresenta a análise CORRETA da afirmação.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>rise</texto>
-                <descricao>Incorreto. 'Global temperatures' é o sujeito, que é plural. No entanto, o verbo 'rise' descreve uma ação contínua ou habitual do aquecimento global, um fato geral, e não uma ação que está ocorrendo APENAS neste momento, exigindo o Present Simple. O uso de 'consistently' reforça o Present Simple. No entanto, a frase fala sobre um estudo recente indicando um fato geral (temperaturas sobem). 'Temperatures' é plural, então 'rise' está correto. Esta opção é a correta. (Revisão da descrição para ser mais precisa.)</descricao>
+                <texto>A afirmação está totalmente correta, pois o Present Simple, por sua própria definição, não possui a capacidade semântica de veicular emoções como irritação ou crítica, sendo sua função primordial a descrição objetiva de fatos ou hábitos.</texto>
+                <descricao>Incorreto. A afirmação é falsa. O Present Simple é usado para fatos e hábitos objetivos. No entanto, o Present Continuous pode ser usado com 'always' ou 'constantly' para expressar **irritação** ou **crítica** sobre um hábito repetitivo ('He is always complaining'). A afirmação diz que o Present Simple seria 'invariavelmente restrito' e 'gramaticalmente incorreta' para tal fim, o que é falso. O Present Simple não é usado com 'always' para indicar irritação.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>rises</texto>
-                <descricao>Incorreto. Embora 'rises' seja para a terceira pessoa do singular, 'temperatures' (temperaturas) é um sujeito no plural, o que requer a forma base do verbo.</descricao>
+                <texto>A afirmação está equivocada, visto que o Present Simple é perfeitamente adequado para descrever hábitos irritantes ou comportamentos recorrentes que causam surpresa, contanto que o advérbio de frequência esteja corretamente posicionado após o verbo principal.</texto>
+                <descricao>Incorreto. A afirmação é falsa. O Present Simple por si só não expressa irritação ou surpresa com hábitos, mesmo com advérbios. É o Present Continuous com advérbios de frequência que cumpre essa função. O posicionamento do advérbio não altera a nuance semântica neste caso específico.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>are rising</texto>
-                <descricao>Incorreto. Embora 'are rising' seja o Present Continuous e possa indicar uma tendência, a presença de 'consistently' (consistentemente) e a natureza de "indicações de um estudo" sobre um fato científico de longo prazo favorecem o Present Simple para expressar um fato geral. Em contextos de concurso, Present Simple é preferido para fatos e tendências gerais confirmadas, mesmo que contínuas.</descricao>
+                <texto>A afirmação está incorreta, pois a expressividade de irritação ou crítica, quando associada a um hábito repetitivo e acompanhada de advérbios como 'always' ou 'constantly', é uma função particular do Present Continuous, e não do Present Simple, o que contradiz a restrição imposta na assertiva inicial.</texto>
+                <descricao>Correto! A afirmação inicial está **incorreta** em sua restrição. O Present Simple é para fatos e rotinas, mas não para expressar irritação com eles. É exatamente o **Present Continuous** (Ex: 'He is always complaining') que cumpre essa função de crítica ou irritação em relação a hábitos, contradizendo a ideia de que o Present Simple seria a forma 'invariavelmente restrita' para tal ou 'gramaticalmente incorreta' para expressar irritação.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>is rising</texto>
-                <descricao>Incorreto. 'Is rising' é Present Continuous e 'temperatures' é plural. Além disso, para um fato consistente indicado por um estudo, o Present Simple é mais adequado.</descricao>
+                <texto>A afirmação é parcialmente correta, pois, embora o Present Simple não seja a forma primária para expressar irritação, em contextos informais e de forte ênfase, ele pode assumir essa conotação, especialmente quando acompanhado de entonação específica.</texto>
+                <descricao>Incorreto. Não há base gramatical que justifique o uso do Present Simple para expressar irritação/crítica sobre hábitos repetitivos, mesmo em contextos informais ou com entonação. Essa é uma função semântica e gramatical específica do Present Continuous.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="A">rise</respostaCorreta>
+        <respostaCorreta idOpcao="C">A afirmação está incorreta, pois a expressividade de irritação ou crítica, quando associada a um hábito repetitivo e acompanhada de advérbios como 'always' ou 'constantly', é uma função particular do Present Continuous, e não do Present Simple, o que contradiz a restrição imposta na assertiva inicial.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Assinale a alternativa em que a frase está **gramaticalmente incorreta** no Present Simple:</pergunta>
+        <pergunta>A partir da análise dos diferentes usos do Present Simple, que abrange desde a descrição de hábitos e verdades universais até a indicação de horários fixos e instruções, e considerando a intrincada relação entre tempo verbal e aspecto verbal na construção do sentido, julgue a seguinte proposição: 'O Present Simple é o tempo verbal de eleição para a narrativa de eventos sequenciais em enredos (plots) de ficção ou roteiros (scripts), por conferir uma sensação de imediatismo e dinamismo aos acontecimentos, substituindo, com frequência, o Past Simple para tal finalidade em obras literárias e cinematográficas.' Marque a opção que melhor reflete a análise da proposição sob a ótica da gramática normativa e do uso estilístico do inglês.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>The committee usually meets on Tuesdays to discuss new policies.</texto>
-                <descricao>Correto. 'The committee' (singular coletivo) + 'meets' (terceira pessoa do singular) e advérbio 'usually' estão corretos.</descricao>
+                <texto>A proposição está incorreta, pois o Present Simple é estritamente limitado a fatos e rotinas, sendo o Past Simple o único tempo verbal gramaticalmente aceitável para narrativas de eventos passados e sequenciais em qualquer tipo de obra.</texto>
+                <descricao>Incorreto. Embora o Past Simple seja o tempo primário para narrativas passadas, o Present Simple é de fato usado em ficção e roteiros para criar imediatismo, conhecido como 'historical present' ou 'narrative present'.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>Neither of the proposals truly addresses the core issues of the project.</texto>
-                <descricao>Correto. 'Neither of the proposals' é tratado como singular, e 'addresses' (terminação -es para verbos em -ss) está correto.</descricao>
+                <texto>A proposição está correta. O uso do Present Simple em narrativas é uma técnica estilística consagrada, denominada 'Presente Histórico' ou 'Presente Narrativo', que visa aproximar o leitor/espectador dos eventos, tornando-os mais vívidos e conferindo-lhes uma qualidade de ação contínua ou recente, sendo uma alternativa comum ao Past Simple em certos gêneros.</texto>
+                <descricao>Correto! A proposição está totalmente correta. O uso do Present Simple em narrativas é uma figura de estilo comum e válida ('historical present' ou 'narrative present') exatamente com o propósito de criar vivacidade e imediatismo, como se os eventos estivessem acontecendo no momento da leitura/visualização. Isso é bastante comum em resumos de enredos, sinopses e roteiros.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>Everyone believes that honesty always pays off in the long run.</texto>
-                <descricao>Correto. 'Everyone' é singular, 'believes' está correto. 'Honesty' (singular) + 'pays off' está correto.</descricao>
+                <texto>A proposição é parcialmente correta, uma vez que o Present Simple pode ser empregado para resumir enredos (plot summaries), mas nunca para a narração direta de eventos em tempo real dentro de um roteiro ou na própria prosa de um romance, onde apenas o Past Simple é permitido.</texto>
+                <descricao>Incorreto. O Present Simple é usado tanto em resumos de enredos quanto na narração direta de eventos em roteiros e, ocasionalmente, em prosa, para o efeito de imediatismo.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>The data collected from the experiments clearly indicates new patterns.</texto>
-                <descricao>Incorreto. 'The data' é um substantivo plural (informações/dados). Portanto, o verbo deveria ser 'indicate' (forma base), não 'indicates'.</descricao>
+                <texto>A proposição é enganosa, pois, apesar de existirem usos estilísticos do Present Simple, estes são meras licenças poéticas ou erros gramaticais tolerados, não sendo uma aplicação normativa para a descrição de eventos sequenciais em enredos.</texto>
+                <descricao>Incorreto. Longe de ser um erro ou mera licença poética, o 'narrative present' é uma técnica estilística reconhecida e utilizada normativamente em determinados contextos literários e de roteiro.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="D">The data collected from the experiments clearly indicates new patterns.</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está correta. O uso do Present Simple em narrativas é uma técnica estilística consagrada, denominada 'Presente Histórico' ou 'Presente Narrativo', que visa aproximar o leitor/espectador dos eventos, tornando-os mais vívidos e conferindo-lhes uma qualidade de ação contínua ou recente, sendo uma alternativa comum ao Past Simple em certos gêneros.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Complete a lacuna com a forma verbal adequada no Present Simple: "Although the new regulations _______ (seem) complicated, their implementation _______ (improve) efficiency in the long term."</pergunta>
+        <pergunta>No âmbito da formação de frases interrogativas no Present Simple, o uso dos auxiliares 'do' e 'does' é mandatório para a vasta maioria dos verbos principais, com exceção notória do verbo 'to be' e dos verbos modais. Considerando as nuances e as potenciais armadilhas na formulação de questões que buscam informações sobre sujeito e objeto, analise a seguinte assertiva: 'Em 'wh-questions' (perguntas com 'what', 'who', 'where', 'when', 'why', 'how'), quando o termo interrogativo (e.g., 'Who', 'What') funciona como sujeito da oração, os auxiliares 'do' ou 'does' são invariavelmente omitidos, independentemente da pessoa gramatical, pois o próprio 'wh-word' já cumpre a função de elemento interrogativo e de sujeito, prevenindo a redundância.' Com base nesta regra específica e na gramática do Present Simple, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>seem / improves</texto>
-                <descricao>Correto! 'The new regulations' é plural, então 'seem' está correto. 'Their implementation' (sujeito singular) + 'improves' (terceira pessoa do singular) está correto. A frase descreve fatos gerais ou características.</descricao>
+                <texto>A proposição está incorreta, pois a omissão dos auxiliares 'do'/'does' em 'wh-questions' só ocorre se o 'wh-word' for 'Who' ou 'What' e se referir a um sujeito singular, sendo exigidos para sujeitos plurais ou outros 'wh-words'.</texto>
+                <descricao>Incorreto. A omissão do auxiliar quando o 'wh-word' é o sujeito aplica-se a qualquer 'wh-word' que funcione como sujeito ('Who', 'What', 'Which', 'How many/much') e a qualquer pessoa gramatical. A regra não se restringe a 'Who'/'What' ou a sujeitos singulares.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>seems / improve</texto>
-                <descricao>Incorreto. 'Seems' é para singular, mas 'regulations' é plural. 'Improve' é para plural, mas 'implementation' é singular.</descricao>
+                <texto>A proposição está correta em sua totalidade. Quando um 'wh-word' atua como sujeito, a estrutura da pergunta no Present Simple omite o auxiliar 'do' ou 'does' e segue a ordem Sujeito + Verbo (conjugado), uma vez que o 'wh-word' já preenche a posição e função de sujeito, evitando a necessidade de um auxiliar.</texto>
+                <descricao>Correto! A proposição está inteiramente correta. Quando o 'wh-word' é o sujeito da pergunta (Ex: 'Who lives here?', 'What causes pollution?'), o auxiliar 'do' ou 'does' é omitido, e o verbo principal é conjugado diretamente após o 'wh-word' (recebendo '-s' para a terceira pessoa do singular, como se o 'wh-word' fosse 'he/she/it').</descricao>
             </opcao>
             <opcao id="C">
-                <texto>are seeming / improving</texto>
-                <descricao>Incorreto. 'Seem' é um verbo de estado e raramente é usado no Present Continuous. Além disso, a frase descreve características e resultados gerais, não ações temporárias.</descricao>
+                <texto>A proposição é parcialmente correta, mas a omissão dos auxiliares 'do'/'does' só se aplica quando o verbo principal é um verbo de estado (state verb), não se estendendo a verbos de ação.</texto>
+                <descricao>Incorreto. A omissão do auxiliar quando o 'wh-word' é o sujeito se aplica tanto a verbos de estado quanto a verbos de ação. A distinção entre verbos de estado e ação não é o fator determinante aqui.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>seem / improve</texto>
-                <descricao>Incorreto. 'Improve' é para plural, mas 'implementation' é singular.</descricao>
+                <texto>A proposição é falsa, pois, mesmo quando o 'wh-word' é o sujeito, a regra geral do Present Simple para perguntas exige a presença de 'do' ou 'does' para manter a estrutura interrogativa padrão da língua inglesa.</texto>
+                <descricao>Incorreto. Esta é uma exceção fundamental à regra geral de formação de perguntas com 'do'/'does' e é normativa na gramática inglesa. Ignorar o auxiliar nessas situações é a forma correta.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="A">seem / improves</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está correta em sua totalidade. Quando um 'wh-word' atua como sujeito, a estrutura da pergunta no Present Simple omite o auxiliar 'do' ou 'does' e segue a ordem Sujeito + Verbo (conjugado), uma vez que o 'wh-word' já preenche a posição e função de sujeito, evitando a necessidade de um auxiliar.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Assinale a alternativa que apresenta a forma interrogativa correta da frase: "The government imposes strict environmental laws."</pergunta>
+        <pergunta>Dentro do escopo do Present Simple, a regra de adição de '-s' ou '-es' à terceira pessoa do singular é uma das mais fundamentais, mas apresenta exceções e especificidades fonológicas e ortográficas. Considerando a complexidade dos verbos terminados em '-y' precedido por vogal ou consoante, e a aplicação desta regra, analise a seguinte afirmação: 'Para verbos que terminam em '-y', a regra de conversão para '-ies' (ex: 'study' &gt; 'studies') aplica-se indiscriminadamente a todos os casos para a terceira pessoa do singular, enquanto a simples adição de '-s' (ex: 'play' &gt; 'plays') é reservada apenas para verbos irregulares no Present Simple.' Com base na gramática e nas regras ortográficas do Present Simple, avalie a correção da afirmação.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>Do the government impose strict environmental laws?</texto>
-                <descricao>Incorreto. 'The government' pode ser tratado como singular (It), então o auxiliar correto é 'Does', não 'Do'.</descricao>
+                <texto>A afirmação está totalmente correta, pois a regra de '-ies' é universal para todos os verbos terminados em '-y' na terceira pessoa do singular, e a adição de '-s' é uma exceção exclusiva de verbos irregulares.</texto>
+                <descricao>Incorreto. A afirmação é falsa. A regra de '-ies' aplica-se apenas quando o '-y' é precedido por **consoante**. A simples adição de '-s' ocorre quando o '-y' é precedido por **vogal**, e isso se aplica a verbos regulares, não apenas irregulares.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>Does the government imposes strict environmental laws?</texto>
-                <descricao>Incorreto. Ao usar 'Does' na pergunta, o verbo principal ('impose') volta à sua forma base, sem '-s'.</descricao>
+                <texto>A afirmação é enganosa. A conversão de '-y' para '-ies' na terceira pessoa do singular ocorre apenas quando o '-y' é precedido por uma **consoante** (e.g., 'try' &gt; 'tries'). Se o '-y' for precedido por uma **vogal**, adiciona-se apenas '-s' (e.g., 'enjoy' &gt; 'enjoys'), independentemente de o verbo ser regular ou irregular.</texto>
+                <descricao>Correto! A afirmação é precisamente enganosa/incorreta. A regra do '-ies' é condicional (consoante + y). A regra de adicionar apenas '-s' quando há uma vogal antes do '-y' é uma regra ortográfica para verbos regulares no Present Simple, não se restringindo a verbos irregulares.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>Does the government impose strict environmental laws?</texto>
-                <descricao>Correto! Para 'The government' (singular), usa-se 'Does' e o verbo principal retorna à sua forma base ('impose').</descricao>
+                <texto>A afirmação é parcialmente correta, visto que a regra de '-ies' é aplicada corretamente, mas a adição de '-s' é uma variação fonológica sem regra ortográfica clara para verbos terminados em '-y'.</texto>
+                <descricao>Incorreto. Há uma regra ortográfica clara para a adição de '-s' para verbos terminados em '-y' precedido por vogal. A afirmação original erra sobre a universalidade do '-ies' e a restrição do '-s' a irregulares.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>Is the government imposing strict environmental laws?</texto>
-                <descricao>Incorreto. Esta é a forma do Present Continuous, que indica uma ação em andamento, não uma pergunta sobre um fato ou regra geral.</descricao>
+                <texto>A afirmação é falsa, pois o Present Simple não faz distinção entre verbos terminados em '-y' para a terceira pessoa do singular, aplicando-se sempre a adição de '-s' como regra geral para todos os verbos.</texto>
+                <descricao>Incorreto. O Present Simple faz sim distinção para verbos terminados em '-y', e a adição de '-s' não é a regra geral para todos eles. A regra do '-ies' é vital.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="C">Does the government impose strict environmental laws?</respostaCorreta>
+        <respostaCorreta idOpcao="B">A afirmação é enganosa. A conversão de '-y' para '-ies' na terceira pessoa do singular ocorre apenas quando o '-y' é precedido por uma **consoante** (e.g., 'try' &gt; 'tries'). Se o '-y' for precedido por uma **vogal**, adiciona-se apenas '-s' (e.g., 'enjoy' &gt; 'enjoys'), independentemente de o verbo ser regular ou irregular.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Identifique a frase que **não** utiliza o Present Simple para expressar um hábito, rotina, fato geral ou evento programado:</pergunta>
+        <pergunta>No contexto da concordância verbal no Present Simple, a identificação do sujeito gramatical de uma oração é crucial, especialmente quando há expressões que podem gerar ambiguidade ou distração. Avalie a seguinte frase: 'The data collected from preliminary experiments, along with the recent findings from external research institutions, _______ (suggest) a significant shift in consumer preferences.' Considerando que 'data' pode ser tratado como plural em inglês britânico ou singular em inglês americano (embora frequentemente plural em contextos científicos), e a presença da expressão 'along with', assinale a opção que apresenta a forma verbal CORRETA e a justificativa mais adequada para o uso do Present Simple neste contexto de informação científica.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>The Earth revolves around the Sun.</texto>
-                <descricao>Correto. Fato geral (verdade universal) usando Present Simple.</descricao>
+                <texto>Sugests. Justifica-se porque 'The data' é um substantivo coletivo que se comporta como singular, e 'along with' não altera a concordância com o núcleo do sujeito.</texto>
+                <descricao>Incorreto. 'Data' é um substantivo plural. Mesmo que o 'núcleo do sujeito' seja 'data', se ele for plural, o verbo deve ser plural. Além disso, 'along with' não conecta um segundo sujeito, apenas adiciona informação, mas o verbo ainda deve concordar com o sujeito principal.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>Our flight departs at 10:00 AM tomorrow morning.</texto>
-                <descricao>Correto. Evento programado futuro usando Present Simple.</descricao>
+                <texto>Suggest. Justifica-se porque 'The data' é tratado como plural na linguagem científica e, em construções como 'X, along with Y', o verbo concorda apenas com o primeiro elemento ('X'), que é plural.</texto>
+                <descricao>Correto! 'Data' é um substantivo plural (sempre em inglês científico formal, muitas vezes no inglês americano comum). Em construções como 'X, along with Y' ou 'X, as well as Y', o verbo concorda **apenas com o primeiro elemento** (X). Como 'data' é plural, o verbo deve ser 'suggest'. O Present Simple é adequado para descrever uma inferência ou fato geral decorrente de evidências científicas.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>She is always complaining about something.</texto>
-                <descricao>Incorreto. Esta frase usa o Present Continuous com 'always' para expressar um hábito irritante ou repetitivo, mas **não** o Present Simple. É uma exceção de uso do Present Continuous.</descricao>
+                <texto>Is suggesting. Justifica-se porque a frase descreve uma tendência atual ou uma ação em andamento no campo da pesquisa, preferindo-se o Present Continuous em contextos científicos dinâmicos.</texto>
+                <descricao>Incorreto. Embora o Present Continuous possa indicar tendências, o uso de 'suggest' aqui se refere à implicação geral ou à conclusão derivada dos dados, que é uma verdade ou inferência constante, não uma ação temporária. O Present Simple é mais adequado para fatos e conclusões científicas.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>My parents visit us every Christmas.</texto>
-                <descricao>Correto. Hábito/rotina usando Present Simple.</descricao>
+                <texto>Suggests. Justifica-se porque, no inglês americano, 'data' é frequentemente tratado como singular, e a expressão 'along with' faz com que o verbo concorde com o substantivo mais próximo, 'findings', que é plural.</texto>
+                <descricao>Incorreto. 'Data' é predominantemente plural em contextos formais e científicos, mesmo no inglês americano. Além disso, em 'X, along with Y', o verbo concorda com 'X', não com 'Y'.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="C">She is always complaining about something.</respostaCorreta>
+        <respostaCorreta idOpcao="B">Suggest. Justifica-se porque 'The data' é tratado como plural na linguagem científica e, em construções como 'X, along with Y', o verbo concorda apenas com o primeiro elemento ('X'), que é plural.</respostaCorreta>
+    </questao>
+    
+    ---
+
+    <questao>
+        <pergunta>Analisando a versatilidade do Present Simple, que permite expressar não apenas ações habituais e verdades universais, mas também eventos futuros fixos (timetable future) e instruções/comandos, considere a seguinte proposição: 'O uso do Present Simple para descrever um evento futuro fixo, como em 'The train departs at 7 PM', é gramaticalmente intercambiável com o Present Continuous ('The train is departing at 7 PM') em qualquer contexto de programação, uma vez que ambos os tempos verbais transmitem a ideia de um arranjo pré-determinado, sem distinção semântica relevante para fins de concurso.' Com base na teoria do Present Simple e do Present Continuous, bem como nas especificidades de seu uso para o futuro, avalie a correção da afirmação.</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Extrema</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>A afirmação está totalmente correta, pois ambos os tempos verbais são sinônimos perfeitos para eventos futuros agendados, não havendo qualquer nuance que os diferencie em termos de formalidade ou tipo de evento.</texto>
+                <descricao>Incorreto. A afirmação é falsa. Embora ambos possam se referir ao futuro, não são sinônimos perfeitos. O Present Simple é específico para horários e programas fixos (trens, aulas, filmes). O Present Continuous é usado para planos pessoais e arranjos que já estão em andamento ou decididos.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>A afirmação está equivocada. Enquanto o Present Simple é utilizado para horários e programas fixos (timetable future), o Present Continuous para o futuro é mais apropriado para arranjos pessoais já decididos ou ações que já estão em curso, não sendo, portanto, totalmente intercambiáveis em todos os contextos de programação.</texto>
+                <descricao>Correto! A afirmação é de fato equivocada. O Present Simple para o futuro é estritamente para eventos de horários fixos e programas oficiais (e.g., transportes, aulas, shows). Já o Present Continuous para o futuro é usado para arranjos pessoais que já estão feitos ou ações que estão por acontecer em um futuro próximo devido a um plano existente (e.g., 'I am meeting John tomorrow'). A interchangeabilidade não é total, e há uma distinção semântica e contextual relevante.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>A afirmação é parcialmente correta, pois o Present Simple é preferível para horários, mas o Present Continuous pode ser usado em contextos formais para horários de transporte, indicando uma ação iminente e agendada com maior ênfase.</texto>
+                <descricao>Incorreto. O Present Simple é o tempo de escolha para horários fixos, independentemente da formalidade. O Present Continuous não é usado para adicionar 'maior ênfase' em horários fixos de transporte; ele tem um uso diferente para arranjos.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>A afirmação é falsa porque o Present Simple para o futuro é uma construção arcaica, não mais utilizada em inglês moderno, sendo o Present Continuous a única forma verbal para expressar qualquer tipo de evento futuro pré-determinado.</texto>
+                <descricao>Incorreto. O Present Simple para o futuro é uma construção viva e muito comum em inglês moderno para horários fixos e programas. A premissa da afirmação é completamente errada.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="B">A afirmação está equivocada. Enquanto o Present Simple é utilizado para horários e programas fixos (timetable future), o Present Continuous para o futuro é mais apropriado para arranjos pessoais já decididos ou ações que já estão em curso, não sendo, portanto, totalmente intercambiáveis em todos os contextos de programação.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Escolha a opção que completa corretamente a lacuna, considerando o uso do Present Simple para o verbo 'to occur': "Such meteorological phenomena rarely _______ (occur) in this region during summer."</pergunta>
+        <pergunta>No que tange à concordância verbal no Present Simple, a gramática inglesa impõe desafios particulares quando o sujeito é composto ou quando a frase contém expressões que modificam o núcleo do sujeito. Analise a seguinte frase e a proposição subsequente: 'The CEO, along with several key stakeholders, often _______ (overlook) the importance of grassroots feedback.' Proposição: 'Para a correta formação da frase no Present Simple, o verbo 'overlook' deve ser conjugado como 'overlooks', uma vez que a expressão 'along with' une dois sujeitos, 'The CEO' e 'several key stakeholders', formando um sujeito composto plural que demanda a concordância com o segundo elemento, resultando em uma ação realizada coletivamente.' Com base nas regras de concordância verbal com expressões como 'along with', avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Média</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>occurs</texto>
-                <descricao>Incorreto. 'Phenomena' é a forma plural de 'phenomenon'. Portanto, o verbo deve estar na forma base para um sujeito plural.</descricao>
+                <texto>A proposição está correta em sua totalidade, pois 'along with' e expressões similares sempre criam um sujeito composto que requer concordância com o elemento mais próximo ou com o sentido plural geral.</texto>
+                <descricao>Incorreto. A proposição é falsa. 'Along with' não cria um sujeito composto. O verbo concorda apenas com o primeiro elemento do sujeito.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>occur</texto>
-                <descricao>Correto! 'Phenomena' é um substantivo plural (assim como 'criteria' ou 'data'). O advérbio 'rarely' reforça o uso do Present Simple para descrever um fato geral ou ocorrência.</descricao>
+                <texto>A proposição está incorreta. Em construções com 'along with', 'as well as', 'together with', etc., o verbo principal concorda **exclusivamente com o primeiro elemento do sujeito**, ignorando o que vem depois dessas expressões. Portanto, o verbo deveria ser 'overlooks' para concordar com 'The CEO' (singular), e não com 'stakeholders'.</texto>
             </opcao>
             <opcao id="C">
-                <texto>is occurring</texto>
-                <descricao>Incorreto. Esta é a forma do Present Continuous e não é adequada para descrever a frequência de um fenômeno geral ('rarely').</descricao>
+                <texto>A proposição é parcialmente correta, pois a concordância com o segundo elemento é uma regra aceitável no inglês americano, embora menos comum no inglês britânico para essas construções.</texto>
+                <descricao>Incorreto. Essa regra de concordância com o primeiro elemento é padrão em ambas as variantes do inglês (americano e britânico) para essas construções.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>are occurring</texto>
-                <descricao>Incorreto. 'Are occurring' é Present Continuous e 'rarely' indica Present Simple para um fato geral.</descricao>
+                <texto>A proposição é falsa porque o advérbio 'often' na frase exige que o verbo seja no plural, uma vez que se refere a uma ação habitual de múltiplos indivíduos, independentemente da concordância nominal.</texto>
+                <descricao>Incorreto. O advérbio de frequência 'often' não interfere na regra de concordância sujeito-verbo. O verbo ainda precisa concordar com o sujeito gramatical, não com o número de pessoas que realizam a ação.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="B">occur</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. Em construções com 'along with', 'as well as', 'together with', etc., o verbo principal concorda **exclusivamente com o primeiro elemento do sujeito**, ignorando o que vem depois dessas expressões. Portanto, o verbo deveria ser 'overlooks' para concordar com 'The CEO' (singular), e não com 'stakeholders'.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Assinale a frase em que o advérbio de frequência está **incorretamente** posicionado:</pergunta>
+        <pergunta>Considere a complexidade da negação no Present Simple, que, diferentemente de algumas línguas, exige a inserção de um verbo auxiliar ('do'/'does') antes do 'not' e do verbo principal na sua forma base. No entanto, o verbo 'to be' e os verbos modais possuem suas próprias regras de negação, não utilizando esses auxiliares. Avalie a seguinte situação e a proposição a seguir: Uma frase inicial é 'The scientific consensus about global warming becomes stronger every year.' Uma tentativa de negativa é: 'The scientific consensus about global warming isn't becoming stronger every year.' Proposição: 'A negativa proposta para a frase original está gramaticalmente correta e semanticamente equivalente, pois a negação de um processo gradual e contínuo no Present Simple pode ser adequadamente expressa pelo Present Continuous negativo, mantendo o sentido de um fato geral que não está se concretizando.' Com base nas funções e nas formas de negação do Present Simple e do Present Continuous, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>He sometimes feels overwhelmed by the workload.</texto>
-                <descricao>Correto. 'Sometimes' pode vir antes do verbo principal.</descricao>
+                <texto>A proposição está totalmente correta, pois a negativa no Present Continuous é sempre uma alternativa válida para a negação de verdades ou tendências expressas no Present Simple.</texto>
+                <descricao>Incorreto. A afirmação é falsa. A negativa proposta ('isn't becoming') não é semanticamente equivalente à negação do Present Simple ('doesn't become'). Negar um fato geral (Present Simple) é diferente de negar uma ação em andamento (Present Continuous).</descricao>
             </opcao>
             <opcao id="B">
-                <texto>They are never late for their appointments.</texto>
-                <descricao>Correto. Advérbios de frequência vêm depois do verbo 'to be'.</descricao>
+                <texto>A proposição está incorreta. A negativa da frase original no Present Simple ('The scientific consensus... becomes stronger') deveria ser 'The scientific consensus... **doesn't become** stronger every year'. O Present Continuous negativo ('isn't becoming') altera o aspecto verbal, referindo-se a uma ação que não está acontecendo no momento ou não está em progresso, e não a uma negação de um fato geral ou tendência consistente expressa pelo Present Simple original.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. Negar 'becomes stronger' (Present Simple, indicando uma tendência consistente/fato) com 'doesn't become stronger' mantém o sentido de negação de uma tendência geral. Usar 'isn't becoming stronger' (Present Continuous) nega uma ação que *estaria em progresso* no momento, o que muda fundamentalmente o aspecto e o significado da frase original. Portanto, não são semanticamente equivalentes neste contexto de concurso que busca precisão.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>She rarely does not agree with his opinion.</texto>
-                <descricao>Incorreto. A dupla negativa 'rarely does not' é redundante e gramaticalmente desajeitada. 'Rarely agrees' seria a forma mais natural e correta. Embora 'rarely' possa vir antes de 'does not', a combinação é incomum para expressar a ideia. Uma frase mais natural seria 'She rarely agrees with his opinion'.</descricao>
+                <texto>A proposição é parcialmente correta. Embora o Present Simple negativo seja o ideal, o Present Continuous negativo é aceitável em contextos informais para expressar a mesma ideia de negação de uma tendência, sem perda significativa de sentido.</texto>
+                <descricao>Incorreto. Em contextos de concurso, a precisão é fundamental. A substituição do Present Simple negativo pelo Present Continuous negativo para expressar a negação de um fato geral ou tendência não é aceitável semanticamente, mesmo em informalidade, pois muda o aspecto verbal.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>We hardly ever see them since they moved away.</texto>
-                <descricao>Correto. 'Hardly ever' está posicionado corretamente antes do verbo principal.</descricao>
+                <texto>A proposição é falsa porque o Present Simple só pode ser negado com o uso de advérbios de negação como 'never' ou 'hardly ever', e não com 'do/does + not'.</texto>
+                <descricao>Incorreto. Esta afirmação é fundamentalmente errada sobre a negação do Present Simple. A negação padrão é 'do/does + not + verbo base'. Advérbios como 'never' são usados para indicar frequência negativa, mas não substituem a formação básica da negativa com 'do/does'.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="C">She rarely does not agree with his opinion.</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. A negativa da frase original no Present Simple ('The scientific consensus... becomes stronger') deveria ser 'The scientific consensus... **doesn't become** stronger every year'. O Present Continuous negativo ('isn't becoming') altera o aspecto verbal, referindo-se a uma ação que não está acontecendo no momento ou não está em progresso, e não a uma negação de um fato geral ou tendência consistente expressa pelo Present Simple original.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Preencha a lacuna: "While most experts _______ (advise) caution, the official report _______ (state) that the new policy is beneficial."</pergunta>
+        <pergunta>Em se tratando dos verbos de estado (stative verbs), que descrevem condições, percepções, emoções, posse ou qualidades, a gramática normativa do inglês geralmente proíbe seu uso nas formas contínuas (progressivas), sendo o Present Simple a forma verbal preferencial para expressar esses conceitos de forma permanente ou geral. No entanto, alguns desses verbos podem, em contextos específicos, ser usados em formas contínuas, adquirindo um sentido diferente, mais dinâmico ou temporário. Avalie a seguinte frase: 'I **am thinking** about the implications of this new policy right now, although I generally **think** it's a positive change.' Proposição: 'Nesta construção, o uso do Present Continuous para 'think' ('am thinking') na primeira parte da frase é gramaticalmente inválido, pois o verbo 'think' é um verbo de estado e, portanto, não admite formas contínuas em nenhuma circunstância, sendo 'I think' a única forma correta em ambas as ocorrências.' Com base na teoria dos verbos de estado e suas exceções, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>advise / states</texto>
-                <descricao>Correto! 'Most experts' é plural, então 'advise' está correto. 'The official report' (singular) + 'states' está correto. A frase descreve fatos e informações gerais.</descricao>
+                <texto>A proposição está totalmente correta, confirmando que verbos de estado, como 'think', são rigidamente restritos ao Present Simple, sem exceções que permitam a forma contínua.</texto>
+                <descricao>Incorreto. A afirmação é falsa. O verbo 'think' pode ser usado no Present Continuous quando se refere ao ato de ponderar, refletir, ou considerar algo em um momento específico.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>advises / state</texto>
-                <descricao>Incorreto. 'Advises' é para singular, mas 'experts' é plural. 'State' é para plural, mas 'report' é singular.</descricao>
+                <texto>A proposição está incorreta. O verbo 'think', embora seja um verbo de estado quando expressa opinião ou crença (como em 'I think it's a positive change'), pode ser usado no Present Continuous quando se refere ao processo mental de **pensar, considerar ou ponderar** sobre algo ativamente em um determinado momento (como em 'I am thinking about it right now'). Assim, ambas as formas são válidas na frase dada, mas com significados distintos.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. O verbo 'think' é um exemplo clássico de verbo que pode ser de estado ou de ação. Quando significa 'acreditar' ou 'ter uma opinião', é de estado (Present Simple). Quando significa 'ponderar', 'refletir', 'considerar' (uma atividade mental), é de ação e pode ser usado no Present Continuous. A frase apresentada ilustra perfeitamente essa distinção correta.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>are advising / is stating</texto>
-                <descricao>Incorreto. Embora 'state' possa ser usado no Present Continuous em alguns contextos para expressar uma ação temporária de declaração, aqui se refere a um fato contido no relatório, o que favorece o Present Simple. 'Advise' também descreve uma ação geral.</descricao>
+                <texto>A proposição é parcialmente correta, pois 'think' pode ir para o Present Continuous apenas em perguntas, como 'Are you thinking?', mas nunca em afirmações como a apresentada.</texto>
+                <descricao>Incorreto. 'Think' pode ser usado no Present Continuous em afirmações, perguntas e negativas, desde que o sentido seja o de 'ponderar' ou 'refletir'.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>advise / state</texto>
-                <descricao>Incorreto. 'State' é para plural, mas 'report' é singular.</descricao>
+                <texto>A proposição é redundante, pois o Present Simple em 'I generally think' é desnecessário; o Present Continuous já expressaria a ideia completa.</texto>
+                <descricao>Incorreto. O Present Simple é essencial para expressar a opinião geral ('I generally think'). O Present Continuous ('I am thinking') expressa uma ação de pensamento em andamento, e não uma opinião duradoura.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="A">advise / states</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. O verbo 'think', embora seja um verbo de estado quando expressa opinião ou crença (como em 'I think it's a positive change'), pode ser usado no Present Continuous quando se refere ao processo mental de **pensar, considerar ou ponderar** sobre algo ativamente em um determinado momento (como em 'I am thinking about it right now'). Assim, ambas as formas são válidas na frase dada, mas com significados distintos.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Qual das frases abaixo está corretamente formulada, descrevendo um princípio ou característica permanente?</pergunta>
+        <pergunta>No contexto dos verbos de percepção e sensação (e.g., 'see', 'hear', 'smell', 'taste', 'feel'), o Present Simple é tipicamente empregado para descrever a capacidade geral de perceber ou o ato involuntário da percepção, sendo geralmente vedado o uso de formas contínuas para essas funções primárias. Entretanto, esses mesmos verbos podem, em algumas circunstâncias, ser usados em formas contínuas quando adquirem um sentido de ação ativa, intencional ou temporária. Analise a seguinte frase: 'The chef **is tasting** the soup to check the seasoning, while usually the soup **tastes** slightly sweet.' Proposição: 'Na frase apresentada, o uso do Present Continuous para 'taste' ('is tasting') na primeira oração é gramaticalmente inaceitável, pois 'taste' é um verbo de percepção e, como tal, deve permanecer sempre no Present Simple, mesmo quando denota uma ação ativa. A forma correta seria 'The chef tastes the soup' para ambos os contextos.' Com base na gramática dos verbos de percepção e suas exceções, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Média</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>Water is boiling at 100 degrees Celsius right now.</texto>
-                <descricao>Incorreto. 'Right now' indica Present Continuous, mas a pergunta pede um princípio ou característica permanente, que é um fato geral.</descricao>
+                <texto>A proposição está totalmente correta, pois 'taste' é um verbo de estado puro e não admite formas progressivas sob nenhuma circunstância gramatical.</texto>
+                <descricao>Incorreto. A afirmação é falsa. O verbo 'taste' pode ser de ação (significando 'provar' ou 'degustar') e, nesse sentido, pode ser usado no Present Continuous. A afirmação confunde o uso de estado com o uso de ação.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>Water boils at 100 degrees Celsius.</texto>
-                <descricao>Correto! Esta é uma verdade universal e um princípio científico, corretamente expresso no Present Simple.</descricao>
+                <texto>A proposição está incorreta. O verbo 'taste' na primeira oração ('is tasting') denota uma **ação ativa e intencional** (provar para verificar), o que justifica plenamente o uso do Present Continuous. Na segunda oração ('tastes'), ele atua como verbo de estado, descrevendo uma **qualidade intrínseca** da sopa, o que exige o Present Simple. Ambas as formas estão corretas e são semanticamente distintas.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. O verbo 'taste' (assim como 'see', 'smell', 'feel') pode ser tanto um verbo de estado (descrevendo uma qualidade ou percepção passiva, Present Simple) quanto um verbo de ação (descrevendo uma atividade ativa e voluntária, Present Continuous). A frase exemplifica corretamente esses dois usos e seus respectivos tempos verbais.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>Water will boil at 100 degrees Celsius.</texto>
-                <descricao>Incorreto. 'Will boil' indica futuro, não uma verdade permanente.</descricao>
+                <texto>A proposição é parcialmente correta. O uso de 'is tasting' é aceitável, mas apenas em contextos muito informais, não sendo apropriado para uma linguagem gramaticalmente formal como a de um concurso.</texto>
+                <descricao>Incorreto. O uso de 'is tasting' para a ação de provar é gramaticalmente correto e aceitável em contextos formais, pois denota uma ação ativa, não uma informalidade.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>Water boiled at 100 degrees Celsius.</texto>
-                <descricao>Incorreto. 'Boiled' indica passado, não uma verdade permanente.</descricao>
+                <texto>A proposição é falsa, pois 'taste' é sempre um verbo de ação, e o Present Simple na segunda oração ('tastes') deveria ser substituído pelo Present Continuous ('is tasting') para manter a consistência aspectual.</texto>
+                <descricao>Incorreto. 'Taste' é um verbo de estado quando descreve uma qualidade intrínseca. Mudar 'tastes' para 'is tasting' na segunda parte mudaria o sentido de uma qualidade permanente para uma ação temporária de sabor, o que está semanticamente incorreto para o contexto.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="B">Water boils at 100 degrees Celsius.</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. O verbo 'taste' na primeira oração ('is tasting') denota uma **ação ativa e intencional** (provar para verificar), o que justifica plenamente o uso do Present Continuous. Na segunda oração ('tastes'), ele atua como verbo de estado, descrevendo uma **qualidade intrínseca** da sopa, o que exige o Present Simple. Ambas as formas estão corretas e são semanticamente distintas.</respostaCorreta>
+    </questao>
+
+    ---
+
+    <questao>
+        <pergunta>A partir da análise dos usos do Present Simple para expressar fatos, hábitos e verdades universais, considere a seguinte frase: 'Water freezes at 0 degrees Celsius.' e a proposição subsequente: 'Esta frase, que descreve uma verdade científica universal, poderia ser igualmente bem expressa, sem alteração de sentido ou gramaticalidade, pelo Present Continuous ('Water is freezing at 0 degrees Celsius'), uma vez que o processo de congelamento é contínuo e ocorre a essa temperatura de forma ininterrupta em condições específicas.' Avalie a correção da proposição sob a ótica da gramática normativa e do uso semântico dos tempos verbais.</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Extrema</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>A proposição está totalmente correta, pois o Present Continuous é a forma mais precisa para descrever fenômenos naturais que são processos contínuos e sempre verdadeiros.</texto>
+                <descricao>Incorreto. A afirmação é falsa. O Present Continuous ('is freezing') descreve uma ação que está ocorrendo *agora* ou é temporária. Uma verdade universal é expressa pelo Present Simple, que indica um fato permanente e não uma ação em progresso.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>A proposição está incorreta. O Present Simple é o tempo verbal adequado para verdades universais e fatos científicos, pois descreve uma condição permanente e invariável. O Present Continuous ('is freezing') indicaria que a água está congelando *neste exato momento* ou que é um processo temporário, o que distorce o sentido de uma verdade universal.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. O Present Simple é o uso padrão para verdades universais. O Present Continuous alteraria o sentido para uma ação em progresso ou temporária, o que não se aplica a um fato científico permanente.</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>A proposição é parcialmente correta, pois, embora o Present Simple seja o mais comum, o Present Continuous pode ser usado para dar ênfase à constância do fenômeno, tornando-o mais dinâmico.</texto>
+                <descricao>Incorreto. O Present Continuous não é usado para dar ênfase à constância de verdades universais; ele indica temporalidade ou ação em progresso, o oposto do que se busca para fatos permanentes.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>A proposição é falsa, pois 'freezes' no Present Simple indica um estado, enquanto 'is freezing' no Present Continuous indicaria uma ação, e o verbo 'freeze' só pode ser de estado.</texto>
+                <descricao>Incorreto. O verbo 'freeze' pode ser tanto de estado quanto de ação. No entanto, a distinção é sobre a permanência do fato vs. a temporalidade da ação, o que torna a proposição falsa.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. O Present Simple é o tempo verbal adequado para verdades universais e fatos científicos, pois descreve uma condição permanente e invariável. O Present Continuous ('is freezing') indicaria que a água está congelando *neste exato momento* ou que é um processo temporário, o que distorce o sentido de uma verdade universal.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Preencha a lacuna com a forma correta do verbo 'to be' no Present Simple: "Although the scientific community _______ (be) generally in agreement, public perception of climate change _______ (vary) significantly."</pergunta>
+        <pergunta>Considere a complexidade da concordância verbal no Present Simple quando sujeitos compostos são formados por 'either... or' ou 'neither... nor'. Avalie a seguinte frase: 'Neither the manager nor the employees _______ (fully comprehend) the intricacies of the new software, despite extensive training.' Proposição: 'Para a correta formação da frase, o verbo 'comprehend' deve ser conjugado como 'comprehends', uma vez que a regra para 'neither... nor' exige que o verbo concorde em número com o sujeito mais próximo, 'employees', que é plural.' Com base nas regras de concordância para sujeitos unidos por 'either... or' ou 'neither... nor', avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>is / varies</texto>
-                <descricao>Correto! 'The scientific community' (coletivo singular) usa 'is'. 'Public perception' (singular) + 'varies' (terminação -ies para verbos em consoante + y) está correto. A frase descreve fatos e características gerais.</descricao>
+                <texto>A proposição está totalmente correta, pois a concordância com o sujeito mais próximo ('employees', plural) determina a forma 'comprehends' para garantir a coesão gramatical.</texto>
+                <descricao>Incorreto. A proposição é falsa. 'Employees' é plural, então o verbo deveria ser 'comprehend' (forma base), não 'comprehends' (que é singular).</descricao>
             </opcao>
             <opcao id="B">
-                <texto>are / vary</texto>
-                <descricao>Incorreto. 'Community' é singular, então 'are' está errado. 'Perception' é singular, então 'vary' está errado.</descricao>
+                <texto>A proposição está incorreta. A regra de concordância com o sujeito mais próximo é válida, mas 'employees' é um sujeito plural, o que requer a forma base do verbo ('comprehend'), e não 'comprehends' (que é a forma para a terceira pessoa do singular).</texto>
+                <descricao>Correto! A proposição é de fato incorreta. A regra para 'neither...nor' (e 'either...or') é que o verbo concorda com o sujeito mais próximo. Como 'employees' é plural, o verbo deve ser 'comprehend' (forma base), e não 'comprehends'. A proposição erra na conjugação do verbo dado o sujeito próximo.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>is / vary</texto>
-                <descricao>Incorreto. 'Perception' é singular, então 'vary' está errado.</descricao>
+                <texto>A proposição é parcialmente correta, pois a regra do sujeito mais próximo é universal, mas o uso de 'comprehends' só seria adequado se ambos os sujeitos ('manager' e 'employees') fossem singulares.</texto>
+                <descricao>Incorreto. A regra do sujeito mais próximo é universal, mas a afirmação erra na conjugação esperada para 'employees' (plural). Se 'employees' fosse singular, aí sim 'comprehends' estaria correto.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>are / varies</texto>
-                <descricao>Incorreto. 'Community' é singular, então 'are' está errado.</descricao>
+                <texto>A proposição é falsa, pois em frases com 'neither... nor', o verbo sempre concorda com o primeiro sujeito ('manager'), resultando em 'comprehends' para a frase original.</texto>
+                <descricao>Incorreto. A regra para 'neither... nor' é concordância com o sujeito mais próximo, não com o primeiro sujeito.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="A">is / varies</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. A regra de concordância com o sujeito mais próximo é válida, mas 'employees' é um sujeito plural, o que requer a forma base do verbo ('comprehend'), e não 'comprehends' (que é a forma para a terceira pessoa do singular).</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Assinale a alternativa em que a frase está **gramaticalmente incorreta** no Present Simple:</pergunta>
+        <pergunta>A ordem dos advérbios de frequência no Present Simple é uma área que, embora pareça simples, possui regras específicas e exceções, especialmente em relação ao verbo 'to be' e aos verbos auxiliares. Avalie a seguinte frase: 'The company's CEO, who is rarely seen in public events, hardly ever addresses the media directly.' Proposição: 'Na estrutura apresentada, os advérbios de frequência 'rarely' e 'hardly ever' estão incorretamente posicionados, pois, em ambos os casos, deveriam preceder os verbos principais ('is seen' e 'addresses') para manter a conformidade com as regras de ordem dos advérbios no Present Simple.' Com base nas regras de posicionamento de advérbios de frequência, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>Each of the students submits their assignments on time.</texto>
-                <descricao>Correto. 'Each of the students' é tratado como singular, e 'submits' está correto.</descricao>
+                <texto>A proposição está totalmente correta, pois a regra geral para advérbios de frequência é sempre antes do verbo principal, sem exceções para 'to be' ou outros verbos.</texto>
+                <descricao>Incorreto. A afirmação é falsa. Advérbios de frequência vêm *depois* do verbo 'to be' e *antes* do verbo principal. A proposição ignora a exceção do 'to be'.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>The news always affects public opinion rapidly.</texto>
-                <descricao>Correto. 'The news' (substantivo incontável, tratado como singular) + 'affects' está correto.</descricao>
+                <texto>A proposição está incorreta. O advérbio 'rarely' está corretamente posicionado **depois do verbo 'to be'** ('is rarely seen'). Já 'hardly ever' está corretamente posicionado **antes do verbo principal** ('hardly ever addresses'). A proposição, portanto, erra ao afirmar a incorreção em ambos os posicionamentos e na regra geral.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. 'Rarely' está corretamente posicionado após o 'to be'. 'Hardly ever' está corretamente posicionado antes do verbo principal. A proposição erra em ambas as análises, mostrando desconhecimento das regras de posicionamento.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>A variety of factors contributes to this complex issue.</texto>
-                <descricao>Correto. 'A variety of factors' pode ser tratado como singular nesse contexto, e 'contributes' está correto.</descricao>
+                <texto>A proposição é parcialmente correta, pois 'rarely' está bem posicionado, mas 'hardly ever' deveria vir no final da oração para uma ênfase adequada.</texto>
+                <descricao>Incorreto. 'Hardly ever' tipicamente vem antes do verbo principal. Colocá-lo no final mudaria a ênfase e não é a posição padrão para esse advérbio em particular.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>Many a student finds it difficult to balance work and study.</texto>
-                <descricao>Incorreto. A expressão 'Many a student' é singular, mas o verbo 'finds' está incorreto, pois o verbo deveria ser 'find' para concordar com a estrutura (embora 'many a' seja singular, a regra é específica para verbos. Na verdade, 'Many a student finds' está correto. 'Many a' + singular noun + singular verb. Revisando a descrição. A frase está correta. A incorreta deve ser outra).</descricao>
+                <texto>A proposição é falsa, pois advérbios de frequência só podem ser usados no início da frase para ênfase, nunca no meio da oração.</texto>
+                <descricao>Incorreto. Advérbios de frequência podem ser usados no início, mas a posição mais comum é no meio da oração, seguindo regras específicas em relação a 'to be' e outros verbos.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="C">A variety of factors contributes to this complex issue.</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. O advérbio 'rarely' está corretamente posicionado **depois do verbo 'to be'** ('is rarely seen'). Já 'hardly ever' está corretamente posicionado **antes do verbo principal** ('hardly ever addresses'). A proposição, portanto, erra ao afirmar a incorreção em ambos os posicionamentos e na regra geral.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Complete a lacuna com a forma verbal adequada no Present Simple: "The new software update _______ (address) several security vulnerabilities, and it _______ (require) users to restart their systems."</pergunta>
+        <pergunta>Em cenários de redação técnica ou científica, o Present Simple é amplamente empregado para descrever fatos, princípios, e processos gerais ou repetitivos, conferindo objetividade e atemporalidade ao texto. Considere a seguinte passagem: 'The experimental setup _______ (consist) of a high-resolution camera and a specialized light source. Data collection _______ (occur) automatically at fixed intervals, and the system _______ (transmit) real-time results to a central database.' Proposição: 'Nesta passagem, para garantir a precisão e a correção gramatical no Present Simple, todos os verbos devem ser conjugados na forma base ('consist', 'occur', 'transmit'), uma vez que a descrição de equipamentos e processos técnicos em manuais ou relatórios científicos dispensa a concordância de terceira pessoa do singular, priorizando a neutralidade e a generalidade do discurso.' Com base na concordância verbal do Present Simple em contextos técnicos, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>addresses / requires</texto>
-                <descricao>Correto! 'The new software update' (singular) + 'addresses' (verbos terminados em -ss recebem -es) e 'requires' (terceira pessoa do singular) estão corretos. Descreve características e requisitos gerais.</descricao>
+                <texto>A proposição está totalmente correta, pois o estilo técnico e científico adota uma forma verbal simplificada para evitar complexidades de concordância.</texto>
+                <descricao>Incorreto. A afirmação é falsa. A concordância de terceira pessoa do singular no Present Simple é uma regra gramatical fundamental e não é dispensada em textos técnicos ou científicos. Pelo contrário, a precisão é ainda mais exigida.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>address / require</texto>
-                <descricao>Incorreto. Ambos os verbos estão na forma base, mas o sujeito ('update' / 'it') é singular.</descricao>
+                <texto>A proposição está incorreta. A concordância verbal no Present Simple para a terceira pessoa do singular ('-s' ou '-es') é **mandatória** em textos técnicos e científicos, assim como em qualquer outro registro gramatical. Portanto, os verbos deveriam ser 'consists', 'occurs' e 'transmits', pois 'The experimental setup', 'Data collection' e 'the system' são todos sujeitos singulares.</texto>
             </opcao>
             <opcao id="C">
-                <texto>is addressing / is requiring</texto>
-                <descricao>Incorreto. A frase descreve funcionalidades e requisitos gerais do software, não uma ação temporária ou em andamento no momento da fala.</descricao>
+                <texto>A proposição é parcialmente correta, pois a forma base é usada para 'consist' e 'occur', mas 'transmit' exige '-s' por ser um verbo de ação mais dinâmico.</texto>
+                <descricao>Incorreto. A distinção entre verbos de estado/ação não isenta da regra de concordância de terceira pessoa do singular no Present Simple.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>addresses / require</texto>
-                <descricao>Incorreto. O segundo verbo ('require') deveria ser 'requires' para concordar com 'it'.</descricao>
+                <texto>A proposição é falsa porque somente o verbo 'consist' precisa de '-s', enquanto os outros dois verbos permanecem na forma base por descreverem processos ativos.</texto>
+                <descricao>Incorreto. Todos os sujeitos são singulares, exigindo a terminação '-s' em todos os verbos no Present Simple.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="A">addresses / requires</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. A concordância verbal no Present Simple para a terceira pessoa do singular ('-s' ou '-es') é **mandatória** em textos técnicos e científicos, assim como em qualquer outro registro gramatical. Portanto, os verbos deveriam ser 'consists', 'occurs' e 'transmits', pois 'The experimental setup', 'Data collection' e 'the system' são todos sujeitos singulares.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Assinale a alternativa que apresenta a forma negativa correta da frase: "The board of directors holds monthly meetings."</pergunta>
+        <pergunta>A formação da negativa no Present Simple com o auxiliar 'do'/'does' é uma regra central, mas existem frases em que o próprio verbo principal já possui uma forma de negação intrínseca ou uma construção que a dispensa. Considere a frase: 'Nobody understands the complexity of quantum physics.' e a seguinte proposição: 'Uma forma alternativa e igualmente correta de negar a ideia contida na frase, mantendo o Present Simple e sem alteração semântica, seria 'Anybody doesn't understand the complexity of quantum physics.', uma vez que 'nobody' e 'anybody... not' são construções equivalentes para a negação total.' Com base nas regras de negação e nos pronomes indefinidos no Present Simple, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>The board of directors don't hold monthly meetings.</texto>
-                <descricao>Incorreto. 'The board of directors' pode ser tratado como singular (It), então o auxiliar correto é 'doesn't', não 'don't'.</descricao>
+                <texto>A proposição está totalmente correta, pois 'nobody' e 'anybody... not' são construções idênticas em significado e uso, sendo intercambiáveis em qualquer contexto.</texto>
+                <descricao>Incorreto. A afirmação é falsa. Embora 'nobody' e 'anybody... not' expressam negação total, 'anybody' exige o auxiliar 'does' no Present Simple para concordar com o sujeito, mas 'anybody' sozinho não é o sujeito. A estrutura 'Anybody doesn't understand' está incorreta.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>The board of directors doesn't holds monthly meetings.</texto>
-                <descricao>Incorreto. Ao usar 'doesn't', o verbo principal ('hold') volta à sua forma base, sem '-s'.</descricao>
+                <texto>A proposição está incorreta. Embora 'nobody' e 'anybody... not' possam expressar negação total, a forma gramatical 'Anybody doesn't understand' é inválida no Present Simple. Para expressar a mesma ideia com 'anybody', a construção correta seria 'Does anybody understand the complexity of quantum physics?' (em uma pergunta) ou 'I don't think anybody understands...' (em uma negativa mais complexa). 'Anybody' é geralmente usado em perguntas e frases negativas já com um 'not'.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. 'Anybody doesn't understand' é gramaticalmente incorreto. 'Anybody' é tipicamente usado em frases interrogativas ou negativas que já contêm 'not' (Ex: 'I don't know anybody here'). A negação de 'Nobody understands' com 'anybody' seria indireta ou em forma de pergunta, não uma simples substituição como a proposta.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>The board of directors doesn't hold monthly meetings.</texto>
-                <descricao>Correto! Para 'The board of directors' (singular coletivo), usa-se 'doesn't' e o verbo principal retorna à sua forma base ('hold').</descricao>
+                <texto>A proposição é parcialmente correta, pois 'anybody... not' é válido, mas exigiria 'do not' em vez de 'doesn't' para concordar com 'anybody'.</texto>
+                <descricao>Incorreto. 'Anybody' é tratado como singular em termos de concordância verbal, então 'doesn't' seria o auxiliar, mas a própria construção 'Anybody doesn't understand' é a questão central.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>The board of directors isn't holding monthly meetings.</texto>
-                <descricao>Incorreto. Esta é a forma negativa do Present Continuous, que indica uma ação temporária em andamento, não uma negação de uma rotina ou fato geral.</descricao>
+                <texto>A proposição é falsa porque 'nobody' é singular e requer um verbo singular, enquanto 'anybody' é plural e requer um verbo plural na negação.</texto>
+                <descricao>Incorreto. 'Nobody' e 'anybody' são tratados como singulares para fins de concordância verbal. O erro da proposição não está na concordância, mas na validade da construção.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="C">The board of directors doesn't hold monthly meetings.</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. Embora 'nobody' e 'anybody... not' possam expressar negação total, a forma gramatical 'Anybody doesn't understand' é inválida no Present Simple. Para expressar a mesma ideia com 'anybody', a construção correta seria 'Does anybody understand the complexity of quantum physics?' (em uma pergunta) ou 'I don't think anybody understands...' (em uma negativa mais complexa). 'Anybody' é geralmente usado em perguntas e frases negativas já com um 'not'.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Identifique a frase que **não** utiliza o Present Simple para expressar um fato geral, uma verdade universal ou uma característica permanente:</pergunta>
+        <pergunta>A distinção entre 'do' e 'make' é um ponto de complexidade no Present Simple, pois ambos significam 'fazer', mas em contextos diferentes (ações gerais vs. criação/produção). Considere a frase: 'The research team always _______ (do) significant progress in their studies, and their findings _______ (make) a real difference to the scientific community.' Proposição: 'Para preencher corretamente as lacunas, o primeiro verbo deve ser 'makes' e o segundo 'do', porque 'progress' se associa a 'make' e 'difference' se associa a 'do', seguindo as collocations padrões da língua inglesa para essas expressões no Present Simple.' Com base nas collocations de 'do' e 'make', avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>The sun sets in the west.</texto>
-                <descricao>Correto. Verdade universal usando Present Simple.</descricao>
+                <texto>A proposição está totalmente correta, e a inversão das collocations é uma 'pegadinha' comum que testadores de proficiência exploram frequentemente.</texto>
+                <descricao>Incorreto. A afirmação é falsa. A proposição inverte as collocations corretas. 'Make progress' e 'make a difference' são as collocations corretas.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>Good students always prepare well for exams.</texto>
-                <descricao>Correto. Característica geral de bons estudantes usando Present Simple com advérbio de frequência.</descricao>
+                <texto>A proposição está incorreta. A collocation correta para 'progress' é 'make progress' (fazer progresso/avançar), então o primeiro verbo deveria ser 'makes'. A collocation correta para 'difference' é 'make a difference' (fazer a diferença), então o segundo verbo também deveria ser 'make'. Assim, a frase correta seria 'The research team always **makes** significant progress... and their findings **make** a real difference...'.</texto>
+                <descricao>Correto! A proposição é de fato incorreta em sua análise das collocations. 'Make progress' e 'make a difference' são as collocations padrão. O 'do' seria inapropriado em ambos os casos. A frase correta, portanto, usaria 'makes' (para a equipe, singular) e 'make' (para os achados, plural).</descricao>
             </opcao>
             <opcao id="C">
-                <texto>I am feeling tired after a long day at work.</texto>
-                <descricao>Incorreto. Esta frase usa o Present Continuous para descrever um estado temporário (sentimento no momento), não um fato geral ou permanente.</descricao>
+                <texto>A proposição é parcialmente correta, pois 'makes progress' está certo, mas 'do a difference' é uma variação regional aceitável de 'make a difference'.</texto>
+                <descricao>Incorreto. 'Do a difference' não é uma collocation padrão ou uma variação regional aceitável; é um erro gramatical.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>The capital of France is Paris.</texto>
-                <descricao>Correto. Fato geral (verdade estática) usando Present Simple.</descricao>
+                <texto>A proposição é falsa, pois 'do' é sempre usado para atividades gerais e 'make' para criações concretas, o que implicaria 'does progress' e 'makes difference' na frase.</texto>
+                <descricao>Incorreto. Embora essa seja uma regra geral simplificada, 'progress' e 'difference' são exceções importantes ou 'collocations fixas' que usam 'make'.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="C">I am feeling tired after a long day at work.</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. A collocation correta para 'progress' é 'make progress' (fazer progresso/avançar), então o primeiro verbo deveria ser 'makes'. A collocation correta para 'difference' é 'make a difference' (fazer a diferença), então o segundo verbo também deveria ser 'make'. Assim, a frase correta seria 'The research team always **makes** significant progress... and their findings **make** a real difference...'.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Escolha a opção que completa corretamente a lacuna, considerando o uso do Present Simple para o verbo 'to vary': "The success of these programs often _______ (vary) depending on local cultural contexts."</pergunta>
+        <pergunta>Em se tratando dos verbos de estado (stative verbs), que descrevem condições, percepções, emoções, posse ou qualidades, a gramática normativa do inglês geralmente proíbe seu uso nas formas contínuas (progressivas), sendo o Present Simple a forma verbal preferencial para expressar esses conceitos de forma permanente ou geral. No entanto, alguns desses verbos podem, em contextos específicos, ser usados em formas contínuas, adquirindo um sentido diferente, mais dinâmico ou temporário. Avalie a seguinte frase: "I **am thinking** about the implications of this new policy right now, although I generally **think** it's a positive change." Proposição: "Nesta construção, o uso do Present Continuous para 'think' ('am thinking') na primeira parte da frase é gramaticalmente inválido, pois o verbo 'think' é um verbo de estado e, portanto, não admite formas contínuas em nenhuma circunstância, sendo 'I think' a única forma correta em ambas as ocorrências." Com base na teoria dos verbos de estado e suas exceções, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>vary</texto>
-                <descricao>Incorreto. 'The success' é singular, então o verbo deve estar na forma da terceira pessoa do singular ('varies').</descricao>
+                <texto>A proposição está totalmente correta, confirmando que verbos de estado, como 'think', são rigidamente restritos ao Present Simple, sem exceções que permitam a forma contínua.</texto>
+                <descricao>Incorreto. A afirmação é falsa. O verbo 'think' pode ser usado no Present Continuous quando se refere ao ato de ponderar, refletir, ou considerar algo em um momento específico.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>varies</texto>
-                <descricao>Correto! 'The success' é um sujeito singular. Verbos terminados em consoante + 'y' mudam para '-ies' na terceira pessoa do singular. A frase descreve um fato geral ou tendência.</descricao>
+                <texto>A proposição está incorreta. O verbo 'think', embora seja um verbo de estado quando expressa opinião ou crença (como em 'I think it's a positive change'), pode ser usado no Present Continuous quando se refere ao processo mental de **pensar, considerar ou ponderar** sobre algo ativamente em um determinado momento (como em 'I am thinking about it right now'). Assim, ambas as formas são válidas na frase dada, mas com significados distintos.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. O verbo 'think' é um exemplo clássico de verbo que pode ser de estado ou de ação. Quando significa "acreditar" ou "ter uma opinião", é de estado (Present Simple). Quando significa "ponderar", "refletir", "considerar" (uma atividade mental), é de ação e pode ser usado no Present Continuous. A frase apresentada ilustra perfeitamente essa distinção correta.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>is varying</texto>
-                <descricao>Incorreto. Esta é a forma do Present Continuous e não é adequada para descrever uma tendência ou fato geral ('often').</descricao>
+                <texto>A proposição é parcialmente correta, pois 'think' pode ir para o Present Continuous apenas em perguntas, como 'Are you thinking?', mas nunca em afirmações como a apresentada.</texto>
+                <descricao>Incorreto. 'Think' pode ser usado no Present Continuous em afirmações, perguntas e negativas, desde que o sentido seja o de "ponderar" ou "refletir".</descricao>
             </opcao>
             <opcao id="D">
-                <texto>are varying</texto>
-                <descricao>Incorreto. 'Success' é singular, então 'are' está errado. Além disso, 'often' indica Present Simple.</descricao>
+                <texto>A proposição é falsa porque o Present Simple em 'I generally think' é redundante; bastaria o Present Continuous para expressar tanto a ação imediata quanto a opinião geral do falante.</texto>
+                <descricao>Incorreto. O Present Simple é essencial para expressar a opinião geral ('I generally think'). O Present Continuous ('I am thinking') expressa uma ação de pensamento em andamento, e não uma opinião duradoura.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="B">varies</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. O verbo 'think', embora seja um verbo de estado quando expressa opinião ou crença (como em 'I think it's a positive change'), pode ser usado no Present Continuous quando se refere ao processo mental de **pensar, considerar ou ponderar** sobre algo ativamente em um determinado momento (como em 'I am thinking about it right now'). Assim, ambas as formas são válidas na frase dada, mas com significados distintos.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Assinale a frase em que o advérbio de frequência está **corretamente** posicionado em relação ao verbo 'to be':</pergunta>
+        <pergunta>No âmbito dos verbos de percepção e sensação (e.g., 'see', 'hear', 'smell', 'taste', 'feel'), o Present Simple é tipicamente empregado para descrever a capacidade geral de perceber ou o ato involuntário da percepção, sendo geralmente vedado o uso de formas contínuas para essas funções primárias. Entretanto, esses mesmos verbos podem, em algumas circunstâncias, ser usados em formas contínuas quando adquirem um sentido de ação ativa, intencional ou temporária. Analise a seguinte frase: "The chef **is tasting** the soup to check the seasoning, while usually the soup **tastes** slightly sweet." Proposição: "Na frase apresentada, o uso do Present Continuous para 'taste' ('is tasting') na primeira oração é gramaticalmente inaceitável, pois 'taste' é um verbo de percepção e, como tal, deve permanecer sempre no Present Simple, mesmo quando denota uma ação ativa. A forma correta seria 'The chef tastes the soup' para ambos os contextos." Com base na gramática dos verbos de percepção e suas exceções, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>He always is punctual for his appointments.</texto>
-                <descricao>Incorreto. Advérbios de frequência devem vir depois do verbo 'to be', não antes.</descricao>
+                <texto>A proposição está totalmente correta, pois 'taste' é um verbo de estado puro e não admite formas progressivas sob nenhuma circunstância gramatical.</texto>
+                <descricao>Incorreto. A afirmação é falsa. O verbo 'taste' pode ser de ação (significando "provar" ou "degustar") e, nesse sentido, pode ser usado no Present Continuous. A afirmação confunde o uso de estado com o uso de ação.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>Are they usually quiet during the lectures?</texto>
-                <descricao>Incorreto. Em perguntas com 'to be', o advérbio de frequência vem depois do sujeito, não antes do verbo 'to be'.</descricao>
+                <texto>A proposição está incorreta. O verbo 'taste' na primeira oração ('is tasting') denota uma **ação ativa e intencional** (provar para verificar), o que justifica plenamente o uso do Present Continuous. Na segunda oração ('tastes'), ele atua como verbo de estado, descrevendo uma **qualidade intrínseca** da sopa, o que exige o Present Simple. Ambas as formas estão corretas e são semanticamente distintas.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. O verbo 'taste' (assim como 'see', 'smell', 'feel') pode ser tanto um verbo de estado (descrevendo uma qualidade ou percepção passiva, Present Simple) quanto um verbo de ação (descrevendo uma atividade ativa e voluntária, Present Continuous). A frase exemplifica corretamente esses dois usos e seus respectivos tempos verbais.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>We are sometimes challenged by the complexity of the tasks.</texto>
-                <descricao>Correto! O advérbio de frequência 'sometimes' está posicionado corretamente depois do verbo 'to be' ('are').</descricao>
+                <texto>A proposição é parcialmente correta. O uso de 'is tasting' é aceitável, mas apenas em contextos muito informais, não sendo apropriado para uma linguagem gramaticalmente formal como a de um concurso.</texto>
+                <descricao>Incorreto. O uso de 'is tasting' para a ação de provar é gramaticalmente correto e aceitável em contextos formais, pois denota uma ação ativa, não uma informalidade.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>She is rarely not confident about her decisions.</texto>
-                <descricao>Incorreto. A dupla negativa 'rarely not' é gramaticalmente desajeitada e redundante. 'She is rarely confident' seria a forma natural e correta.</descricao>
+                <texto>A proposição é falsa, pois 'taste' é sempre um verbo de ação, e o Present Simple na segunda oração ('tastes') deveria ser substituído pelo Present Continuous ('is tasting') para manter a consistência aspectual.</texto>
+                <descricao>Incorreto. 'Taste' é um verbo de estado quando descreve uma qualidade intrínseca. Mudar 'tastes' para 'is tasting' na segunda parte mudaria o sentido de uma qualidade permanente para uma ação temporária de sabor, o que está semanticamente incorreto para o contexto.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="C">We are sometimes challenged by the complexity of the tasks.</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. O verbo 'taste', na primeira oração ('is tasting') denota uma **ação ativa e intencional** (provar para verificar), o que justifica plenamente o uso do Present Continuous. Na segunda oração ('tastes'), ele atua como verbo de estado, descrevendo uma **qualidade intrínseca** da sopa, o que exige o Present Simple. Ambas as formas estão corretas e são semanticamente distintas.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Preencha as lacunas: "The committee _______ (meet) twice a month, and its decisions _______ (influence) all departments."</pergunta>
+        <pergunta>A partir da análise dos usos do Present Simple para expressar fatos, hábitos e verdades universais, considere a seguinte frase: "Water freezes at 0 degrees Celsius." e a proposição subsequente: "Esta frase, que descreve uma verdade científica universal, poderia ser igualmente bem expressa, sem alteração de sentido ou gramaticalidade, pelo Present Continuous ('Water is freezing at 0 degrees Celsius'), uma vez que o processo de congelamento é contínuo e ocorre a essa temperatura de forma ininterrupta em condições específicas." Avalie a correção da proposição sob a ótica da gramática normativa e do uso semântico dos tempos verbais.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>meets / influence</texto>
-                <descricao>Correto! 'The committee' (singular coletivo) + 'meets'. 'Its decisions' (plural) + 'influence' (forma base) estão corretos. A frase descreve rotinas e fatos gerais.</descricao>
+                <texto>A proposição está totalmente correta, pois o Present Continuous é a forma mais precisa para descrever fenômenos naturais que são processos contínuos e sempre verdadeiros.</texto>
+                <descricao>Incorreto. A afirmação é falsa. O Present Continuous ("is freezing") descreve uma ação que está ocorrendo *agora* ou é temporária. Uma verdade universal é expressa pelo Present Simple, que indica um fato permanente e não uma ação em progresso.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>meet / influences</texto>
-                <descricao>Incorreto. 'Meet' é para plural, mas 'committee' é singular. 'Influences' é para singular, mas 'decisions' é plural.</descricao>
+                <texto>A proposição está incorreta. O Present Simple é o tempo verbal adequado para verdades universais e fatos científicos, pois descreve uma condição permanente e invariável. O Present Continuous ('is freezing') indicaria que a água está congelando *neste exato momento* ou que é um processo temporário, o que distorce o sentido de uma verdade universal.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. O Present Simple é o uso padrão para verdades universais. O Present Continuous alteraria o sentido para uma ação em progresso ou temporária, o que não se aplica a um fato científico permanente.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>is meeting / is influencing</texto>
-                <descricao>Incorreto. A frase descreve uma rotina ('twice a month') e um fato geral, o que exige o Present Simple.</descricao>
+                <texto>A proposição é parcialmente correta, pois, embora o Present Simple seja o mais comum, o Present Continuous pode ser usado para dar ênfase à constância do fenômeno, tornando-o mais dinâmico.</texto>
+                <descricao>Incorreto. O Present Continuous não é usado para dar ênfase à constância de verdades universais; ele indica temporalidade ou ação em progresso, o oposto do que se busca para fatos permanentes.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>meets / influences</texto>
-                <descricao>Incorreto. 'Influences' é para singular, mas 'decisions' é plural.</descricao>
+                <texto>A proposição é falsa, pois 'freezes' no Present Simple indica um estado, enquanto 'is freezing' no Present Continuous indicaria uma ação, e o verbo 'freeze' só pode ser de estado.</texto>
+                <descricao>Incorreto. O verbo 'freeze' pode ser tanto de estado quanto de ação. No entanto, a distinção é sobre a permanência do fato vs. a temporalidade da ação, o que torna a proposição falsa.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="A">meets / influence</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. O Present Simple é o tempo verbal adequado para verdades universais e fatos científicos, pois descreve uma condição permanente e invariável. O Present Continuous ('is freezing') indicaria que a água está congelando *neste exato momento* ou que é um processo temporário, o que distorce o sentido de uma verdade universal.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Qual das frases abaixo está corretamente formulada, descrevendo um princípio operacional ou instrução geral?</pergunta>
+        <pergunta>Considere a complexidade da concordância verbal no Present Simple quando sujeitos compostos são formados por 'either... or' ou 'neither... nor'. Avalie a seguinte frase: "Neither the manager nor the employees _______ (fully comprehend) the intricacies of the new software, despite extensive training." Proposição: "Para a correta formação da frase, o verbo 'comprehend' deve ser conjugado como 'comprehends', uma vez que a regra para 'neither... nor' exige que o verbo concorde em número com o sujeito mais próximo, 'employees', que é plural." Com base nas regras de concordância para sujeitos unidos por 'either... or' ou 'neither... nor', avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Média</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>You are pressing the button to start the machine now.</texto>
-                <descricao>Incorreto. 'Now' indica Present Continuous, o que descreve uma ação em andamento, não um princípio operacional.</descricao>
+                <texto>A proposição está totalmente correta, pois a concordância com o sujeito mais próximo ('employees', plural) determina a forma 'comprehends' para garantir a coesão gramatical.</texto>
+                <descricao>Incorreto. A proposição é falsa. 'Employees' é plural, então o verbo deveria ser 'comprehend' (forma base), não 'comprehends' (que é singular).</descricao>
             </opcao>
             <opcao id="B">
-                <texto>You press the button to start the machine.</texto>
-                <descricao>Correto! Esta é uma instrução geral ou princípio operacional, corretamente expresso no Present Simple (forma base para 'You').</descricao>
+                <texto>A proposição está incorreta. A regra de concordância com o sujeito mais próximo é válida, mas 'employees' é um sujeito plural, o que requer a forma base do verbo ('comprehend'), e não 'comprehends' (que é a forma para a terceira pessoa do singular).</texto>
+                <descricao>Correto! A proposição é de fato incorreta. A regra para 'neither...nor' (e 'either...or') é que o verbo concorda com o sujeito mais próximo. Como 'employees' é plural, o verbo deve ser 'comprehend' (forma base), e não 'comprehends'. A proposição erra na conjugação do verbo dado o sujeito próximo.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>You will press the button to start the machine.</texto>
-                <descricao>Incorreto. 'Will press' indica futuro, não uma instrução geral.</descricao>
+                <texto>A proposição é parcialmente correta, pois a regra do sujeito mais próximo é universal, mas o uso de 'comprehends' só seria adequado se ambos os sujeitos ('manager' e 'employees') fossem singulares.</texto>
+                <descricao>Incorreto. A regra do sujeito mais próximo é universal, mas a afirmação erra na conjugação esperada para 'employees' (plural). Se 'employees' fosse singular, aí sim 'comprehends' estaria correto.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>You pressed the button to start the machine.</texto>
-                <descricao>Incorreto. 'Pressed' indica passado, não uma instrução geral.</descricao>
+                <texto>A proposição é falsa, pois em frases com 'neither... nor', o verbo sempre concorda com o primeiro sujeito ('manager'), resultando em 'comprehends' para a frase original.</texto>
+                <descricao>Incorreto. A regra para 'neither... nor' é concordância com o sujeito mais próximo, não com o primeiro sujeito.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="B">You press the button to start the machine.</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. A regra de concordância com o sujeito mais próximo é válida, mas 'employees' é um sujeito plural, o que requer a forma base do verbo ('comprehend'), e não 'comprehends' (que é a forma para a terceira pessoa do singular).</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Preencha a lacuna: "The management team rarely _______ (approve) expenditures without thorough review, but the new policy _______ (allow) for faster processing in emergencies."</pergunta>
+        <pergunta>A ordem dos advérbios de frequência no Present Simple é uma área que, embora pareça simples, possui regras específicas e exceções, especialmente em relação ao verbo 'to be' e aos verbos auxiliares. Avalie a seguinte frase: "The company's CEO, who is rarely seen in public events, hardly ever addresses the media directly." Proposição: "Na estrutura apresentada, os advérbios de frequência 'rarely' e 'hardly ever' estão incorretamente posicionados, pois, em ambos os casos, deveriam preceder os verbos principais ('is seen' e 'addresses') para manter a conformidade com as regras de ordem dos advérbios no Present Simple." Com base nas regras de posicionamento de advérbios de frequência, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>approves / allows</texto>
-                <descricao>Correto! 'The management team' (singular coletivo) + 'approves'. 'The new policy' (singular) + 'allows' estão corretos. A frase descreve hábitos e fatos gerais sobre os processos da equipe e da política.</descricao>
+                <texto>A proposição está totalmente correta, pois a regra geral para advérbios de frequência é sempre antes do verbo principal, sem exceções para 'to be' ou outros verbos.</texto>
+                <descricao>Incorreto. A afirmação é falsa. Advérbios de frequência vêm *depois* do verbo 'to be' e *antes* do verbo principal. A proposição ignora a exceção do 'to be'.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>approve / allow</texto>
-                <descricao>Incorreto. Ambos os verbos estão na forma base, mas os sujeitos são singulares.</descricao>
+                <texto>A proposição está incorreta. O advérbio 'rarely' está corretamente posicionado **depois do verbo 'to be'** ('is rarely seen'). Já 'hardly ever' está corretamente posicionado **antes do verbo principal** ('hardly ever addresses'). A proposição, portanto, erra ao afirmar a incorreção em ambos os posicionamentos e na regra geral.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. 'Rarely' está corretamente posicionado após o 'to be'. 'Hardly ever' está corretamente posicionado antes do verbo principal. A proposição erra em ambas as análises, mostrando desconhecimento das regras de posicionamento.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>is approving / is allowing</texto>
-                <descricao>Incorreto. Esta é a forma do Present Continuous, e os advérbios 'rarely' e a descrição de uma política geral indicam o Present Simple.</descricao>
+                <texto>A proposição é parcialmente correta, pois 'rarely' está bem posicionado, mas 'hardly ever' deveria vir no final da oração para uma ênfase adequada.</texto>
+                <descricao>Incorreto. 'Hardly ever' tipicamente vem antes do verbo principal. Colocá-lo no final mudaria a ênfase e não é a posição padrão para esse advérbio em particular.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>approves / allow</texto>
-                <descricao>Incorreto. O segundo verbo ('allow') deveria ser 'allows' para concordar com 'policy'.</descricao>
+                <texto>A proposição é falsa, pois advérbios de frequência só podem ser usados no início da frase para ênfase, nunca no meio da oração.</texto>
+                <descricao>Incorreto. Advérbios de frequência podem ser usados no início, mas a posição mais comum é no meio da oração, seguindo regras específicas em relação a 'to be' e outros verbos.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="A">approves / allows</respostaCorreta>
-    </questao><questao>
-        <pergunta>Preencha a lacuna: "While individual opinions _______ (differ), the consensus among experts usually _______ (point) to a single conclusion."</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>differ / points</texto>
-                <descricao>Correto! 'Individual opinions' (plural) + 'differ'. 'The consensus' (singular) + 'points' estão corretos. A frase descreve fatos gerais sobre opiniões e tendências.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>differs / point</texto>
-                <descricao>Incorreto. 'Differs' é para singular, mas 'opinions' é plural. 'Point' é para plural, mas 'consensus' é singular.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>are differing / is pointing</texto>
-                <descricao>Incorreto. A frase descreve uma característica geral e uma tendência, não ações temporárias em andamento.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>differ / point</texto>
-                <descricao>Incorreto. 'Point' é para plural, mas 'consensus' é singular.</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="A">differ / points</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. O advérbio 'rarely' está corretamente posicionado **depois do verbo 'to be'** ('is rarely seen'). Já 'hardly ever' está corretamente posicionado **antes do verbo principal** ('hardly ever addresses'). A proposição, portanto, erra ao afirmar a incorreção em ambos os posicionamentos e na regra geral.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Assinale a alternativa em que a frase está **gramaticalmente incorreta** no Present Simple, considerando a concordância verbal:</pergunta>
+        <pergunta>Em cenários de redação técnica ou científica, o Present Simple é amplamente empregado para descrever fatos, princípios, e processos gerais ou repetitivos, conferindo objetividade e atemporalidade ao texto. Considere a seguinte passagem: "The experimental setup _______ (consist) of a high-resolution camera and a specialized light source. Data collection _______ (occur) automatically at fixed intervals, and the system _______ (transmit) real-time results to a central database." Proposição: "Nesta passagem, para garantir a precisão e a correção gramatical no Present Simple, todos os verbos devem ser conjugados na forma base ('consist', 'occur', 'transmit'), uma vez que a descrição de equipamentos e processos técnicos em manuais ou relatórios científicos dispensa a concordância de terceira pessoa do singular, priorizando a neutralidade e a generalidade do discurso." Com base na concordância verbal do Present Simple em contextos técnicos, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>The committee's proposals rarely gains unanimous approval.</texto>
-                <descricao>Incorreto. O sujeito da oração é 'proposals' (plural), portanto o verbo deveria ser 'gain' (forma base), não 'gains'.</descricao>
+                <texto>A proposição está totalmente correta, pois o estilo técnico e científico adota uma forma verbal simplificada para evitar complexidades de concordância.</texto>
+                <descricao>Incorreto. A afirmação é falsa. A concordância de terceira pessoa do singular no Present Simple é uma regra gramatical fundamental e não é dispensada em textos técnicos ou científicos. Pelo contrário, a precisão é ainda mais exigida.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>Each participant is required to sign a consent form.</texto>
-                <descricao>Correto. 'Each participant' é singular, e 'is required' está correto.</descricao>
+                <texto>A proposição está incorreta. A concordância verbal no Present Simple para a terceira pessoa do singular ('-s' ou '-es') é **mandatória** em textos técnicos e científicos, assim como em qualquer outro registro gramatical. Portanto, os verbos deveriam ser 'consists', 'occurs' e 'transmits', pois 'The experimental setup', 'Data collection' e 'the system' são todos sujeitos singulares.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. A gramática do inglês, incluindo a concordância do Present Simple para a terceira pessoa do singular, é universalmente aplicada em todos os registros, incluindo o técnico-científico. A precisão gramatical é crucial. Assim, 'consists', 'occurs' e 'transmits' são as formas corretas.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>Neither the manager nor the employees fully comprehends the new system.</texto>
-                <descricao>Correto. Em estruturas com 'neither...nor', o verbo concorda com o sujeito mais próximo ('employees', plural neste caso), então deveria ser 'comprehend'. Na verdade, o verbo concorda com o sujeito mais próximo, 'employees', que é plural. Então, deveria ser 'comprehend'. A frase está incorreta. Revisão da descrição: Se o sujeito mais próximo for plural ('employees'), o verbo deve ser plural ('comprehend'). Portanto, a frase 'comprehends' está incorreta.</descricao>
+                <texto>A proposição é parcialmente correta, pois a forma base é usada para 'consist' e 'occur', mas 'transmit' exige '-s' por ser um verbo de ação mais dinâmico.</texto>
+                <descricao>Incorreto. A distinção entre verbos de estado/ação não isenta da regra de concordância de terceira pessoa do singular no Present Simple.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>Physics deals with the properties of matter and energy.</texto>
-                <descricao>Correto. 'Physics' (disciplina, singular) + 'deals' está correto.</descricao>
+                <texto>A proposição é falsa porque somente o verbo 'consist' precisa de '-s', enquanto os outros dois verbos permanecem na forma base por descreverem processos ativos.</texto>
+                <descricao>Incorreto. Todos os sujeitos são singulares, exigindo a terminação '-s' em todos os verbos no Present Simple.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="A">The committee's proposals rarely gains unanimous approval.</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. A concordância verbal no Present Simple para a terceira pessoa do singular ('-s' ou '-es') é **mandatória** em textos técnicos e científicos, assim como em qualquer outro registro gramatical. Portanto, os verbos deveriam ser 'consists', 'occurs' e 'transmits', pois 'The experimental setup', 'Data collection' e 'the system' são todos sujeitos singulares.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Complete a lacuna com a forma verbal adequada no Present Simple: "The fact that water _______ (boil) at 100 degrees Celsius _______ (be) a fundamental principle of chemistry."</pergunta>
+        <pergunta>A formação da negativa no Present Simple com o auxiliar 'do'/'does' é uma regra central, mas existem frases em que o próprio verbo principal já possui uma forma de negação intrínseca ou uma construção que a dispensa. Considere a frase: 'Nobody understands the complexity of quantum physics.' e a seguinte proposição: 'Uma forma alternativa e igualmente correta de negar a ideia contida na frase, mantendo o Present Simple e sem alteração semântica, seria 'Anybody doesn't understand the complexity of quantum physics.', uma vez que 'nobody' e 'anybody... not' são construções equivalentes para a negação total.' Com base nas regras de negação e nos pronomes indefinidos no Present Simple, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>boils / is</texto>
-                <descricao>Correto! 'Water' (singular) + 'boils'. 'The fact' (singular, que é o sujeito real da segunda oração) + 'is' estão corretos. A frase descreve uma verdade universal e um princípio científico.</descricao>
+                <texto>A proposição está totalmente correta, pois 'nobody' e 'anybody... not' são construções idênticas em significado e uso, sendo intercambiáveis em qualquer contexto.</texto>
+                <descricao>Incorreto. A afirmação é falsa. Embora 'nobody' e 'anybody... not' expressam negação total, 'anybody' exige o auxiliar 'does' no Present Simple para concordar com o sujeito, mas 'anybody' sozinho não é o sujeito. A estrutura 'Anybody doesn't understand' está incorreta.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>boil / are</texto>
-                <descricao>Incorreto. Ambos os verbos estão incorretos para seus respectivos sujeitos singulares.</descricao>
+                <texto>A proposição está incorreta. Embora 'nobody' e 'anybody... not' possam expressar negação total, a forma gramatical 'Anybody doesn't understand' é inválida no Present Simple. Para expressar a mesma ideia com 'anybody', a construção correta seria 'Does anybody understand the complexity of quantum physics?' (em uma pergunta) ou 'I don't think anybody understands...' (em uma negativa mais complexa). 'Anybody' é geralmente usado em perguntas e frases negativas já com um 'not'.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. 'Anybody doesn't understand' é gramaticalmente incorreto. 'Anybody' é tipicamente usado em frases interrogativas ou negativas que já contêm 'not' (Ex: 'I don't know anybody here'). A negação de "Nobody understands" com 'anybody' seria indireta ou em forma de pergunta, não uma simples substituição como a proposta.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>is boiling / is</texto>
-                <descricao>Incorreto. 'Is boiling' é Present Continuous e não é adequado para descrever uma verdade universal. 'Is' está correto para 'The fact'.</descricao>
+                <texto>A proposição é parcialmente correta, pois 'anybody... not' é válido, mas exigiria 'do not' em vez de 'doesn't' para concordar com 'anybody'.</texto>
+                <descricao>Incorreto. 'Anybody' é tratado como singular em termos de concordância verbal, então 'doesn't' seria o auxiliar, mas a própria construção 'Anybody doesn't understand' é a questão central.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>boils / are</texto>
-                <descricao>Incorreto. 'Are' é para plural, mas 'The fact' é singular.</descricao>
+                <texto>A proposição é falsa porque 'nobody' é singular e requer um verbo singular, enquanto 'anybody' é plural e requer um verbo plural na negação.</texto>
+                <descricao>Incorreto. 'Nobody' e 'anybody' são tratados como singulares para fins de concordância verbal. O erro da proposição não está na concordância, mas na validade da construção.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="A">boils / is</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. Embora 'nobody' e 'anybody... not' possam expressar negação total, a forma gramatical 'Anybody doesn't understand' é inválida no Present Simple. Para expressar a mesma ideia com 'anybody', a construção correta seria 'Does anybody understand the complexity of quantum physics?' (em uma pergunta) ou 'I don't think anybody understands...' (em uma negativa mais complexa). 'Anybody' é geralmente usado em perguntas e frases negativas já com um 'not'.</respostaCorreta>
+    </questao>
+    <questao>
+        <pergunta>Considerando a flexibilidade do Present Simple para descrever estados permanentes, características intrínsecas e propriedades, e a distinção crucial entre verbos de estado (stative verbs) e verbos de ação (action verbs), analise a frase: 'The ancient monument **stands** majestically on the hill, and it **looks** over the entire valley.' Proposição: 'Nesta construção, ambos os usos do Present Simple ('stands' e 'looks') estão corretos e referem-se a estados permanentes ou características do monumento. O verbo 'look', em particular, é utilizado corretamente no Present Simple, pois está expressando uma percepção visual passiva e uma qualidade intrínseca do monumento, e não uma ação ativa de olhar.' Com base na gramática dos verbos de estado e suas aplicações, avalie a correção da proposição.</pergunta>
+        <categoria>Inglês</categoria>
+        <dificuldade>Extrema</dificuldade>
+        <tipo>multipla_escolha</tipo>
+        <opcoes>
+            <opcao id="A">
+                <texto>A proposição está totalmente correta, pois 'stand' e 'look' são exclusivamente verbos de estado quando descrevem elementos inanimados como monumentos, exigindo sempre o Present Simple.</texto>
+                <descricao>Incorreto. A afirmação é falsa. 'Stand' pode descrever uma posição (estado), mas 'look' no sentido de "parecer" (estado) é diferente de "olhar" (ação). A proposição acerta o uso, mas a justificativa é que 'look' no sentido de "parecer/ter aparência" é de estado.</descricao>
+            </opcao>
+            <opcao id="B">
+                <texto>A proposição está incorreta. Embora 'stands' esteja correto, 'looks' na segunda parte da frase deveria estar no Present Continuous ('is looking') para descrever a ação do monumento de "olhar sobre o vale", que é uma percepção ativa e não um estado permanente.</texto>
+                <descricao>Incorreto. A proposição é falsa. O 'looks' aqui não é uma "ação" de olhar, mas uma "aparência" ou "orientação" (estado) do monumento em relação ao vale. Não é um "olhar ativo".</descricao>
+            </opcao>
+            <opcao id="C">
+                <texto>A proposição está correta. 'Stands' descreve uma posição estática (estado). O verbo 'look', quando significa "ter a aparência de" ou "estar voltado para" (como neste caso, "ter vista para"), funciona como um verbo de estado e, portanto, é usado no Present Simple. Não se trata de uma ação ativa de "olhar", o que justificaria o Present Continuous.</texto>
+                <descricao>Correto! A proposição está inteiramente correta. Ambos os verbos estão bem empregados no Present Simple. 'Stand' descreve a posição. O 'look' aqui não é o de "olhar ativamente", mas sim "ter uma vista" ou "estar virado para", o que é uma característica permanente ou estado do monumento. Portanto, é um uso de estado de 'look', justificando o Present Simple.</descricao>
+            </opcao>
+            <opcao id="D">
+                <texto>A proposição é parcialmente correta. 'Looks' é aceitável, mas apenas se o monumento tivesse olhos e pudesse realmente "olhar", o que torna a frase um uso figurado que escapa às regras do Present Simple.</texto>
+                <descricao>Incorreto. O uso aqui não é figurado no sentido de que o monumento tem olhos, mas sim no sentido de "ter uma vista". É um uso gramaticalmente válido e comum no Present Simple para descrever o posicionamento e a orientação de objetos.</descricao>
+            </opcao>
+        </opcoes>
+        <respostaCorreta idOpcao="C">A proposição está correta. 'Stands' descreve uma posição estática (estado). O verbo 'look', quando significa "ter a aparência de" ou "estar voltado para" (como neste caso, "ter vista para"), funciona como um verbo de estado e, portanto, é usado no Present Simple. Não se trata de uma ação ativa de "olhar", o que justificaria o Present Continuous.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Assinale a alternativa que apresenta a forma interrogativa correta da frase: "The new system comprises several advanced features."</pergunta>
+        <pergunta>A formação de perguntas no Present Simple exige, na maioria dos casos, o uso dos auxiliares 'do' ou 'does'. Contudo, há situações em que esses auxiliares são omitidos, particularmente quando o 'wh-word' funciona como sujeito da oração. Analise a seguinte pergunta: "What _______ (cause) these frequent power outages in the neighborhood?" Proposição: "Para a correta formulação desta pergunta, o verbo 'cause' deve ser conjugado como 'causes' no Present Simple, sem a necessidade de um auxiliar 'do' ou 'does', pois 'What' atua como o sujeito da oração, e a pergunta busca identificar a causa de um fenômeno habitual." Com base nas regras de formação de 'wh-questions' no Present Simple, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>Do the new system comprise several advanced features?</texto>
-                <descricao>Incorreto. 'The new system' equivale a 'It' (terceira pessoa do singular), então o auxiliar correto é 'Does'.</descricao>
+                <texto>A proposição está incorreta, pois mesmo quando 'What' é o sujeito, o auxiliar 'does' é indispensável para marcar a forma interrogativa na terceira pessoa do singular, resultando em 'What does cause these frequent power outages?'</texto>
+                <descricao>Incorreto. A afirmação é falsa. Quando o 'wh-word' é o sujeito, o auxiliar é omitido.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>Does the new system comprises several advanced features?</texto>
-                <descricao>Incorreto. Ao usar 'Does' na pergunta, o verbo principal ('comprise') volta à sua forma base, sem '-s'.</descricao>
+                <texto>A proposição está correta. Quando o 'wh-word' (neste caso, 'What') funciona como sujeito da oração, o Present Simple dispensa o auxiliar 'do' ou 'does', e o verbo principal ('cause') é conjugado diretamente, adicionando '-s' para a terceira pessoa do singular, visto que 'What' se refere a uma causa singular (o fenômeno 'power outages').</texto>
+                <descricao>Correto! A proposição está inteiramente correta. Esta é uma regra fundamental: se o 'wh-word' é o sujeito, não se usa 'do'/'does'. O verbo vai direto, conjugado na 3ª pessoa do singular (se o 'what' se refere a algo singular, como a "causa").</descricao>
             </opcao>
             <opcao id="C">
-                <texto>Does the new system comprise several advanced features?</texto>
-                <descricao>Correto! Para 'The new system' (singular), usa-se 'Does' e o verbo principal retorna à sua forma base ('comprise').</descricao>
+                <texto>A proposição é parcialmente correta, pois 'causes' está certo, mas a omissão do auxiliar é uma informalidade aceitável apenas em conversas e não em contextos gramaticalmente formais.</texto>
+                <descricao>Incorreto. A omissão do auxiliar quando o 'wh-word' é o sujeito é uma regra gramatical formal e não uma informalidade. É a forma correta.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>Is the new system comprising several advanced features?</texto>
-                <descricao>Incorreto. Esta é a forma do Present Continuous, que indica uma ação em andamento, não uma pergunta sobre características ou composição geral.</descricao>
+                <texto>A proposição é falsa, pois 'What' sempre se refere a um objeto direto ou indireto, e nunca pode ser o sujeito da oração em perguntas no Present Simple.</texto>
+                <descricao>Incorreto. A afirmação é falsa. 'What' pode sim funcionar como sujeito da oração em perguntas, especialmente quando se busca identificar a causa ou o agente de uma ação.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="C">Does the new system comprise several advanced features?</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está correta. Quando o 'wh-word' (neste caso, 'What') funciona como sujeito da oração, o Present Simple dispensa o auxiliar 'do' ou 'does', e o verbo principal ('cause') é conjugado diretamente, adicionando '-s' para a terceira pessoa do singular, visto que 'What' se refere a uma causa singular (o fenômeno 'power outages').</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Identifique a frase que **não** utiliza o Present Simple para expressar uma capacidade, habilidade ou característica intrínseca:</pergunta>
+        <pergunta>A concordância verbal no Present Simple para sujeitos coletivos (e.g., 'team', 'committee', 'family', 'government') apresenta uma particularidade notável: a possibilidade de concordância singular ou plural, dependendo do foco semântico (a entidade como um todo versus os membros individuais). Considere a frase: 'The committee _______ (discuss) the new proposals thoroughly before it _______ (vote).' Proposição: 'Nesta frase, os verbos 'discuss' e 'vote' devem ser conjugados no singular ('discusses' e 'votes'), pois o sujeito 'The committee' é uma entidade singular e a frase enfatiza a ação do grupo como uma unidade coesa. A utilização da concordância plural para verbos coletivos é considerada gramaticalmente incorreta em todos os contextos formais.' Com base nas regras de concordância com sujeitos coletivos, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>That printer produces high-quality documents.</texto>
-                <descricao>Correto. Característica intrínseca ou capacidade usando Present Simple.</descricao>
+                <texto>A proposição está totalmente correta, pois a concordância singular é a única forma gramaticalmente aceitável para sujeitos coletivos em todos os níveis de formalidade.</texto>
+                <descricao>Incorreto. A afirmação é falsa. A concordância plural é aceitável (e comum no inglês britânico) quando o foco são os membros individuais da coletividade.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>He speaks three languages fluently.</texto>
-                <descricao>Correto. Habilidade usando Present Simple.</descricao>
+                <texto>A proposição está incorreta. Embora a concordância singular ('discusses' e 'votes') seja válida quando o comitê é visto como uma unidade, a concordância plural ('discuss' e 'vote') também seria gramaticalmente aceitável (especialmente no inglês britânico) se a intenção fosse enfatizar os membros individuais do comitê que realizam as ações. A restrição a apenas uma forma ("gramaticalmente incorreta em todos os contextos formais") é equivocada.</texto>
+                <descricao>Correto! A proposição é de fato incorreta em sua restrição. Sujeitos coletivos podem concordar no singular (como uma unidade) ou no plural (como indivíduos dentro do grupo). A escolha depende da ênfase, sendo ambas as formas aceitáveis e formalmente corretas em diferentes contextos (com o plural mais comum no inglês britânico, mas também presente no americano).</descricao>
             </opcao>
             <opcao id="C">
-                <texto>The new machine is working perfectly at the moment.</texto>
-                <descricao>Incorreto. Esta frase usa o Present Continuous e 'at the moment' para descrever um desempenho temporário ou uma ação em andamento, não uma capacidade intrínseca permanente.</descricao>
+                <texto>A proposição é parcialmente correta, pois 'discusses' está certo, mas 'vote' deveria ser plural, pois a votação é uma ação de indivíduos e não do comitê como uma única entidade.</texto>
+                <descricao>Incorreto. A decisão de usar singular ou plural para sujeitos coletivos é uma escolha que se aplica a ambos os verbos dentro do mesmo contexto, dependendo da ênfase. Se o comitê é uma unidade que vota, o singular é apropriado.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>Water freezes at 0 degrees Celsius.</texto>
-                <descricao>Correto. Característica intrínseca da água (fato científico) usando Present Simple.</descricao>
+                <texto>A proposição é falsa, pois sujeitos coletivos sempre exigem concordância plural no Present Simple, independentemente do foco, devido à natureza intrínseca de múltiplos membros.</texto>
+                <descricao>Incorreto. A afirmação é falsa. A concordância singular é frequentemente usada para sujeitos coletivos, especialmente no inglês americano, quando se trata a entidade como uma unidade.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="C">The new machine is working perfectly at the moment.</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. Embora a concordância singular ('discusses' e 'votes') seja válida quando o comitê é visto como uma unidade, a concordância plural ('discuss' e 'vote') também seria gramaticalmente aceitável (especialmente no inglês britânico) se a intenção fosse enfatizar os membros individuais do comitê que realizam as ações. A restrição a apenas uma forma ("gramaticalmente incorreta em todos os contextos formais") é equivocada.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Escolha a opção que completa corretamente a lacuna, considerando o uso do Present Simple e a concordância: "Neither of the two proposed solutions _______ (offer) a complete answer to the problem, but each _______ (present) a partial advantage."</pergunta>
+        <pergunta>A função do Present Simple em títulos de jornais e manchetes é um uso particular que confere imediatismo e dramaticidade aos eventos, mesmo que tenham ocorrido no passado recente ou estejam em andamento. Considere a manchete: 'President _______ (announce) new economic measures.' Proposição: 'Nesta manchete, o uso do Present Simple para o verbo 'announce' é estilisticamente incorreto e gramaticalmente problemático, pois o evento de anúncio já ocorreu no passado e, portanto, exigiria o Past Simple ('announced') para a correção factual e temporal, mesmo em um contexto de manchete jornalística que busca concisão.' Com base no uso estilístico do Present Simple em manchetes, avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>offer / present</texto>
-                <descricao>Incorreto. 'Neither of' e 'each' são tratados como singulares, então os verbos devem ser 'offers' e 'presents'.</descricao>
+                <texto>A proposição está totalmente correta, visto que títulos de jornais devem aderir estritamente à concordância temporal padrão, utilizando o tempo verbal que realmente reflete a cronologia dos eventos.</texto>
+                <descricao>Incorreto. A afirmação é falsa. O Present Simple é um tempo verbal comum e estilisticamente apropriado para manchetes, mesmo para eventos passados, para dar a sensação de imediatismo.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>offers / presents</texto>
-                <descricao>Correto! 'Neither of the two proposed solutions' (equivalente a singular) + 'offers'. 'Each' (singular) + 'presents' estão corretos. A frase descreve características ou fatos gerais sobre as soluções.</descricao>
+                <texto>A proposição está incorreta. O Present Simple é um recurso estilístico **comum e gramaticalmente aceitável** em títulos de jornais e manchetes. Ele é utilizado para conferir um senso de imediatismo e atualidade aos eventos, mesmo que tenham ocorrido no passado. Assim, 'President announces new economic measures' seria a forma correta e estilisticamente apropriada para a manchete.</texto>
+                <descricao>Correto! A proposição é de fato incorreta. O Present Simple é amplamente usado em manchetes para dar a impressão de que o evento está acontecendo "agora" ou é de grande relevância atual, mesmo que já tenha ocorrido. É uma característica aceita do "jargão" jornalístico.</descricao>
             </opcao>
             <opcao id="C">
-                <texto>are offering / are presenting</texto>
-                <descricao>Incorreto. A frase descreve características ou fatos gerais, o que exige o Present Simple.</descricao>
+                <texto>A proposição é parcialmente correta. Embora o Present Simple seja usado em manchetes, isso se aplica apenas a eventos futuros. Para eventos passados, o Past Simple é o único tempo verbal permitido.</texto>
+                <descricao>Incorreto. O Present Simple é usado em manchetes tanto para eventos futuros/programados quanto para eventos passados, justamente para o efeito de imediatismo.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>offers / present</texto>
-                <descricao>Incorreto. O segundo verbo ('present') deveria ser 'presents' para concordar com 'each'.</descricao>
+                <texto>A proposição é falsa, pois a omissão do verbo principal seria a única forma correta em manchetes para economizar espaço, como 'President: New economic measures.'</texto>
+                <descricao>Incorreto. Embora manchetes possam ser concisas, a omissão do verbo não é a única forma, e o Present Simple é uma escolha estilística comum para verbos completos.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="B">offers / presents</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. O Present Simple é um recurso estilístico **comum e gramaticalmente aceitável** em títulos de jornais e manchetes. Ele é utilizado para conferir um senso de imediatismo e atualidade aos eventos, mesmo que tenham ocorrido no passado. Assim, 'President announces new economic measures' seria a forma correta e estilisticamente apropriada para a manchete.</respostaCorreta>
     </questao>
 
     <questao>
-        <pergunta>Assinale a frase em que o advérbio de frequência 'never' está **incorretamente** posicionado:</pergunta>
+        <pergunta>A distinção entre 'do' e 'make' é um ponto de complexidade no Present Simple, pois ambos significam "fazer", mas em contextos diferentes (ações gerais vs. criação/produção). Considere a frase: 'The research team always _______ (do) significant progress in their studies, and their findings _______ (make) a real difference to the scientific community.' Proposição: 'Para preencher corretamente as lacunas, o primeiro verbo deve ser 'makes' e o segundo 'do', porque 'progress' se associa a 'make' e 'difference' se associa a 'do', seguindo as collocations padrões da língua inglesa para essas expressões no Present Simple.' Com base nas collocations de 'do' e 'make', avalie a correção da proposição.</pergunta>
         <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
+        <dificuldade>Extrema</dificuldade>
         <tipo>multipla_escolha</tipo>
         <opcoes>
             <opcao id="A">
-                <texto>He never forgets his keys when he leaves.</texto>
-                <descricao>Correto. 'Never' está posicionado corretamente antes do verbo principal.</descricao>
+                <texto>A proposição está totalmente correta, e a inversão das collocations é uma "pegadinha" comum que testadores de proficiência exploram frequentemente.</texto>
+                <descricao>Incorreto. A afirmação é falsa. A proposição inverte as collocations corretas. "Make progress" e "make a difference" são as collocations corretas.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>They are never late for work.</texto>
-                <descricao>Correto. 'Never' está posicionado corretamente depois do verbo 'to be'.</descricao>
+                <texto>A proposição está incorreta. A collocation correta para 'progress' é 'make progress' (fazer progresso/avançar), então o primeiro verbo deveria ser 'makes'. A collocation correta para 'difference' é 'make a difference' (fazer a diferença), então o segundo verbo também deveria ser 'make'. Assim, a frase correta seria "The research team always **makes** significant progress... and their findings **make** a real difference...".</texto>
+                <descricao>Correto! A proposição é de fato incorreta em sua análise das collocations. 'Make progress' e 'make a difference' são as collocations padrão. O 'do' seria inapropriado em ambos os casos. A frase correta, portanto, usaria 'makes' (para a equipe, singular) e 'make' (para os achados, plural).</descricao>
             </opcao>
             <opcao id="C">
-                <texto>Never they complain about the food.</texto>
-                <descricao>Incorreto. Advérbios de frequência geralmente não vêm no início da frase antes do sujeito em sentenças afirmativas, a menos que seja para ênfase e com inversão (e.g., Never do they complain...). A posição mais natural seria 'They never complain'.</descricao>
+                <texto>A proposição é parcialmente correta, pois 'makes progress' está certo, mas 'do a difference' é uma variação regional aceitável de 'make a difference'.</texto>
+                <descricao>Incorreto. 'Do a difference' não é uma collocation padrão ou uma variação regional aceitável; é um erro gramatical.</descricao>
             </opcao>
             <opcao id="D">
-                <texto>I never understood why he acts that way.</texto>
-                <descricao>Correto. 'Never' está posicionado corretamente antes do verbo principal.</descricao>
+                <texto>A proposição é falsa, pois 'do' é sempre usado para atividades gerais e 'make' para criações concretas, o que implicaria 'does progress' e 'makes difference' na frase.</texto>
+                <descricao>Incorreto. Embora essa seja uma regra geral simplificada, 'progress' e 'difference' são exceções importantes ou "collocations fixas" que usam 'make'.</descricao>
             </opcao>
         </opcoes>
-        <respostaCorreta idOpcao="C">Never they complain about the food.</respostaCorreta>
-    </questao>
-
-    <questao>
-        <pergunta>Preencha a lacuna: "The quality of our products _______ (depend) on meticulous attention to detail, which _______ (guarantee) customer satisfaction."</pergunta>
-        <categoria>Inglês</categoria>
-        <dificuldade>Difícil</dificuldade>
-        <tipo>multipla_escolha</tipo>
-        <opcoes>
-            <opcao id="A">
-                <texto>depends / guarantees</texto>
-                <descricao>Correto! 'The quality' (singular) + 'depends'. 'Which' se refere a 'meticulous attention to detail' (singular) + 'guarantees'. A frase descreve características e resultados gerais.</descricao>
-            </opcao>
-            <opcao id="B">
-                <texto>depend / guarantee</texto>
-                <descricao>Incorreto. Ambos os verbos estão na forma base, mas seus sujeitos são singulares.</descricao>
-            </opcao>
-            <opcao id="C">
-                <texto>is depending / is guaranteeing</texto>
-                <descricao>Incorreto. 'Depend' e 'guarantee' são frequentemente usados no Present Simple para descrever características ou resultados consistentes, não ações temporárias.</descricao>
-            </opcao>
-            <opcao id="D">
-                <texto>depends / guarantee</texto>
-                <descricao>Incorreto. O segundo verbo ('guarantee') deveria ser 'guarantees' para concordar com 'which' (referindo-se ao detalhe).</descricao>
-            </opcao>
-        </opcoes>
-        <respostaCorreta idOpcao="A">depends / guarantees</respostaCorreta>
+        <respostaCorreta idOpcao="B">A proposição está incorreta. A collocation correta para 'progress' é 'make progress' (fazer progresso/avançar), então o primeiro verbo deveria ser 'makes'. A collocation correta para 'difference' é 'make a difference' (fazer a diferença), então o segundo verbo também deveria ser 'make'. Assim, a frase correta seria "The research team always **makes** significant progress... and their findings **make** a real difference...".</respostaCorreta>
     </questao>
     </secao_questoes>
 
