@@ -191,7 +191,7 @@
                 <descricao>Incorreto. A proposição é falsa. 'Along with' não cria um sujeito composto. O verbo concorda apenas com o primeiro elemento do sujeito.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>A proposição está incorreta. Em construções com 'along with', 'as well as', 'together with', etc., o verbo principal concorda **exclusivamente com o primeiro elemento do sujeito**, ignorando o que vem depois dessas expressões. Portanto, o verbo deveria ser 'overlooks' para concordar com 'The CEO' (singular), e não com 'stakeholders'.</descricao>
+                <texto>A proposição está incorreta. Em construções com 'along with', 'as well as', 'together with', etc., o verbo principal concorda **exclusivamente com o primeiro elemento do sujeito**, ignorando o que vem depois dessas expressões. Portanto, o verbo deveria ser 'overlooks' para concordar com 'The CEO' (singular), e não com 'stakeholders'.</texto>
             </opcao>
             <opcao id="C">
                 <texto>A proposição é parcialmente correta, pois a concordância com o segundo elemento é uma regra aceitável no inglês americano, embora menos comum no inglês britânico para essas construções.</texto>
@@ -374,7 +374,7 @@
                 <descricao>Incorreto. A afirmação é falsa. A concordância de terceira pessoa do singular no Present Simple é uma regra gramatical fundamental e não é dispensada em textos técnicos ou científicos. Pelo contrário, a precisão é ainda mais exigida.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>A proposição está incorreta. A concordância verbal no Present Simple para a terceira pessoa do singular ('-s' ou '-es') é **mandatória** em textos técnicos e científicos, assim como em qualquer outro registro gramatical. Portanto, os verbos deveriam ser 'consists', 'occurs' e 'transmits', pois 'The experimental setup', 'Data collection' e 'the system' são todos sujeitos singulares.</descricao>
+                <texto>A proposição está incorreta. A concordância verbal no Present Simple para a terceira pessoa do singular ('-s' ou '-es') é **mandatória** em textos técnicos e científicos, assim como em qualquer outro registro gramatical. Portanto, os verbos deveriam ser 'consists', 'occurs' e 'transmits', pois 'The experimental setup', 'Data collection' e 'the system' são todos sujeitos singulares.</texto>
             </opcao>
             <opcao id="C">
                 <texto>A proposição é parcialmente correta, pois a forma base é usada para 'consist' e 'occur', mas 'transmit' exige '-s' por ser um verbo de ação mais dinâmico.</texto>
@@ -425,7 +425,7 @@
                 <descricao>Incorreto. A afirmação é falsa. A proposição inverte as collocations corretas. 'Make progress' e 'make a difference' são as collocations corretas.</descricao>
             </opcao>
             <opcao id="B">
-                <texto>A proposição está incorreta. A collocation correta para 'progress' é 'make progress' (fazer progresso/avançar), então o primeiro verbo deveria ser 'makes'. A collocation correta para 'difference' é 'make a difference' (fazer a diferença), então o segundo verbo também deveria ser 'make'. Assim, a frase correta seria 'The research team always **makes** significant progress... and their findings **make** a real difference...'.</descricao>
+                <texto>A proposição está incorreta. A collocation correta para 'progress' é 'make progress' (fazer progresso/avançar), então o primeiro verbo deveria ser 'makes'. A collocation correta para 'difference' é 'make a difference' (fazer a diferença), então o segundo verbo também deveria ser 'make'. Assim, a frase correta seria 'The research team always **makes** significant progress... and their findings **make** a real difference...'.</texto>
                 <descricao>Correto! A proposição é de fato incorreta em sua análise das collocations. 'Make progress' e 'make a difference' são as collocations padrão. O 'do' seria inapropriado em ambos os casos. A frase correta, portanto, usaria 'makes' (para a equipe, singular) e 'make' (para os achados, plural).</descricao>
             </opcao>
             <opcao id="C">
