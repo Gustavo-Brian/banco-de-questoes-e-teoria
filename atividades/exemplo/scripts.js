@@ -370,7 +370,6 @@ async function initActivity(numQuestoes = 25) { // Default para 25 se não espec
     }
 }
 
-
 document.addEventListener('DOMContentLoaded', () => {
     // Carregamento inicial
     initActivity(25); // Carrega com 25 questões por padrão
